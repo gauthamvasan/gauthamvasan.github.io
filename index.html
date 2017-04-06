@@ -1,596 +1,467 @@
----
-layout: blog
-title: index
-permalink: /
----
-<style>
-.myButton {
-	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
-	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
-	background-color:#ffffff;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	cursor:pointer;
-	color:#666666;
-	font-family:Arial;
-	font-size:14px;
-	font-weight:bold;
-	padding:4px 16px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
-}
-.myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
-	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
-	background-color:#f6f6f6;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-
-</style>
-
-
-
-
-<div class="navbar-wrapper">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="Resume.pdf" target="blank" id="i18_title"><span data-i18n="website.title">{{ site.author.resume }}</span></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-                        <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home">{{ site.landing.home }}</span></a></li>
-                        <li><a class="page-scroll" href="#about_me"><span data-i18n="nav.about_me">{{ site.landing.about }}</span></a></li>
-                        <li><a class="page-scroll" href="#career"><span data-i18n="nav.career">{{ site.landing.career }}</span></a></li>
-                        <li><a class="page-scroll" href="#skills"><span data-i18n="nav.skills">{{ site.landing.skills }}</span></a></li>
-                        <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">{{ site.landing.projects }}</span></a></li>
-                        <li><a class="page-scroll" href="/blog/blog.html"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
-                        <li><a class="page-scroll" href="#contact"><span data-i18n="nav.contact">{{ site.landing.contact }}</span></a></li>
+<!DOCTYPE HTML>
 <!--
-                        <li>
-                            <a class="btn btn-sm set_en"><img src="{{"static/img/flags/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
-                        </li>
-
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-                    </ul>
-                </div>
-            </div>
-        </nav>
-</div>
+<html>
+	<head>
+		<title>Strata by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body id="top">
 
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <div class="container">
-                <div class="carousel-caption">
-                </div>
-                <div class="carousel-image wow zoomIn">
-                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back one"></div>
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1><strong>I am Strata</strong>, a super simple<br />
+					responsive site template freebie<br />
+					crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+				</div>
+			</header>
 
-        </div>
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption blank">
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back two"></div>
-        </div>
-    </div>
-    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+		<!-- Main -->
+			<div id="main">
 
-<section id="about_me" class="features">
-    <div class="container" id="i18_about_me">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1><span data-i18n="about_me.about_me">About Me</span></h1>
-                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
-            </div>
-        </div>
-        <div class="row">
-            <!-- python -->
-            <div class="col-sm-2 wow fadeInLeft">
-                <div class="team-member">
-                    <div class="vote-icon">
-                        <i class="icon-python"></i>
-                    </div>
-                </div>
-            </div>
-            <!-- linux -->
-            <div class="col-sm-2 wow fadeInLeft">
-                <div class="team-member">
-                    <div class="vote-icon">
-                        <i class="icon-shell"></i>
-                    </div>
-                </div>
-            </div>
-            <!-- avatar -->
-            <div class="col-sm-4">
-                <div class="team-member wow zoomIn">
-                    <img src="{{ site.author.head_img | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
-                    <h4><span class="navy">{{ site.author.last_name }}</span> {{ site.author.first_name }}</h4>
-                    <ul class="list-inline social-icon">
-                        <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a>
-                        </li>
-                        <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a>
-                        </li>
-                        <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="{{ site.author.linkedin}}" target="blank"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                        <li><a href="{{ site.url}}/feed.xml" target="blank"><i class="fa fa-rss"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- html -->
-            <div class="col-sm-2 wow fadeInRight">
-                <div class="team-member">
-                    <div class="vote-icon">
-                        <i class="icon-cplusplus"></i>
-                    </div>
-                </div>
-            </div>
-            <!-- docker -->
-            <div class="col-sm-2 wow fadeInRight">
-                <div class="team-member">
-                    <div class="vote-icon">
-                        <i class="icon-ubuntu"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><font size = "3"> <span data-i18n="about_me.des"> My research interests include - reinforcement learning, real-time machine learning, neuroscience and robotics. I am interested in applying reinforcement learning and representation learning algorithms on real-world settings and robots. My thesis is on learning from demonstration: Teaching a prosthetic arm using an intact arm via actor-critic reinforcement learning  
-                </span> </font> </p>
-  <!--              <a href="https://drive.google.com/open?id=0B8-iXsaYqsxmc3M0cE5jRUhaWFU" class="myButton" target="_blank">Detailed CV</a> -->
-            </div>
-        </div>
-    </div>
-</section>
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Ipsum lorem dolor aliquam ante commodo<br />
+							magna sed accumsan arcu neque.</h2>
+						</header>
+						<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</section>
 
-<section id="career" class="timeline features gray-section">
-    <div class="container" id="i18_career">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1><span data-i18n="career.my_career">My Career</span></h1>
-            </div>
-        </div>
-        <div class="row features-block">
-             
+				<!-- Two -->
+					<section id="two">
+						<h2>Recent Work</h2>
+						<div class="row">
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+								<h3>Magna sed consequat tempus</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
+								<h3>Ultricies lacinia interdum</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+								<h3>Tortor metus commodo</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+								<h3>Quam neque phasellus</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+								<h3>Nunc enim commodo aliquet</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+								<h3>Risus ornare lacinia</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+						</div>
+						<ul class="actions">
+							<li><a href="#" class="button">Full Portfolio</a></li>
+						</ul>
+					</section>
 
-            <div class="col-lg-12">
-                <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-<!--                    
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-plus-square"></i>
-                        </div>
-                        <div class="vertical-timeline-content">
-                            <h2><span data-i18n="career.nextcode">Nextcode</span></h2>
-                            <p><span data-i18n="career.nextcode_des">Now I am in Nextcode and develop website with Python code for genetic analysis. </span></p>
-                            <span class="vertical-date"><span data-i18n="career.nextcode_date"> Apr. 2016 </span><br/> <small><span data-i18n="career.nextcode_job">Python Developer</span></small> </span>
-                        </div>
-                    </div>
-                    
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-gamepad"></i>
-                        </div>
-                        <div class="vertical-timeline-content">
-                            <h2><span data-i18n="career.netease">Netease Game</span></h2>
-                            <p><span data-i18n="career.netease_des">In Netease game, I learned game service system and use Python code for ops. </span></p>
-                            <span class="vertical-date"><span data-i18n="career.netease_date"> Jun. 2015 </span><br/> <small><span data-i18n="career.netease_job">Dev Ops</span></small> </span>
-                        </div>
-                    </div>  
-                    
- -->
-<!-- ms -->
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-book"></i>
-                        </div>
-                        <div class="vertical-timeline-content">
-                            <h2><span data-i18n="ms.college"> M.Sc in Computing Science</span></h2>
-                            <p><span data-i18n="ms.college_des">I'm currently pursuing a Masters degree in Computing Science at the <b> University of Alberta </b>. I work under the supervision of <b> Dr. Patrick Pilarski </b> on Reinforcement Learning for Medical Prostheses</span></p>
-                            <span class="vertical-date"><span data-i18n="ms_date"> Aug. 2017 (Expected) </span><br/> <small><span data-i18n="ms_job">Research Assistant </span></small> </span>
-                        </div>
-                    </div>
-                    <!-- student -->
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-book"></i>
-                        </div>
-                        <div class="vertical-timeline-content">
-                            <h2><span data-i18n="career.college">B.Tech in Instrumentation and Control Engineering </span></h2>
-                            <p><span data-i18n="career.college_des">Graduated from <b> National Institute of Technology (NIT), Tiruchirappalli </b> in May 2015.</span></p>
-                            <span class="vertical-date"><span data-i18n="career.college_date"> May. 2015 </span><br/> <small><span data-i18n="career.college_job">Student</span></small> </span>
-                        </div>
-                    </div>
+				<!-- Three -->
+					<section id="three">
+						<h2>Get In Touch</h2>
+						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<div class="row">
+							<div class="8u 12u$(small)">
+								<form method="post" action="#">
+									<div class="row uniform 50%">
+										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+							<div class="4u$ 12u$(small)">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon fa-home"><span class="label">Address</span></h3>
+										1234 Somewhere Rd.<br />
+										Nashville, TN 00000<br />
+										United States
+									</li>
+									<li>
+										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+										000-000-0000
+									</li>
+									<li>
+										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+										<a href="#">hello@untitled.tld</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
 
-                </div>
-            </div>
+				<!-- Four -->
+				<!--
+					<section id="four">
+						<h2>Elements</h2>
 
-        </div>
-    </div>
+						<section>
+							<h4>Text</h4>
+							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+							<hr />
+							<header>
+								<h4>Heading with a Subtitle</h4>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<header>
+								<h5>Heading with a Subtitle</h5>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<hr />
+							<h2>Heading Level 2</h2>
+							<h3>Heading Level 3</h3>
+							<h4>Heading Level 4</h4>
+							<h5>Heading Level 5</h5>
+							<h6>Heading Level 6</h6>
+							<hr />
+							<h5>Blockquote</h5>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+							<h5>Preformatted</h5>
+							<pre><code>i = 0;
 
-</section>
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
 
-<section id="skills" class="team features">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center" id="i18_skills">
-                <div class="navy-line"></div>
-                <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
-            </div>
-        </div>
-        <div class="row features-block">
-          <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>Python</p>
-            </div>
-            <div class="col-lg-7 features-text wow fadeInLeft">
-                <div class="progress progress-bar-default">
-                    <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
-                        <span class="sr-only">80% Complete (success)</span>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>ROS</p>
-            </div>
-            <div class="col-lg-7 features-text wow fadeInLeft">
-                <div class="progress progress-bar-default">
-                    <div style="width: 75%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="65" role="progressbar" class="progress-bar">
-                        <span class="sr-only">75% Complete (success)</span>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>Linux/Shell</p>
-            </div>
-            <div class="col-lg-7 features-text wow fadeInLeft">
-                <div class="progress progress-bar-default">
-                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar">
-                        <span class="sr-only">70% Complete (success)</span>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>C/C++</p>
-            </div>
-            <div class="col-lg-7 features-text wow fadeInLeft">
-                <div class="progress progress-bar-default">
-                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">
-                        <span class="sr-only">70% Complete (success)</span>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-    </div>
-<br><br><br>
-</section>
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+						</section>
 
-<section id="project" class="project gray-section features">
-    <div class="container" id="i18_projects">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 wow fadeInLeft">
-                <div class="team-member">
-                    <img src="{{ site.project.tiadc.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><span class="navy">{{ site.project.tiadc.name }}</span></h4>
-                    <p><span data-i18n="projects.tiadc">This project aims at developing an autonomous vacuum cleaning method which can be used on a regular basis to maximize the lifetime and efficiency of a solar panel. This work was presented at the Texas Instruments Educators Conference India 2014</span></p>
-                    <ul class="list-inline">
-                       <a href='{{site.project.tiadc.url}}' class="myButton" target="_blank">Video</a>
-                       <a href='{{site.project.tiadc.pdf}}' class="myButton" target="_blank">arXiv</a>
-                    </ul>
-                </div>
-            </div>
+						<section>
+							<h4>Lists</h4>
+							<div class="row">
+								<div class="6u 12u$(xsmall)">
+									<h5>Unordered</h5>
+									<ul>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+									<h5>Alternate</h5>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+								</div>
+								<div class="6u$ 12u$(xsmall)">
+									<h5>Ordered</h5>
+									<ol>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ol>
+									<h5>Icons</h5>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+									</ul>
+								</div>
+							</div>
+							<h5>Actions</h5>
+							<ul class="actions">
+								<li><a href="#" class="button special">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button special small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="6u 12u$(small)">
+									<ul class="actions vertical">
+										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</div>
+								<div class="6u$ 12u$(small)">
+									<ul class="actions vertical small">
+										<li><a href="#" class="button special small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+								</div>
+								<div class="6u 12u$(small)">
+									<ul class="actions vertical">
+										<li><a href="#" class="button special fit">Default</a></li>
+										<li><a href="#" class="button fit">Default</a></li>
+									</ul>
+								</div>
+								<div class="6u$ 12u$(small)">
+									<ul class="actions vertical small">
+										<li><a href="#" class="button special small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
 
-            <div class="col-sm-4 wow">
-                <div class="team-member">
-                    <img src="{{ site.project.ardrone.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><span class="navy">{{ site.project.ardrone.name }}</span></h4>
-                    <p><span data-i18n="projects.ardrone"> Autonomous Landing of Quadcopter on a Moving Platform. The videos below are a demonstration of Oriented Roundel Tracking and Point to Point Control. </span></p>
-                    <ul class="list-inline">
-                       <a href='{{site.project.ardrone.url}}' class="myButton" target="_blank">Video</a>
-                       <a href='{{site.project.ardrone.url_2}}' class="myButton" target="_blank">Video</a>   
-                    </ul>
-                </div>
-            </div>
+						<section>
+							<h4>Table</h4>
+							<h5>Default</h5>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
 
-            <div class="col-sm-4 wow fadeInRight">
-                <div class="team-member">
-                    <img src="{{ site.project.hex.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><span class="navy">{{ site.project.hex.name }}</span></h4>
-                    <p><span data-i18n="projects.hex">A Deep Q-Learning implementation for the game of Hex</span></p>
-                    <ul class="list-inline">
-                        <li>
-                            <a class="github-button" href="{{ site.project.hex.url | prepend: 'https://github.com'}}"
-                            data-icon="octicon-star"
-                            data-count-href="{{ site.project.hex.url | append: '/stargazers' }}"
-                            data-count-api="{{ site.project.hex.url | prepend: '/repos' | append: '#stargazers_count' }}"
-                            data-count-aria-label="# stargazers on GitHub"
-                            aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
-                        </li>
-                        <li>
-                            <a class="github-button" href="{{ site.project.hex.pdf | prepend: 'https://github.com'}}"
-                            data-icon="octicon-file-pdf"
-                            aria-label="Star hydepress/jekyll-install on GitHub">arXiv</a>
-                        </li>
+							<h5>Alternate</h5>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
 
-                    </ul>
-                </div>
-            </div>
+						<section>
+							<h4>Buttons</h4>
+							<ul class="actions">
+								<li><a href="#" class="button special">Special</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button big">Big</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<ul class="actions fit">
+								<li><a href="#" class="button special fit">Fit</a></li>
+								<li><a href="#" class="button fit">Fit</a></li>
+							</ul>
+							<ul class="actions fit small">
+								<li><a href="#" class="button special fit small">Fit + Small</a></li>
+								<li><a href="#" class="button fit small">Fit + Small</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button special icon fa-download">Icon</a></li>
+								<li><a href="#" class="button icon fa-download">Icon</a></li>
+							</ul>
+							<ul class="actions">
+								<li><span class="button special disabled">Special</span></li>
+								<li><span class="button disabled">Default</span></li>
+							</ul>
+						</section>
 
-            <div class="col-sm-4 wow fadeInLeft">
-                <div class="team-member">
-                    <img src="{{ site.project.bento.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><span class="navy">{{ site.project.bento.name }}</span></h4>
-                    <p><span data-i18n="projects.bento">Learning from Demonstration </span></p>
-                    <ul class="list-inline">
-                       <a href='{{site.project.bento.url}}' class="myButton" target="_blank">Video</a>
+						<section>
+							<h4>Form</h4>
+							<form method="post" action="#">
+								<div class="row uniform 50%">
+									<div class="6u 12u$(xsmall)">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="12u$">
+										<div class="select-wrapper">
+											<select name="demo-category" id="demo-category">
+												<option value="">- Category -</option>
+												<option value="1">Manufacturing</option>
+												<option value="1">Shipping</option>
+												<option value="1">Administration</option>
+												<option value="1">Human Resources</option>
+											</select>
+										</div>
+									</div>
+									<div class="4u 12u$(small)">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">Low Priority</label>
+									</div>
+									<div class="4u 12u$(small)">
+										<input type="radio" id="demo-priority-normal" name="demo-priority">
+										<label for="demo-priority-normal">Normal Priority</label>
+									</div>
+									<div class="4u$ 12u(small)">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">High Priority</label>
+									</div>
+									<div class="6u 12u$(small)">
+										<input type="checkbox" id="demo-copy" name="demo-copy">
+										<label for="demo-copy">Email me a copy of this message</label>
+									</div>
+									<div class="6u$ 12u$(small)">
+										<input type="checkbox" id="demo-human" name="demo-human" checked>
+										<label for="demo-human">I am a human and not a robot</label>
+									</div>
+									<div class="12u$">
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
 
-                    </ul>
-                </div>
-            </div>
+						<section>
+							<h4>Image</h4>
+							<h5>Fit</h5>
+							<div class="box alt">
+								<div class="row 50% uniform">
+									<div class="12u$"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+							<h5>Left &amp; Right</h5>
+							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						</section>
 
-            <div class="col-sm-4 wow fadeInRight">
-                <div class="team-member">
-                    <img src="{{ site.project.mslesion.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><span class="navy">{{ site.project.mslesion.name }}</span></h4>
-                    <p><span data-i18n="projects.mslesion">MS Lesion Segmentation</span></p>
-                    <ul class="list-inline">
-                       <a href='{{site.project.mslesion.url}}' class="myButton" target="_blank">Project Report</a>
+					</section>
+				-->
 
-                    </ul>
-                </div>
-            </div>
+			</div>
 
-            <div class="col-sm-4 wow fadeInRight">
-                <div class="team-member">
-                    <img src="{{ site.project.openai.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><span class="navy">{{ site.project.openai.name }}</span></h4>
-                    <p><span data-i18n="projects.openai">Open AI Gym </span></p>
-                    <ul class="list-inline">
-                        <li>
-                            <a class="github-button" href="{{ site.project.openai.url | prepend: 'https://github.com'}}"
-                            data-icon="octicon-star"
-                            data-count-href="{{ site.project.openai.url | append: '/stargazers' }}"
-                            data-count-api="{{ site.project.openai.url | prepend: '/repos' | append: '#stargazers_count' }}"
-                            data-count-aria-label="# stargazers on GitHub"
-                            aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
-                        </li>
-                        <li>
-                            <a class="github-button" href="{{ site.openai.url | prepend: 'https://github.com'}}"
-                            data-icon="octicon-file-pdf"
-                            aria-label="Star hydepress/jekyll-install on GitHub">Pdf</a>
-                        </li>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
 
-                    </ul>
-                </div>
-            </div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
-
-        </div>
-    </div>
-    <br><br>
-</section>
-
-<section id="blog" class="navy-section testimonials" style="margin-top: 0">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
-                <br><br><br><br>
-                <a class="btn btn-lg btn-default btn-rounded btn-outline" href="/blog/blog.html"><span data-i18n="blog.my_blog">My Blog</span></a>
-                <br><br><br><br>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section id="contact" class="contact features">
-    <div class="container" id="i18_contact">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1><span data-i18n="contact.contact_me">Link</span></h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-4">
-                <div class="team-member wow zoomIn">
-                    <h4><span class="navy">{{ site.gauthamv.last_name }}</span> {{ site.gauthamv.first_name }}</h4>
-                    <p>
-                        {{ site.gauthamv.description }}
-                    </p>
-                    <ul class="list-inline social-icon">
-                        <li><a href="{{ site.gauthamv.link }}" target="blank"><i class="fa fa-book"></i></a>
-                        </li>
-                        <li><a href="mailto:{{ site.gauthamv.email }}"><i class="fa fa-envelope-o"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><strong>&copy; 2015 {{ site.author.name }}</strong></p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<script>
-
-    $(document).ready(function () {
-
-        $('body').scrollspy({
-            target: '.navbar-fixed-top',
-            offset: 80
-        });
-
-        // Page scrolling feature
-        $('a.page-scroll').bind('click', function(event) {
-            var link = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $(link.attr('href')).offset().top - 50
-            }, 500);
-            event.preventDefault();
-            $("#navbar").collapse('hide');
-        });
-    });
-
-    var cbpAnimatedHeader = (function() {
-        var docElem = document.documentElement,
-                header = document.querySelector( '.navbar-default' ),
-                didScroll = false,
-                changeHeaderOn = 200;
-        function init() {
-            window.addEventListener( 'scroll', function( event ) {
-                if( !didScroll ) {
-                    didScroll = true;
-                    setTimeout( scrollPage, 250 );
-                }
-            }, false );
-        }
-        function scrollPage() {
-            var sy = scrollY();
-            if ( sy >= changeHeaderOn ) {
-                $(header).addClass('navbar-scroll')
-            }
-            else {
-                $(header).removeClass('navbar-scroll')
-            }
-            didScroll = false;
-        }
-        function scrollY() {
-            return window.pageYOffset || docElem.scrollTop;
-        }
-        init();
-
-    })();
-
-    // Activate WOW.js plugin for animation on scrol
-    new WOW().init();
-
-</script>
-
-<script>
-
-    $(document).ready(function (){
-
-        $.i18n.init({
-            resGetPath: 'static/locales/__lng__.json',
-            load: 'unspecific',
-            fallbackLng: false,
-            lng: 'en'
-        }, function (t){
-            $('.i18container').i18n();
-            // $('#i18_title').i18n();
-            $('#i18_navbar').i18n();
-            $('#i18_about_me').i18n();
-            $('#i18_skills').i18n();
-            $('#i18_projects').i18n();
-            $('#i18_career').i18n();
-            $('#i18_blog').i18n();
-            $('#i18_contact').i18n();
-        });
-
-        $('.set_en').on('click', function (){
-            i18n.setLng('en', function(){
-                $('.i18container').i18n();
-                // $('#i18_title').i18n();
-                $('#i18_navbar').i18n();
-                $('#i18_about_me').i18n();
-                $('#i18_skills').i18n();
-                $('#i18_projects').i18n();
-                $('#i18_career').i18n();
-                $('#i18_blog').i18n();
-                $('#i18_contact').i18n();
-
-                // $('.set_en').addClass('active');
-                // $('.set_cn').removeClass('active');
-            });
-        });
-
-        $('.set_cn').on('click', function (){
-            i18n.setLng('cn', function(){
-                $('.i18container').i18n();
-                // $('#i18_title').i18n();
-                $('#i18_navbar').i18n();
-                $('#i18_about_me').i18n();
-                $('#i18_skills').i18n();
-                $('#i18_projects').i18n();
-                $('#i18_career').i18n();
-                $('#i18_blog').i18n();
-                $('#i18_contact').i18n();
-
-                // $('.set_cn').addClass('active');
-                // $('.set_en').removeClass('active');
-            });
-        });
-
-    });
-
-</script>
+	</body>
+</html>
