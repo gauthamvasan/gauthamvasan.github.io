@@ -188,95 +188,169 @@ My CV is available [here](#)
     <span class="conf">BioRob 2018</span><br>
     <span class="links">
         <a target="_blank" href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2018_BioRob_preprint.pdf">Paper</a>
-        <a target="_blank" href="https://youtu.be/NCpyXBNqNmw">Video</a>
+        <a target="_blank" href="https://docs.google.com/presentation/d/1gKY5LgBuBRYCs3NW5iyfrGNq6xCAxeg3zoM00j9C_Sw/edit?usp=sharing">Poster</a>
     </span>
 </p>
 <div class="row">
     <div class="col-xs-6">
         <p class="pubd">
-            <img src="/img/BioRob_2018/schematic_contextual_lfd.png">
+            <img src="/img/ICORR_2017/bentoarm.jpg">
         </p>
     </div>
     <div class="col-xs-6">
         <p class="pubd">
-            <img src="/img/BioRob_2018/contextual_lfd_trial.jpg">
+            <img src="/img/BioRob_2018/schematic_contextual_lfd.png">
         </p>
     </div>
 </div>
 <hr>
 
----
-<a name="/talks"></a>
-
-# Talks
-
+<!-- LfD -->
+<a name="/lfd"></a>
+<h2 class="pubt">Learning from demonstration: Teaching a myoelectric prosthesis with an intact limb via reinforcement learning</h2>
+<p class="pubd">
+    <span class="authors">Gautham Vasan, Patrick M Pilarski</span><br>
+    <span class="conf">ICORR 2017</span><br>
+    <span class="conf">Spotlight presentation at Rehabweek 2017. </span><br>
+    <span class="links">
+        <a target="_blank" href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2017_ICORR_preprint.pdf">Paper</a>
+        <a target="_blank" href="https://drive.google.com/drive/folders/0B8-iXsaYqsxmUWJnTkpvMkplMXM?usp=sharing">Video & Metadata</a>
+    </span>
+</p>
 <div class="row">
     <div class="col-xs-6">
-        <p class="talkd">
-            <img src="/img/talks/visdial_rl_iccv17.jpg">
-        </p>
+        <div class="row-xs-3">
+            <p class="pubd">
+                <img src="/img/ICORR_2017/Lfd_amputee.png">
+            </p>
+        </div>
+        <div class="row-xs-3">
+            <p class="pubd">
+                <img src="/img/BioRob_2018/contextual_lfd_trial.jpg">
+            </p>
+        </div>
     </div>
     <div class="col-xs-6">
-        <p class="talkd">
-            <img src="/img/talks/embodiedqa_cvpr18_4.jpg">
+        <p class="pubd">
+            <img src="/img/ICORR_2017/ICORR_Setup_animation.png">
         </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        <div class="talkt">
-            <a target="_blank" href="https://slideslive.com/38917625/tarmac-targeted-multiagent-communication">
-                ICML 2019 Imitation, Intent, and Interaction Workshop:
-                Targeted Multi-Agent Communication
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.facebook.com/icml.imls/videos/444326646299556/">
-                ICML 2019 Oral: Targeted Multi-Agent Communication
-            </a>
-        </div>
     </div>
 </div>
 <hr>
 
-<a name="/projects"></a>
+<!-- craig_rldm -->
+<a name="/craig_rldm"></a>
+<h2 class="pubt">Confident Decision Making with General Value Functions</h2>
+<p class="pubd">
+    <span class="authors">Craig Sherstan, Marlos C. Machado, Jaden Travnik, Adam White, Gautham Vasan, Patrick M. Pilarski</span><br>
+    <span class="conf">RLDM 2017</span><br>
+</p>
+<hr>
 
-# Side projects
+
+<!-- lfd_rldm -->
+<a name="/lfd_rldm"></a>
+<h2 class="pubt"> Mirrored Bilateral Training of a Myoelectric Prosthesis with a non-amputated arm via Actor-Critic Reinforcement Learning </h2>
+<p class="pubd">
+    <span class="authors">Gautham Vasan, Patrick M Pilarski</span><br>
+    <span class="conf">RLDM 2017</span><br>
+    <span class="conf">Spotlight presentation (20min)</span><br>
+    <span class="links">
+        <a target="_blank" href="https://docs.google.com/presentation/d/1xd4nhI-4XbSqV0v_7MCv3qOl5pUkkaOPfkQobLNZlL0/edit?usp=sharing">Poster</a>
+        <a target="_blank" href="https://docs.google.com/presentation/d/1H19Mm8-aJNWyDSRAB-bmE11M29-23pB_zIlH72iSkQA/edit?usp=sharing">Slides</a>
+    </span>
+</p>
 
 <div class="row">
-    <div class="col-sm-12">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="http://aideadlin.es">aideadlin.es</a></h2>
-        <p class="talkd">
-            aideadlin.es is a webpage to keep track of CV/NLP/ML/AI conference deadlines. It's hosted on GitHub, and countdowns are automatically updated via pull requests to the data file in the repo.
-            <a target="_blank" href="http://aideadlin.es"><img style="margin-top: 10px;" src="/img/projects/ai-deadlines-1547012831.png"></a>
+    <div class="col-xs-6">
+        <div class="row-xs-3">
+            <p class="pubd">
+                <img src="/img/ICORR_2017/trial_2.png">
+            </p>
+        </div>
+        <div class="row-xs-3">
+            <p class="pubd">
+                <img src="/img/ICORR_2017/ICORR_Chart.jpg">
+            </p>
+        </div>
+    </div>
+    <div class="col-xs-5">
+        <p class="pubd">
+            <img src="/img/ICORR_2017/Trigno_Glove_setup.jpg">
         </p>
     </div>
 </div>
+<hr>
 
+<!-- NeuroHex -->
+<a name="/NeuroHex"></a>
+<h2 class="pubt">Neurohex: A Deep Q-Learning Hex Agent </h2>
+<p class="pubd">
+    <span class="authors">Kenny Young, Gautham Vasan, Ryan Hayward</span><br>
+    <span class="conf">Computer Games Workshop at IJCAI 2016</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/pdf/1604.07097.pdf">Paper</a>
+    </span>
+</p>
 <div class="row">
-    <div class="col-sm-12">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention">neural-vqa-attention</a></h2>
-        <p class="talkd">
-            Torch implementation of an attention-based visual question answering model (Yang et al., CVPR16).
-            The model looks at an image, reads a question, and comes up with an answer to the question and a heatmap of where it looked in the image to answer it.
-            Some results <a href="https://computing.ece.vt.edu/~abhshkdz/neural-vqa-attention/figures/">here</a>.
-            <a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention"><img class="project-img" src="/img/projects/neural-vqa-attention.jpg"></a>
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/hex.jpg">
         </p>
     </div>
 </div>
+<hr>
 
+<!-- Quadrotor -->
+<a name="/quadrotor"></a>
+<h2 class="pubt"> Autonomous Visual Tracking and Landing of a Quadrotor on a Moving Platform </h2>
+<p class="pubd">
+    <span class="authors">Juhi Ajmera, PR Siddharthan, KM Ramaravind, Gautham Vasan, Naresh Balaji, V Sankaranarayanan</span><br>
+    <span class="conf">IEEE ICIIP 2015</span><br>
+    <span class="links">
+        <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7414792">Paper</a>
+    </span>
+</p>
 <div class="row">
-    <div class="col-sm-12">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/neural-vqa">neural-vqa</a></h2>
-        <p class="talkd">
-            neural-vqa is an efficient, GPU-based Torch implementation of the visual question answering model from the NIPS 2015 paper 'Exploring Models and Data for Image Question Answering' by Ren et al.
-            <a target="_blank" href="https://github.com/abhshkdz/neural-vqa"><img src="/img/projects/neural-vqa.jpg"></a>
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/ardrone.jpg">
+        </p>
+    </div>
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/ardrone_team.png">
         </p>
     </div>
 </div>
+<hr>
 
-
-
+<!-- TI -->
+<a name="/ti"></a>
+<h2 class="pubt"> A Control Strategy for an Autonomous Robotic Vacuum Cleaner for Solar Panels </h2>
+<p class="pubd">
+    <span class="authors">G Aravind, Gautham Vasan, TSB Gowtham Kumar, R Naresh Balaji, G Saravana Ilango</span><br>
+    <span class="conf">IEEE Texas Instruments India Educators Conference 2014 </span><br>
+    <span class="conf"> Phase-I Winners and finalists (top 19 among 2000+ teams) </span><br>
+    <span class="links">
+        <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7899211">Paper</a>
+        <a target="_blank" href="https://youtu.be/qiCRSVuftFQ">Video</a>
+        <a target="_blank" href="https://youtu.be/B_-TnMiD76M">Presentation</a>
+    </span>
+</p>
+<div class="row">
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/TI/ti_award.jpg">
+        </p>
+    </div>
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/TI/ti_award.jpg">
+        </p>
+    </div>
+</div>
+<hr>
 
 
 <script src="/js/jquery.min.js"></script>
@@ -288,7 +362,7 @@ My CV is available [here](#)
     });
 </script>
 
----
+
 
 [1]: https://www.nitt.edu/
 [2]: https://www.ualberta.ca/index.html
