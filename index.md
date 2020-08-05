@@ -93,24 +93,119 @@ My CV is available [here](#)
 
 
 ---
-
 <a name="/publications"></a>
 
 # Publications
-
-<a name="/visdial-bert"></a>
-<h2 class="pubt">Large-scale Pretraining for Visual Dialog: A Simple State-of-the-Art Baseline</h2>
+<!-- Autoregressive policies -->
+<a name="/arp"></a>
+<h2 class="pubt">Autoregressive policies for continuous control deep reinforcement learning</h2>
 <p class="pubd">
-    <span class="authors">Vishvak Murahari, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
-    <span class="conf">ECCV 2020</span><br>
+    <span class="authors">Dmytro Korenkevych, A Rupam Mahmood, Gautham Vasan, James Bergstra</span><br>
+    <span class="conf">IJCAI 2019</span><br>
     <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1912.02379">Paper</a>
-        <a target="_blank" href="https://github.com/vmurahari3/visdial-bert">Code</a>
+        <a target="_blank" href="https://arxiv.org/abs/1903.11524">Paper</a>
+        <a target="_blank" href="https://www.kindred.ai/blog/introducing-autoregressive-policies-for-temporally-coherent-exploration-in-continuous-control-reinforcement-learning">Post</a>
+        <a target="_blank" href="https://youtu.be/NCpyXBNqNmw">Video</a>
     </span>
 </p>
-<img src="/img/visdial/visdial-bert.png">
+<div class="row">
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/ARP/ARP_Blog3.png">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/ARP/ARP_Blog4.gif">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/ARP/ARP_Blog5.gif">
+        </p>
+    </div>
+</div>
 <hr>
 
+<!-- SenseAct -->
+<a name="/SenseAct"></a>
+<h2 class="pubt">Benchmarking reinforcement learning algorithms on real-world robots</h2>
+<p class="pubd">
+    <span class="authors">A Rupam Mahmood, Dmytro Korenkevych, Gautham Vasan, William Ma, James Bergstra</span><br>
+    <span class="conf">CoRL 2018</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/1809.07731">Paper</a>
+        <a target="_blank" href="https://www.kindred.ai/blog/benchmarking-reinforcement-learning-algorithms-on-real-world-robots">Post</a>
+        <a target="_blank" href="https://youtu.be/ovDfhvjpQd8">Video</a>
+        <a target="_blank" href="https://www.kindred.ai/blog/introducing-a-framework-and-benchmark-tasks-for-reproducible-reinforcement-learning-research-on-real-robots">SenseAct</a>
+    </span>
+</p>
+<!-- 
+<img src="/img/SenseAct/robots-1.png"> 
+-->
+<div class="row">
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/SenseAct/ur-reacher-2-trpo.gif" alt="UR-Reacher-2">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/SenseAct/dxl-tracker-trpo.gif">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/SenseAct/create-mover-ppo.gif">
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/SenseAct/ur-reacher-6-trpo.gif">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/SenseAct/dxl-reacher-trpo.gif">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/SenseAct/create-docker-trpo.gif">
+        </p>
+    </div>
+</div>
+<hr>
+
+
+<!-- Contextual LfD -->
+<a name="/gvf_lfd"></a>
+<h2 class="pubt">Context-Aware Learning from Demonstration: Using Camera Data to Support the Synergistic Control of a Multi-Joint Prosthetic Arm</h2>
+<p class="pubd">
+    <span class="authors">Gautham Vasan, Patrick M Pilarski</span><br>
+    <span class="conf">BioRob 2018</span><br>
+    <span class="links">
+        <a target="_blank" href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2018_BioRob_preprint.pdf">Paper</a>
+        <a target="_blank" href="https://youtu.be/NCpyXBNqNmw">Video</a>
+    </span>
+</p>
+<div class="row">
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/BioRob_2018/schematic_contextual_lfd.png">
+        </p>
+    </div>
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/BioRob_2018/contextual_lfd_trial.jpg">
+        </p>
+    </div>
+</div>
+<hr>
+
+---
 <a name="/talks"></a>
 
 # Talks
