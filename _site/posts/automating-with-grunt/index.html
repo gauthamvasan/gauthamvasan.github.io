@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Workflow Automation with Grunt</title>
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="author" content="Gautham Vasan">
+        <meta name="keywords" content="gautham, gautham vasan, jekyll, kindred, nit trichy, deep learning, reinforcement learning, robotics, university of alberta, machine learning, artificial intelligence">
+        
+        <meta name="description" content="Grunt is a JS command-line build tool that is used to automate repetitive tasks">
+        
+        <link rel="alternate" type="application/atom+xml" title="Gautham Vasan" href="http://localhost:4000/atom.xml" />
+        <!--Open Graph Related Stuff-->
+        <meta property="fb:app_id" content="1666933880208467"/>
+        <meta property="og:title" content="Workflow Automation with Grunt"/>
+        <meta property="og:url" content="http://localhost:4000/posts/automating-with-grunt/"/>
+        
+        <meta name='og:description' content='Grunt is a JS command-line build tool that is used to automate repetitive tasks'/>
+        
+        
+        <meta property="og:type" content="article"/>
+        <meta property="article:published_time" content='2013-11-12'/>
+        <meta property="article:publisher" content="https://www.facebook.com/gautham.vasan"/>
+        <meta property="article:author" content="gautham"/>
+        
+        <meta property="og:site_name" content="Gautham Vasan"/>
+        
+        <meta property="og:image" content="http://localhost:4000/img/grunt/logo.png"/>
+        <meta property="og:image:url" content="http://localhost:4000/img/grunt/logo.png"/>
+        
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/main_1548935627.css">
+        <!--[if IE 7]>
+            <html class="ie7">
+            <link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
+        <![endif]-->
+        <!--[if IE 8]><html class="ie8"> <![endif]-->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+        <link rel="shortcut icon" href="/ico/favicon-96x96.png">
+        <link rel="manifest" href="/ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!--Authorship-->
+        <!-- <link rel="me" href="//plus.google.com/u/0/100610196494221761914/"> -->
+        <link rel="me" href="//facebook.com/gautham.vasan">
+
+        <!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+        <!-- Header
+            ================================================== -->
+        <div class="top-strip"></div>
+        <div class="container">
+            <div class="page-header">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 id="name-block"><a href="/">Gautham Vasan</b></a></h1>
+                    </div>
+                    <div class="col-xs-12">
+                        <ul class="nav-bar">
+                            <li><a href="/#/bio">About Me</a></li>
+                            <li><a target="_blank" href="https://drive.google.com/file/d/1h_K1Rq0Qgqx1TV3nettG-MpC35NXCeUk/view?usp=sharing">CV</a></li>
+                            <li><a href="/#/publications">Publications</a></li>
+                            <li><a target="_blank" href="https://scholar.google.ca/citations?user=ijoLCmEAAAAJ&hl=en&authuser=1">Google Scholar</a></li>
+                            <li class="hide-link-on-small-screens"><a href="https://enlightenedidiot.net/">Machinae Animatae</a></li> <!-- # Devices Animated -->
+                            <li class="hide-link-on-small-screens"><a href="https://enlightenedidiot.net/">Musings of an Enlightened Idiot</a></li>
+                            <!-- <li class="hide-link-on-small-screens"><a href="/bookshelf">Bookshelf</a></li>  -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="page-content">
+                <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<article class="post">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1 class="content">Workflow Automation with Grunt</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2 class="excerpt">Grunt is a JS command-line build tool that is used to automate repetitive tasks</h2>
+        </div>
+    </div>
+    <section class="post-content">
+        <p><img src="/img/grunt/logo.png" alt="Grunt" /></p>
+
+<p>I recently came across <a href="http://gruntjs.com/">Grunt.js</a> while working on <a href="http://blog.sdslabs.co/2013/10/erdos-codebot">Erdős</a> at <a href="//github.com/sdslabs">SDSLabs</a>. It is a task-based command line tool similar to Brunch, Maven, Gradle, and I love it! It’s primarily used to automate repetitive tasks in the development workflow and any (lazy) developer would fall in love with it. It takes care of tasks like compilation, minification, concatenation, versioning, cache-busting, linting, unit testing, etc. It isn’t limited to JS-specific tasks either, and it’s fairly easy to leverage the power of Node by using <a href="http://gruntjs.com/api/grunt.util#grunt.util.spawn">child processes</a>. Also, it is well supported by an extremely active plugin development community. There may be other Javascript task runner solutions, but I don’t know of any at the moment that are worth taking a look at. In this post, I’ll go through the setup and a few Grunt tasks that I find really useful.</p>
+
+<h2 id="the-basic-setup">The basic setup</h2>
+
+<p>As I’ve mentioned earlier, Grunt uses Node.js and is installed via NPM (Node Package Manager). Once you’ve got those ready, install the Grunt CLI globally.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> <span class="nt">-g</span> grunt-cli
+grunt <span class="nt">--version</span>
+</code></pre></div></div>
+
+<p>The second command should output your current command line module version. Next, create <code class="highlighter-rouge">package.json</code>, which keeps track of the dependencies we’re using in our project so we don’t have to push the node modules when collaborating with other developers.</p>
+
+<p>This is what the project directory looks like which I’ll be referring to throughout this post.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>my-test-app/
+|--assets/
+|--|--dist/
+|--|--style.css
+|--|--main.js
+|--|--jquery.js
+|--index.tmpl
+|--package.json
+|--gruntfile.js
+</code></pre></div></div>
+
+<h3 id="packagejson">package.json</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Erdos"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0.1.0"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"author"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Abhishek Das"</span><span class="p">,</span><span class="w">
+
+  </span><span class="nl">"devDependencies"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"grunt"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~0.4.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"grunt-contrib-cssmin"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"grunt-contrib-uglify"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"grunt-hashres"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"grunt-env"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"grunt-preprocess"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"matchdep"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Run <code class="highlighter-rouge">npm install</code>, and NPM will go fetch these for us and place them in a <code class="highlighter-rouge">node_modules</code> folder (which should ideally be under gitignore).</p>
+
+<h2 id="tasks">Tasks</h2>
+
+<p>Create <code class="highlighter-rouge">gruntfile.js</code> which defines the workflow and tasks for Grunt to execute. Inside <code class="highlighter-rouge">gruntfile.js</code>, all configuration is done by passing an object literal to <code class="highlighter-rouge">grunt.initConfig()</code>.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">grunt</span><span class="p">){</span>
+
+  <span class="dl">"</span><span class="s2">use strict</span><span class="dl">"</span><span class="p">;</span>
+
+  <span class="cm">/* Load grunt modules */</span>
+  <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">matchdep</span><span class="dl">"</span><span class="p">).</span><span class="nx">filterDev</span><span class="p">(</span><span class="dl">"</span><span class="s2">grunt-*</span><span class="dl">"</span><span class="p">).</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">);</span>
+
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">initConfig</span><span class="p">({</span>
+
+    <span class="cm">/* All grunt tasks go here */</span>
+
+  <span class="p">});</span>
+
+  <span class="cm">/* Public grunt tasks - to be called from command line */</span>
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="dl">'</span><span class="s1">default</span><span class="dl">'</span><span class="p">,</span> <span class="p">[</span><span class="dl">'</span><span class="s1">cssmin</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">uglify</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">env:production</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">preprocess</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">hashres</span><span class="dl">'</span><span class="p">]);</span>
+
+<span class="p">};</span>
+</code></pre></div></div>
+
+<h3 id="css-minification"><a href="https://github.com/gruntjs/grunt-contrib-cssmin">CSS Minification</a></h3>
+
+<p>This is used to minify all the CSS files for use in the production environment.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">cssmin</span><span class="p">:</span> <span class="p">{</span>
+  <span class="nl">production</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nl">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">assets/*.css</span><span class="dl">'</span><span class="p">,</span>
+    <span class="nx">dest</span><span class="p">:</span> <span class="dl">'</span><span class="s1">assets/dist/style.css</span><span class="dl">'</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This task can now be executed by calling <code class="highlighter-rouge">grunt cssmin:production</code> on the command line.</p>
+
+<h3 id="uglify-js"><a href="https://github.com/gruntjs/grunt-contrib-uglify">Uglify JS</a></h3>
+
+<p>This takes care of javascript compression and minification, thus reducing file size which is important for websites to load fast.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">uglify</span><span class="p">:</span> <span class="p">{</span>
+  <span class="nl">production</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nl">files</span><span class="p">:</span> <span class="p">{</span>
+      <span class="dl">'</span><span class="s1">assets/dist/main.js</span><span class="dl">'</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">assets/*.js</span><span class="dl">'</span><span class="p">]</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This task can now be executed by running <code class="highlighter-rouge">grunt uglify:production</code> from the command line. It will concatenate and uglify <code class="highlighter-rouge">jquery.js</code> and <code class="highlighter-rouge">main.js</code> in one file.</p>
+
+<h3 id="environment-configuration"><a href="https://github.com/jsoverson/grunt-env/">Environment Configuration</a></h3>
+
+<p>This is a grunt task to automate environment configuration for other tasks. It can be used with the grunt-preprocess plugin to build <code class="highlighter-rouge">index.html</code> on-the-fly.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">env</span><span class="p">:</span> <span class="p">{</span>
+  <span class="nl">development</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nl">NODE_ENV</span><span class="p">:</span> <span class="dl">'</span><span class="s1">development</span><span class="dl">'</span>
+  <span class="p">},</span>
+  <span class="nx">production</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nl">NODE_ENV</span><span class="p">:</span> <span class="dl">'</span><span class="s1">production</span><span class="dl">'</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="preprocess"><a href="https://github.com/jsoverson/grunt-preprocess/">Preprocess</a></h3>
+
+<p>As mentioned earlier, Grunt can preprocess files based off environment configuration.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">preprocess</span><span class="p">:</span> <span class="p">{</span>
+  <span class="nl">html</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nl">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">index.tmpl</span><span class="dl">'</span><span class="p">,</span>
+    <span class="nx">dest</span><span class="p">:</span> <span class="dl">'</span><span class="s1">index.html</span><span class="dl">'</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This task can now be executed by calling <code class="highlighter-rouge">grunt preprocess</code> on the command line. Our <code class="highlighter-rouge">layout.tmpl</code> can have logical blocks. This is useful in including analytics only on the production build, throwing in some ascii art, changing static asset paths based on environment etc.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="c">&lt;!-- @if NODE_ENV = 'production' --&gt;</span>
+  <span class="c">&lt;!--
+        ,---,.
+    ,'  .' |             ,---,
+  ,---.'   |  __  ,-.  ,---.'|   ,---.
+  |   |   .',' ,'/ /|  |   | :  '   ,'\   .--.--.
+  :   :  |-,'  | |' |  |   | | /   /   | /  /    '
+  :   |  ;/||  |   ,',--.__| |.   ; ,. :|  :  /`./
+  |   :   .''  :  / /   ,'   |'   | |: :|  :  ;_
+  |   |  |-,|  | ' .   '  /  |'   | .; : \  \    `.
+  '   :  ;/|;  : | '   ; |:  ||   :    |  `----.   \
+  |   |    \|  , ; |   | '/  ' \   \  /  /  /`--'  /
+  |   :   .' ---'  |   :    :|  `----'  '--'.     /
+  |   | ,'          \   \  /              `--'---'
+  `----'             `----'
+
+  --&gt;</span>
+  <span class="c">&lt;!-- @endif --&gt;</span>
+  ...
+</code></pre></div></div>
+
+<h3 id="cache-busting"><a href="https://github.com/Luismahou/grunt-hashres">Cache-busting</a></h3>
+
+<p>grunt-hashres is an extremely useful plugin that hashes js and css files and renames the <code class="highlighter-rouge">&lt;script&gt;</code> and <code class="highlighter-rouge">&lt;link&gt;</code> declarations that refer to them in my html/php/etc files.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">hashres</span><span class="p">:</span> <span class="p">{</span>
+  <span class="nl">options</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nl">encoding</span><span class="p">:</span> <span class="dl">'</span><span class="s1">utf8</span><span class="dl">'</span><span class="p">,</span>
+    <span class="nx">fileNameFormat</span><span class="p">:</span> <span class="dl">'</span><span class="s1">${name}.${hash}.${ext}</span><span class="dl">'</span><span class="p">,</span>
+    <span class="nx">renameFiles</span><span class="p">:</span> <span class="kc">true</span>
+  <span class="p">},</span>
+  <span class="nx">production</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nl">src</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">assets/dist/style.css</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">assets/dist/main.js</span><span class="dl">'</span><span class="p">],</span>
+    <span class="nx">dest</span><span class="p">:</span> <span class="dl">'</span><span class="s1">index.html</span><span class="dl">'</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This task can now be executed by running <code class="highlighter-rouge">grunt hashres:production</code> from the command line. It would change <code class="highlighter-rouge">&lt;link rel="stylesheet" href="assets/dist/style.css"&gt;</code> to <code class="highlighter-rouge">&lt;link rel="stylesheet" href="assets/dist/style.130fdfaa.css"&gt;</code> and <code class="highlighter-rouge">&lt;script src="assets/dist/main.js"&gt;</code> to <code class="highlighter-rouge">&lt;script src="assets/dist/main.9c4cc83e.js"&gt;</code> in <code class="highlighter-rouge">index.html</code>. It would also rename the corresponding CSS &amp; JS files in the <code class="highlighter-rouge">assets/dist</code> directory. This is much better than using a timestamp because the hash only changes when a file has been updated.</p>
+
+<h2 id="build">Build</h2>
+
+<p>Public grunt tasks defined at the bottom of <code class="highlighter-rouge">gruntfile.js</code> can be called directly from the command line. The <code class="highlighter-rouge">default</code> task is executed by running <code class="highlighter-rouge">grunt</code>. Environment variables should ideally be picked up from the project configuration file. <a href="https://gist.github.com/abhshkdz/7460904">Here</a> is the complete gruntfile for convenience. If everything went right, you should see the following output when you run <code class="highlighter-rouge">grunt</code>.</p>
+
+<p><img src="/img/grunt/output.png" alt="Output" /></p>
+
+<p>This was just a basic introduction and walkthrough to using Grunt. Actual usage would definitely be more robust and complex. Grunt comes with pretty much everything you’ll need to use it on a large project and can be extended as much as you want.</p>
+
+    </section>
+    <div class="when">12 November 2013</div>
+    <div class='share'>
+        <iframe src="https://ghbtns.com/github-btn.html?user=abhshkdz&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px" style="margin-right:20px;"></iframe>
+        <span class='gplus-wrapper'><div class='g-plusone' data-href='http://localhost:4000/posts/automating-with-grunt/' data-size='medium'></div></span>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://localhost:4000/posts/automating-with-grunt/" data-text="Workflow Automation with Grunt" data-via="abhshkdz"></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <iframe allowTransparency='true' frameborder='0' scrolling='no' src='https://www.facebook.com/plugins/like.php?href=http://localhost:4000/posts/automating-with-grunt/&layout=button_count&show_faces=false&width=77&action=like&colorscheme=light&height=20' style='margin-left: 30px; border:none; overflow:hidden; width:100px; height:20px;'></iframe>
+    </div>
+    <hr>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'abhshkdz';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</article>
+
+            </div>
+        </div>
+
+
+        <!-- Footer
+            ================================================== -->
+
+        <!-- Javascripts
+            ================================================= -->
+
+        <!-- Analytics
+        ================================================== -->
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-42127951-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </body>
+</html>

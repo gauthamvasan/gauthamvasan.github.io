@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Gautham Vasan</title>
+  <link href="http://localhost:4000/atom.xml" rel="self" />
+  <link href="http://localhost:4000/"/>
+  <updated>2020-08-05T14:15:53-04:00</updated>
+  <id>http://localhost:4000</id>
+  <author>
+    <name>Gautham Vasan</name>
+    <email>gauthamv.529@gmail.com</email>
+  </author>
+  
+    <entry>
+      <title>Google Summer of Code Reunion Summit</title>
+      <link href="http://localhost:4000/posts/gsoc-reunion-2014/" />
+      <updated>2014-11-02T19:00:00-05:00</updated>
+      <id>http://localhost:4000/posts/gsoc-reunion-2014</id>
+      <content type="html">&lt;p&gt;In celebration of the 10th anniversary of Google’s prestigious Summer of Code program, they organized a reunion summit for mentors and students from the past 10 iterations of Summer of Code in San Jose, California from October 23-26. I attended the event as a student and a representative of the &lt;a href=&quot;https://www.owasp.org/index.php/Main_Page&quot;&gt;OWASP foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/gsoc-reunion-summit/hilton.jpg&quot; alt=&quot;Hilton&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I arrived in San Jose early morning on 23rd and checked in at the Hilton. I knew I’d be staying at the heart of Silicon Valley but was nonetheless pleasantly surprised to see the Adobe HQ from my hotel room!&lt;/p&gt;
+
+&lt;p&gt;The event was to be held at the Marriot, which is a block away from the Hilton. The evening was spent registering for the event and socializing with other developers who had flown in from all over the world. It was a delightful experience to randomly bump into developers and get to know about their organizations and open-source projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/gsoc-reunion-summit/id.jpg&quot; alt=&quot;ID Card&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next day was a fun outing to Great America. Google had bought out the entire park for the whole day just for the summit attendees! The GSoC celebration event was in the evening at the San Jose Tech Museum of Innovation. It was a wonderful (semi-)formal gettogether, full of geek speak and inspiring talks. Among the speakers were Chris DiBona, Peter Norvig, Dirk Hohndel and Linus Torvalds! Chris talked about how he came up with the idea of Summer of Code and the immense impact it has had over the past 10 years as it continues to grow. Norvig’s short inspiring talk mentioned how a bad craftsman blames his tools and how a good one wouldn’t differentiate between the two. Hohndel emphasized the need and importance of valuing criticism. And Torvalds implored budding developers to develop good taste and to know what to keep and more importantly, what to throw. Needless to say, it was a crazy evening. Selfies with the guests followed alongside lavish drinks and buffet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/gsoc-reunion-summit/peter-norvig.jpg&quot; alt=&quot;Peter Norvig&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The unconference sessions started Saturday morning. I loved the idea of having spontaneous sessions with lots of free interaction rather than the rigidity that is usually associated with regular conferences. The first one I attended was by &lt;a href=&quot;//google.com/+GrantGrundler&quot;&gt;Grant Grundler&lt;/a&gt; on Chrome OS. He talked about the future of Chrome OS and Android, the development cycle of a hardware-based product such as a Chromebook, the support model of Chrome OS and ended with a Q&amp;amp;A.&lt;/p&gt;
+
+&lt;p&gt;Next up was one on data visualization libraries. People talked about the libraries they were using and the applications they’d built using them. Others asked questions and lots of new ideas came up. We even maintained a collaborative etherpad.&lt;/p&gt;
+
+&lt;p&gt;There was a session on &lt;a href=&quot;https://processing.org/&quot;&gt;Processing&lt;/a&gt; by Manindra Moharana, who I’ve personally known from my DCE days (2010-11), and Andres Colubri. They introduced Processing, demoed artwork developers had created using it and showed how easy it was to get started.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/gsoc-reunion-summit/processing.jpg&quot; alt=&quot;Processing Guys&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Among other sessions I attended were ones on bioinformatics (scope, ongoing work and future), artificial intelligence (again a brainstorming and ideation meetup), big data, robotics and &lt;a href=&quot;https://cardboard.withgoogle.com/&quot;&gt;Google Cardboard&lt;/a&gt;! There were several lightning talks going on alongside at the Ballroom where organization representatives introduced their projects in under 3 minutes, always fun to listen to and get familiar with their work.&lt;/p&gt;
+
+&lt;p&gt;Sunday morning began with the much awaited trip to the Googleplex.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/gsoc-reunion-summit/google-hq.jpg&quot; alt=&quot;Google HQ&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/gsoc-reunion-summit/cycles.jpg&quot; alt=&quot;Cycles&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sessions continued till the afternoon after which we had to bid farewell. Carol conducted the feedback session and delivered the closing address.&lt;/p&gt;
+
+&lt;p&gt;It was an absolutely awesome event. The feeling of getting to meet FOSS superstars in person, people who I’d been following on GitHub or Twitter for a while, was inexplicable. The idea of having a sticker exchange as well as a chocolate room was perfect. And most importantly, the organisers got all the basic things spot on: get open-source developers from different backgrounds in one place and make it as comfortable as possible for them to interact and have productive discussions with each other (no shuttling between the conference venue and accommodation, free and fast WiFi, awesome food and drinks, a formal celebratory dinner, schwag, and so on). A big shout out to Carol, Chris, Stephanie, and the entire &lt;a href=&quot;https://developers.google.com/open-source/&quot;&gt;Google Open Source Programs&lt;/a&gt; team for an amazing event!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/gsoc-reunion-summit/tshirt-wall.jpg&quot; alt=&quot;GSoC T-Shirt Wall&quot; /&gt;&lt;/p&gt;
+</content>
+    </entry>
+  
+    <entry>
+      <title>Gradient Descent is Hard</title>
+      <link href="http://localhost:4000/posts/gradient-descent/" />
+      <updated>2014-09-19T20:00:00-04:00</updated>
+      <id>http://localhost:4000/posts/gradient-descent</id>
+      <content type="html">&lt;p&gt;Remember that time when you told yourself, “I am going to work continuously for six hours and get this thing done!” and it didn’t happen? That time when you went to bed at three in the night with the resolution that you’d get up at seven and work, only to wake up much later?&lt;/p&gt;
+
+&lt;p&gt;Gradient descent is almost how water flows downhill along the direction in which height decreases most rapidly. It’s about aligning your path towards the local minimum by taking steps proportional to the negative of the gradient or derivative.&lt;/p&gt;
+
+&lt;p&gt;The thing is, in life, it doesn’t always work.&lt;/p&gt;
+
+&lt;p&gt;Tackling problems head on is tempting. Everybody wants to make a definitive to-do list on a daily basis and strike off items one by one. Habitual changes don’t come about this way. Getting up early in the morning and fresh for work doesn’t happen by going to bed at three and setting ten alarms for seven. It might work for a day or two, but you’re more than likely to revert back to the old routine or start cheating on the rules by pushing the time to the next half-hour round figure, etc.&lt;/p&gt;
+
+&lt;p&gt;Similar is the case with concentrating for long hours. Deciding right at the outset that you’re going to work continuously for six hours is almost never going to work. It’s too ambitious a goal. There are bound to be distractions and interruptions in such a long time interval. It might even seem okay to take five-minute breaks now and then because you still have &lt;em&gt;n&lt;/em&gt; hours.&lt;/p&gt;
+
+&lt;p&gt;Set short-term achievable goals. Getting yourself to work without distractions for an hour is a much more practical target to aim for. In my case, it almost always gets extended to two or three hours. It doesn’t work the other way round though, i.e. the ambitious pledge governing the commensurate outcome.&lt;/p&gt;
+
+&lt;p&gt;Waking up early means you have to finish work and be in bed by twelve to manage a good seven-hour sleep which in turn means that you have to finish socializing and dinner and other errands by ten.&lt;/p&gt;
+
+&lt;p&gt;The key lies in taking care of the tangential, individually inconsequential but necessary components first rather than a direct gradient descent approach. Bigger things will happen when you get the little things right.&lt;/p&gt;
+</content>
+    </entry>
+  
+    <entry>
+      <title>Collegiate Cyber Threat Competition - Wave III</title>
+      <link href="http://localhost:4000/posts/deloitte-cctc-3/" />
+      <updated>2014-05-05T20:00:00-04:00</updated>
+      <id>http://localhost:4000/posts/deloitte-cctc-3</id>
+      <content type="html">&lt;p&gt;Deloitte has been organizing the Collegiate Cyber Threat Competition every year for the past 3 years. SDSLabs has been fortunate enough to &lt;a href=&quot;http://captnemo.in/blog/2011/11/20/cctc-blog/&quot;&gt;be the winning team&lt;/a&gt; &lt;a href=&quot;https://www.facebook.com/photo.php?fbid=10151631176199203&amp;amp;set=t.622604202&amp;amp;type=3&amp;amp;theater&quot;&gt;three years in a row now&lt;/a&gt;. Although they change the format of the competition every year and will continue to do so, their main idea is to get students and industry experts together on the same platform, and discuss and tackle challenges in cyber security. Taking part in the competition is in itself an immense learning experience. This post summarizes my experience at this year’s CCTC.&lt;/p&gt;
+
+&lt;h2 id=&quot;round-0&quot;&gt;Round 0&lt;/h2&gt;
+
+&lt;p&gt;Since SDSLabs has been participating in the earlier two iterations of CCTC, we were looking forward to Deloitte coming to our campus this year as well. Round 0 was held at several college campuses across India in February, and involved a written quiz in teams of 3. The problems ranged from web application security to networking and were fairly straightforward. 3 teams were shortlisted from each campus to proceed to the following rounds. Our team, Legacy, consisted of Abhay Rana, Ravi Kishore and myself.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/cctc-3/round-0.jpg&quot; alt=&quot;round-0&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;round-1&quot;&gt;Round 1&lt;/h2&gt;
+
+&lt;p&gt;Round 1 was an online jeopardy-style CTF. There were multiple categories of problems such as SQL injection, XSS, cryptography, network analysis, etc which had difficulty-based point values. We were to submit a flag obtained by solving the challenge, and the 1st two teams to solve every challenge were given bonus points. Solutions to most of the challenges are given &lt;a href=&quot;http://github.com/captn3m0/cctc3-solutions&quot;&gt;here&lt;/a&gt; and we had a lot of fun solving them. We solved all but one challenge and were happy to be on top of the leaderboard before it was frozen, although we were later told that the final leaderboard was much closer than we expected. Top 5 teams from Round 1 were invited for the grand finals held in Hyderabad on May 1-2.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/cctc-3/round-1-leaderboard.jpg&quot; alt=&quot;round-1-leaderboard&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;round-2&quot;&gt;Round 2&lt;/h2&gt;
+
+&lt;p&gt;Round 2 was organized at the Hyderabad International Convention Centre. We landed in Hyderabad on the evening of 1st May, checked in at the Novotel and had some time to freshen up before meeting the Deloitte team for dinner. We were under the impression that the finals would take place the following morning and we would enjoy a peaceful night’s sleep. They seemed to have other plans for us though. After dinner, the competition was declared open, and each team was handed 2 identical laptops with 2 VMs each which we were told were known to be compromised. We had all night to analyze the systems, identify the extent of compromise, the malicious files/processes, the changes (filesystem/registry) made by them, the network activity, etc. and were to deliver a presentation on our findings to a panel of security experts from the industry. This was for 400 points. In addition, we also had to submit a &lt;a href=&quot;http://stix.mitre.org/&quot;&gt;STIX&lt;/a&gt; document to share the security threat information with our peers (in a real-world scenario), which was for 200 points.&lt;/p&gt;
+
+&lt;p&gt;Both the VMs were Windows machines. We weren’t allowed to mess with the host machine, or transfer files from the VMs to the internet or external media. Initially, our attention was divided over both the VMs but we were very early to figure out that one of them was a decoy (thanks to Nemo’s intuition). We used a host of tools such as CurrProcess, Wireshark, RegScanner, ProcessActivityView, SmartSniffer, Malware Bytes, HijackThis, etc. We kept logging our observations and steps on a shared WorkFlowy list.&lt;/p&gt;
+
+&lt;p&gt;This round was very exciting, more so because we hadn’t taken part in this kind of a challenge ever before and the whole real-world scenario of working in a Cyber Incident Response Team was very new to us. Although we were far from discovering all the malicious files and processes, we did well enough in our analysis to be declared the winners and were awarded INR 120000.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/cctc-3/winners.jpg&quot; alt=&quot;winners&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We thoroughly enjoyed taking part in this version of CCTC. Both round 1 and round 2 had brilliant challenges and we learnt a lot in the process. We are looking forward to next year’s competition and we have been promised that it’ll be bigger and better.&lt;/p&gt;
+
+</content>
+    </entry>
+  
+    <entry>
+      <title>Workflow Automation with Grunt</title>
+      <link href="http://localhost:4000/posts/automating-with-grunt/" />
+      <updated>2013-11-12T19:00:00-05:00</updated>
+      <id>http://localhost:4000/posts/automating-with-grunt</id>
+      <content type="html">&lt;p&gt;&lt;img src=&quot;/img/grunt/logo.png&quot; alt=&quot;Grunt&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I recently came across &lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt.js&lt;/a&gt; while working on &lt;a href=&quot;http://blog.sdslabs.co/2013/10/erdos-codebot&quot;&gt;Erdős&lt;/a&gt; at &lt;a href=&quot;//github.com/sdslabs&quot;&gt;SDSLabs&lt;/a&gt;. It is a task-based command line tool similar to Brunch, Maven, Gradle, and I love it! It’s primarily used to automate repetitive tasks in the development workflow and any (lazy) developer would fall in love with it. It takes care of tasks like compilation, minification, concatenation, versioning, cache-busting, linting, unit testing, etc. It isn’t limited to JS-specific tasks either, and it’s fairly easy to leverage the power of Node by using &lt;a href=&quot;http://gruntjs.com/api/grunt.util#grunt.util.spawn&quot;&gt;child processes&lt;/a&gt;. Also, it is well supported by an extremely active plugin development community. There may be other Javascript task runner solutions, but I don’t know of any at the moment that are worth taking a look at. In this post, I’ll go through the setup and a few Grunt tasks that I find really useful.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-basic-setup&quot;&gt;The basic setup&lt;/h2&gt;
+
+&lt;p&gt;As I’ve mentioned earlier, Grunt uses Node.js and is installed via NPM (Node Package Manager). Once you’ve got those ready, install the Grunt CLI globally.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; grunt-cli
+grunt &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The second command should output your current command line module version. Next, create &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt;, which keeps track of the dependencies we’re using in our project so we don’t have to push the node modules when collaborating with other developers.&lt;/p&gt;
+
+&lt;p&gt;This is what the project directory looks like which I’ll be referring to throughout this post.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;my-test-app/
+|--assets/
+|--|--dist/
+|--|--style.css
+|--|--main.js
+|--|--jquery.js
+|--index.tmpl
+|--package.json
+|--gruntfile.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;packagejson&quot;&gt;package.json&lt;/h3&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Erdos&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;0.1.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;author&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Abhishek Das&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;devDependencies&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;grunt&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~0.4.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;grunt-contrib-cssmin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;grunt-contrib-uglify&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;grunt-hashres&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;grunt-env&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;grunt-preprocess&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;matchdep&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install&lt;/code&gt;, and NPM will go fetch these for us and place them in a &lt;code class=&quot;highlighter-rouge&quot;&gt;node_modules&lt;/code&gt; folder (which should ideally be under gitignore).&lt;/p&gt;
+
+&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
+
+&lt;p&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;gruntfile.js&lt;/code&gt; which defines the workflow and tasks for Grunt to execute. Inside &lt;code class=&quot;highlighter-rouge&quot;&gt;gruntfile.js&lt;/code&gt;, all configuration is done by passing an object literal to &lt;code class=&quot;highlighter-rouge&quot;&gt;grunt.initConfig()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;grunt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;use strict&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;cm&quot;&gt;/* Load grunt modules */&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;matchdep&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;filterDev&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;grunt-*&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;grunt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;loadNpmTasks&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;grunt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;initConfig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/* All grunt tasks go here */&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+  &lt;span class=&quot;cm&quot;&gt;/* Public grunt tasks - to be called from command line */&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;grunt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;registerTask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;cssmin&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;uglify&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;env:production&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;preprocess&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;hashres&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;css-minification&quot;&gt;&lt;a href=&quot;https://github.com/gruntjs/grunt-contrib-cssmin&quot;&gt;CSS Minification&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This is used to minify all the CSS files for use in the production environment.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;cssmin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;production&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;assets/*.css&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;dest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;assets/dist/style.css&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This task can now be executed by calling &lt;code class=&quot;highlighter-rouge&quot;&gt;grunt cssmin:production&lt;/code&gt; on the command line.&lt;/p&gt;
+
+&lt;h3 id=&quot;uglify-js&quot;&gt;&lt;a href=&quot;https://github.com/gruntjs/grunt-contrib-uglify&quot;&gt;Uglify JS&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This takes care of javascript compression and minification, thus reducing file size which is important for websites to load fast.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;uglify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;production&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;assets/dist/main.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;assets/*.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This task can now be executed by running &lt;code class=&quot;highlighter-rouge&quot;&gt;grunt uglify:production&lt;/code&gt; from the command line. It will concatenate and uglify &lt;code class=&quot;highlighter-rouge&quot;&gt;jquery.js&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;main.js&lt;/code&gt; in one file.&lt;/p&gt;
+
+&lt;h3 id=&quot;environment-configuration&quot;&gt;&lt;a href=&quot;https://github.com/jsoverson/grunt-env/&quot;&gt;Environment Configuration&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This is a grunt task to automate environment configuration for other tasks. It can be used with the grunt-preprocess plugin to build &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; on-the-fly.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;development&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;NODE_ENV&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;development&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;production&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;NODE_ENV&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;production&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;preprocess&quot;&gt;&lt;a href=&quot;https://github.com/jsoverson/grunt-preprocess/&quot;&gt;Preprocess&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;As mentioned earlier, Grunt can preprocess files based off environment configuration.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;preprocess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;index.tmpl&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;dest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;index.html&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This task can now be executed by calling &lt;code class=&quot;highlighter-rouge&quot;&gt;grunt preprocess&lt;/code&gt; on the command line. Our &lt;code class=&quot;highlighter-rouge&quot;&gt;layout.tmpl&lt;/code&gt; can have logical blocks. This is useful in including analytics only on the production build, throwing in some ascii art, changing static asset paths based on environment etc.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- @if NODE_ENV = 'production' --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!--
+        ,---,.
+    ,'  .' |             ,---,
+  ,---.'   |  __  ,-.  ,---.'|   ,---.
+  |   |   .',' ,'/ /|  |   | :  '   ,'\   .--.--.
+  :   :  |-,'  | |' |  |   | | /   /   | /  /    '
+  :   |  ;/||  |   ,',--.__| |.   ; ,. :|  :  /`./
+  |   :   .''  :  / /   ,'   |'   | |: :|  :  ;_
+  |   |  |-,|  | ' .   '  /  |'   | .; : \  \    `.
+  '   :  ;/|;  : | '   ; |:  ||   :    |  `----.   \
+  |   |    \|  , ; |   | '/  ' \   \  /  /  /`--'  /
+  |   :   .' ---'  |   :    :|  `----'  '--'.     /
+  |   | ,'          \   \  /              `--'---'
+  `----'             `----'
+
+  --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- @endif --&amp;gt;&lt;/span&gt;
+  ...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;cache-busting&quot;&gt;&lt;a href=&quot;https://github.com/Luismahou/grunt-hashres&quot;&gt;Cache-busting&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;grunt-hashres is an extremely useful plugin that hashes js and css files and renames the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link&amp;gt;&lt;/code&gt; declarations that refer to them in my html/php/etc files.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;hashres&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;encoding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;utf8&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;fileNameFormat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;${name}.${hash}.${ext}&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;renameFiles&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;production&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;assets/dist/style.css&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;assets/dist/main.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;dest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;index.html&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This task can now be executed by running &lt;code class=&quot;highlighter-rouge&quot;&gt;grunt hashres:production&lt;/code&gt; from the command line. It would change &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;assets/dist/style.css&quot;&amp;gt;&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;assets/dist/style.130fdfaa.css&quot;&amp;gt;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script src=&quot;assets/dist/main.js&quot;&amp;gt;&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script src=&quot;assets/dist/main.9c4cc83e.js&quot;&amp;gt;&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;. It would also rename the corresponding CSS &amp;amp; JS files in the &lt;code class=&quot;highlighter-rouge&quot;&gt;assets/dist&lt;/code&gt; directory. This is much better than using a timestamp because the hash only changes when a file has been updated.&lt;/p&gt;
+
+&lt;h2 id=&quot;build&quot;&gt;Build&lt;/h2&gt;
+
+&lt;p&gt;Public grunt tasks defined at the bottom of &lt;code class=&quot;highlighter-rouge&quot;&gt;gruntfile.js&lt;/code&gt; can be called directly from the command line. The &lt;code class=&quot;highlighter-rouge&quot;&gt;default&lt;/code&gt; task is executed by running &lt;code class=&quot;highlighter-rouge&quot;&gt;grunt&lt;/code&gt;. Environment variables should ideally be picked up from the project configuration file. &lt;a href=&quot;https://gist.github.com/abhshkdz/7460904&quot;&gt;Here&lt;/a&gt; is the complete gruntfile for convenience. If everything went right, you should see the following output when you run &lt;code class=&quot;highlighter-rouge&quot;&gt;grunt&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/grunt/output.png&quot; alt=&quot;Output&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was just a basic introduction and walkthrough to using Grunt. Actual usage would definitely be more robust and complex. Grunt comes with pretty much everything you’ll need to use it on a large project and can be extended as much as you want.&lt;/p&gt;
+</content>
+    </entry>
+  
+    <entry>
+      <title>Google India Community Summit</title>
+      <link href="http://localhost:4000/posts/google-india-community-summit/" />
+      <updated>2013-08-04T20:00:00-04:00</updated>
+      <id>http://localhost:4000/posts/google-india-community-summit</id>
+      <content type="html">&lt;p&gt;Back in May, Google initiated it’s Google Student Ambassador Program in India. Heads of institutes were notified of this program and asked to recommend potential students. I was fortunate enough to be recommended by Professor SP Gupta (Deputy Director) among 10 other candidates from IIT Roorkee. Next, I had to submit an application explaining my interest in Google products, the program and everything else I had been involved in at any point of my college life. I made it through this round of sieving and within a week had to appear for an interview over phone as the final round of shortlisting. The questions mainly revolved around my technical knowledge of Google products, prior experience in event management and passion for helping the community grow. The interview lasted ~20 minutes but it was undoubtedly one of the most important phone conversations I’ve ever had. I obviously made it through the interview. Obvious because otherwise this post wouldn’t be titled the way it is!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/google-india-community-summit/gics-logo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The mail I received on 1 July established me as a &lt;strong&gt;Google Student Ambassador&lt;/strong&gt;. In total, there were 266 other GSAs from 245 institutes across India. I was to act as a point of contact between Google and the institute, and evangelize Google products and the web in and around my campus. Most importantly, I was invited to attend the &lt;a href=&quot;http://www.google.com/intl/ALL_in/events/gics/&quot;&gt;Google India Community Summit&lt;/a&gt; to be held at The Leela, Goa from August 1-4, 2013.&lt;/p&gt;
+
+&lt;p&gt;Google is a crazy company. And I mean that in a big way. Anyone who has been even remotely associated with the company or has followed it for some time would agree without a second thought. And it has a culture that keeps everyone motivated and passionate to build great products and do the best work of their lives. Every session of the summit reflected this crazy thinking, passion and motivation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/google-india-community-summit/deepak-sridhar.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/google-india-community-summit/magic.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/google-india-community-summit/startup.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Deepak Sridhar, head of the Google Student Ambassador Program in India, had been in touch with all the GSAs from the beginning and had meticulously planned out the entire event with his team. “Do Cool Things That Matter” was what he said when he first addressed the gathering.&lt;/p&gt;
+
+&lt;p&gt;The agenda of the summit ranged from sessions for developers to those on marketing, ethics, search engine optimization and designing guidelines to live product demos to photowalks with professional photographers to theatre workshops. Googlers had flown in from Egypt, Mountain View, London, Ukraine, France &amp;amp; Africa to engage with us. A few who couldn’t make it joined us on Hangouts.&lt;/p&gt;
+
+&lt;p&gt;Lighter side of things included the walks at the beach every night and the cultural evening. Standup comedy by the super-talented Kenneth Sebastian set the ball rolling for the cultural show. Performances by groups from different parts of India followed and it was an excellent showcase of talent.&lt;/p&gt;
+
+&lt;p&gt;Before the summit, I didn’t know what to expect and prepare for. I wasn’t even sure of my role as a GSA. I’m glad I learnt a few things at the summit, and made a lot of new friends. This was my first visit to Goa as well as my first interaction with Googlers, and I’m sure it definitely won’t be the last, for both!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/google-india-community-summit/swag.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+    </entry>
+  
+    <entry>
+      <title>Summer of Code</title>
+      <link href="http://localhost:4000/posts/summer-of-code/" />
+      <updated>2013-07-31T20:00:00-04:00</updated>
+      <id>http://localhost:4000/posts/summer-of-code</id>
+      <content type="html">&lt;p&gt;This summer has proved to be a busy one for me. I’ve been working in parallel on two major open-source projects. One is Emory University’s Intensive Care Unit Visualization &amp;amp; Analytics project, for which I was selected as a Google Summer of Code developer, and the other is OWASP’s PHP Security Project. It has been a huge learning experience so far.&lt;/p&gt;
+
+&lt;h2 id=&quot;icu-visualization--analytics&quot;&gt;ICU Visualization &amp;amp; Analytics&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/summer-of-code/icu-visualizations-mockup.png&quot; alt=&quot;mockup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The ICU Visualization &amp;amp; Analytics Project under Emory University mainly deals with the development of an intuitive web interface for clinicians to monitor patient state in realtime. The visualizations include the data coming in from all the sensors as well as results obtained from algorithms running on the raw data. My initial work included trying out a few of the graphing libraries out there including HighCharts, Rickshaw, D3, Cubism. While bare metal D3 gave me all the power and customization options I wanted, Rickshaw was specifically built for handling large amounts of time-series data. There was no point re-inventing the wheel and I decided to stick with Rickshaw.&lt;/p&gt;
+
+&lt;p&gt;The application is JS-heavy and the stack consists of Node, Socket.IO, Backbone, Underscore, Rickshaw, D3, Foundation &amp;amp; jQuery. Prior to working on this project, I had some experience in the Backbone + Underscore + Socket.IO stack from my &lt;a href=&quot;https://github.com/abhshkdz/hackflowy&quot;&gt;HackFlowy&lt;/a&gt; days. The major obstacle has been the proper handling of raw data coming in at 240Hz. Any mismanagement and the application starts to lag excessively after 10-15 seconds. My project mentor, Dr. Sharath Cholleti, has been highly supportive &amp;amp; appreciative of my work. We have bi-weekly meetings over Hangouts or phone and we set short-term, achievable goals and so far, it has worked out well for both of us.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/summer-of-code/icu-visualizations-screenshot.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/summer-of-code/icu-visualizations-screenshot2.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;php-security-project&quot;&gt;PHP Security Project&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/owasp/phpsec&quot;&gt;PHP Security Project&lt;/a&gt;, on the other hand, demands a sound knowledge of PHP and web security. The project has about 10 developers onboard and the mailing list is always flooded with doubts, debates and discussions. It is a project that addresses the &lt;a href=&quot;https://www.owasp.org/index.php/Top_10_2013-Top_10&quot;&gt;OWASP Top 10 list&lt;/a&gt; and provides decoupled libraries, and a demonstrative framework providing easy to use standard security practices for PHP applications. I’ve been actively involved in the development of the Database Communication library and the HTTP Request / Response handling library.&lt;/p&gt;
+
+&lt;p&gt;The next library I work on is going to be one that handles CSRF. While employing per-page &amp;amp; per-session tokens has been considered the classic way to prevent CSRF, recently a lot of security experts have come up with their own solutions. I’m going through some of these papers at the moment to decide on the most secure and future-proof solution. Later this month, I’ll get my hands dirty and work on it’s implementation. This is a very important library and has to be handled perfectly.&lt;/p&gt;
+
+</content>
+    </entry>
+  
+    <entry>
+      <title>The Setup</title>
+      <link href="http://localhost:4000/posts/the-setup/" />
+      <updated>2013-03-27T20:00:00-04:00</updated>
+      <id>http://localhost:4000/posts/the-setup</id>
+      <content type="html">&lt;h2 id=&quot;who-am-i-and-what-do-i-do&quot;&gt;Who am I, and what do I do?&lt;/h2&gt;
+
+&lt;p&gt;I’m Abhishek Das, a B.Tech. student at IIT Roorkee. I write code, kill mosquitoes and wear many hats. But most of my time at the keyboard is spent producing software. A lot of these are internal projects for SDSLabs (a student group constantly striving to innovate and foster technical activities @IITR) and the rest are on Github. I ♥ open-source.&lt;/p&gt;
+
+&lt;p&gt;I’m also a pianist and have qualified upto Grade 6 from Trinity School of Music. I’ve been playing the piano since I was 5, and I’m 21 now.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-hardware-do-i-use&quot;&gt;What hardware do I use?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/the-setup/lab.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These days, the only hardware you need to change the world is a laptop. I use a 15” Dell XPS L502X that I got in 2011. It has an Intel Core i7-2630QM processor, Nvidia GeForce GT 540M graphics card and 8GB of memory. It is hooked up to a 1TB Seagate Expansion Portable Hard Drive. When on the move, I carry a 32 GB Nexus 7 and a 32 GB iPod Touch. Apart from that, I also own an ancient Archos AV500 Mobile DVR and a 16GB iPod Nano. I keep shuffling between the Blackberry Bold 9900 &amp;amp; Nokia N95 8GB to answer calls.&lt;/p&gt;
+
+&lt;p&gt;I am an occasional Counter Strike 1.6 assaulter and use a Razer DeathAdder mouse and Sony MDR-XD100 headphones to pwn enemies.&lt;/p&gt;
+
+&lt;p&gt;I recently started experimenting with the Arduino Mega 2560 and Leap Motion Controller.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-what-software&quot;&gt;And what software?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/the-setup/ubuntu+cinnamon.png&quot; alt=&quot;Ubuntu+Cinnamon&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am currently using Ubuntu + Cinnamon on my laptop. I browse the web with Google Chrome. My most used command line tools are probably git (on steroids with &lt;a href=&quot;https://github.com/ndbroadbent/scm_breeze&quot;&gt;SCM Breeze&lt;/a&gt;), ssh, node, curl and autojump. Vim (bundled with the &lt;a href=&quot;https://github.com/amix/vimrc&quot;&gt;Ultimate Vim configuration&lt;/a&gt;) and Sublime Text 2 (with the simple Flatland theme) are my favourite code editors. I use a combination of Dropbox, Copy, Google Drive and SpiderOak to maintain a backup of all my data in the cloud. WorkFlowy is my preferred cloud-based note-taking application. &lt;a href=&quot;https://github.com/abhshkdz/hackflowy&quot;&gt;I love it so much I even built an open-source version of it!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My Nexus 7 runs Android 4.3 Jelly Bean. My most frequently used apps are Feedly, Evernote, Keep, Pocket, Mantano Reader Premium, OctoDroid, HootSuite, ConnectBot and Chrome. Installed games include Flow, Super Hexagon, NFS Most Wanted, Temple Run, Riptide, Cut the Rope, Angry Birds and Subway Surfers.&lt;/p&gt;
+
+&lt;p&gt;Most of my non-coding time across all of these devices, is spent on the web. I’m a Hacker News addict. Gmail, Google+, Twitter &amp;amp; GitHub are my most used web-apps.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-would-be-my-dream-setup&quot;&gt;What would be my dream setup?&lt;/h2&gt;
+
+&lt;p&gt;I’m pretty happy with what I have, within the constraints of reality.&lt;/p&gt;
+
+&lt;p&gt;If we’re willing to throw that out, I’d love a laptop with the profile and weight of the Chromebook Pixel with days upon days of battery capacity. Lots of RAM, SSD, and a fast but (more important) energy-efficient ARM core.&lt;/p&gt;
+
+&lt;p&gt;And if we’re talking super crazy, I’ll take the &lt;a href=&quot;http://chris.wanstrath.usesthis.com/&quot;&gt;thought-controlled software and wireless brain connection&lt;/a&gt;, too, please.&lt;/p&gt;
+
+</content>
+    </entry>
+  
+</feed>

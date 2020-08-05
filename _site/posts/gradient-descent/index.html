@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gradient Descent is Hard</title>
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="author" content="Gautham Vasan">
+        <meta name="keywords" content="gautham, gautham vasan, jekyll, kindred, nit trichy, deep learning, reinforcement learning, robotics, university of alberta, machine learning, artificial intelligence">
+        
+        <meta name="description" content="Big things happen when you do the little things right">
+        
+        <link rel="alternate" type="application/atom+xml" title="Gautham Vasan" href="http://localhost:4000/atom.xml" />
+        <!--Open Graph Related Stuff-->
+        <meta property="fb:app_id" content="1666933880208467"/>
+        <meta property="og:title" content="Gradient Descent is Hard"/>
+        <meta property="og:url" content="http://localhost:4000/posts/gradient-descent/"/>
+        
+        <meta name='og:description' content='Big things happen when you do the little things right'/>
+        
+        
+        <meta property="og:type" content="article"/>
+        <meta property="article:published_time" content='2014-09-19'/>
+        <meta property="article:publisher" content="https://www.facebook.com/gautham.vasan"/>
+        <meta property="article:author" content="gautham"/>
+        
+        <meta property="og:site_name" content="Gautham Vasan"/>
+        
+        <meta property="og:image" content="https://englightenedidiot.net/assets/images/avatar.jpg"/>
+        <meta property="og:image:url" content="https://englightenedidiot.net/assets/images/avatar.jpg"/>
+        
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/main_1548935627.css">
+        <!--[if IE 7]>
+            <html class="ie7">
+            <link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
+        <![endif]-->
+        <!--[if IE 8]><html class="ie8"> <![endif]-->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+        <link rel="shortcut icon" href="/ico/favicon-96x96.png">
+        <link rel="manifest" href="/ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!--Authorship-->
+        <!-- <link rel="me" href="//plus.google.com/u/0/100610196494221761914/"> -->
+        <link rel="me" href="//facebook.com/gautham.vasan">
+
+        <!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+        <!-- Header
+            ================================================== -->
+        <div class="top-strip"></div>
+        <div class="container">
+            <div class="page-header">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 id="name-block"><a href="/">Gautham Vasan</b></a></h1>
+                    </div>
+                    <div class="col-xs-12">
+                        <ul class="nav-bar">
+                            <li><a href="/#/bio">About Me</a></li>
+                            <li><a target="_blank" href="https://drive.google.com/file/d/1h_K1Rq0Qgqx1TV3nettG-MpC35NXCeUk/view?usp=sharing">CV</a></li>
+                            <li><a href="/#/publications">Publications</a></li>
+                            <li><a target="_blank" href="https://scholar.google.ca/citations?user=ijoLCmEAAAAJ&hl=en&authuser=1">Google Scholar</a></li>
+                            <li class="hide-link-on-small-screens"><a href="https://enlightenedidiot.net/">Machinae Animatae</a></li> <!-- # Devices Animated -->
+                            <li class="hide-link-on-small-screens"><a href="https://enlightenedidiot.net/">Musings of an Enlightened Idiot</a></li>
+                            <!-- <li class="hide-link-on-small-screens"><a href="/bookshelf">Bookshelf</a></li>  -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="page-content">
+                <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<article class="post">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1 class="content">Gradient Descent is Hard</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2 class="excerpt">Big things happen when you do the little things right</h2>
+        </div>
+    </div>
+    <section class="post-content">
+        <p>Remember that time when you told yourself, “I am going to work continuously for six hours and get this thing done!” and it didn’t happen? That time when you went to bed at three in the night with the resolution that you’d get up at seven and work, only to wake up much later?</p>
+
+<p>Gradient descent is almost how water flows downhill along the direction in which height decreases most rapidly. It’s about aligning your path towards the local minimum by taking steps proportional to the negative of the gradient or derivative.</p>
+
+<p>The thing is, in life, it doesn’t always work.</p>
+
+<p>Tackling problems head on is tempting. Everybody wants to make a definitive to-do list on a daily basis and strike off items one by one. Habitual changes don’t come about this way. Getting up early in the morning and fresh for work doesn’t happen by going to bed at three and setting ten alarms for seven. It might work for a day or two, but you’re more than likely to revert back to the old routine or start cheating on the rules by pushing the time to the next half-hour round figure, etc.</p>
+
+<p>Similar is the case with concentrating for long hours. Deciding right at the outset that you’re going to work continuously for six hours is almost never going to work. It’s too ambitious a goal. There are bound to be distractions and interruptions in such a long time interval. It might even seem okay to take five-minute breaks now and then because you still have <em>n</em> hours.</p>
+
+<p>Set short-term achievable goals. Getting yourself to work without distractions for an hour is a much more practical target to aim for. In my case, it almost always gets extended to two or three hours. It doesn’t work the other way round though, i.e. the ambitious pledge governing the commensurate outcome.</p>
+
+<p>Waking up early means you have to finish work and be in bed by twelve to manage a good seven-hour sleep which in turn means that you have to finish socializing and dinner and other errands by ten.</p>
+
+<p>The key lies in taking care of the tangential, individually inconsequential but necessary components first rather than a direct gradient descent approach. Bigger things will happen when you get the little things right.</p>
+
+    </section>
+    <div class="when">19 September 2014</div>
+    <div class='share'>
+        <iframe src="https://ghbtns.com/github-btn.html?user=abhshkdz&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px" style="margin-right:20px;"></iframe>
+        <span class='gplus-wrapper'><div class='g-plusone' data-href='http://localhost:4000/posts/gradient-descent/' data-size='medium'></div></span>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://localhost:4000/posts/gradient-descent/" data-text="Gradient Descent is Hard" data-via="abhshkdz"></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <iframe allowTransparency='true' frameborder='0' scrolling='no' src='https://www.facebook.com/plugins/like.php?href=http://localhost:4000/posts/gradient-descent/&layout=button_count&show_faces=false&width=77&action=like&colorscheme=light&height=20' style='margin-left: 30px; border:none; overflow:hidden; width:100px; height:20px;'></iframe>
+    </div>
+    <hr>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'abhshkdz';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</article>
+
+            </div>
+        </div>
+
+
+        <!-- Footer
+            ================================================== -->
+
+        <!-- Javascripts
+            ================================================= -->
+
+        <!-- Analytics
+        ================================================== -->
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-42127951-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </body>
+</html>
