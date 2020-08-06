@@ -78,19 +78,12 @@ Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3]. As 
 
 I graudated with an M.Sc (Thesis) in Computing Science from the University of Alberta in 2017. I worked under the supervision of [Patrick M. Pilarski][4] as a part of the [BLINC](BLINC) and [RLAI](RLAI) labs. As a part of my masters, I mostly worked with rehabilitative and assistive robots. My thesis research was on _‟Teaching a Powered Prosthetic Arm with an Intact Arm Using Reinforcement Learning”_. We used ideas from _Learning from Demonstration, Actor-Critic Reinforcement Learning_ and explored the possibilities for synergistic, context-aware control of a prosthetic arm. This work won the _2017 M.Sc. Outstanding Thesis Award in Computing Science_.
 
-In a past life, I studied _Instrumentation and Control Engineering_ at the National Institute of Technology (NIT), Tiruchirappalli. Under the guidance of Prof. G. Saravana Ilango, my team devised control strategies for an autonomous robotic vacuum cleaner for solar panels which garnered accolades at the Texas Instruments Innovation Challenge (2014). In addition, I evaluated methods for model predictive control, real-time trajectory generation and motion planning for quadcopters while working with [K. Madhava Krishna][9] and [V. Sankaranarayanan][8].
+In a past life, I studied _Instrumentation and Control Engineering_ at the National Institute of Technology (NIT), Tiruchirappalli. Under the guidance of [G. Saravana Ilango][11], my team devised control strategies for an autonomous robotic vacuum cleaner for solar panels which garnered accolades at the Texas Instruments Innovation Challenge (2014). In addition, I evaluated methods for model predictive control, real-time trajectory generation and motion planning for quadcopters while working with [K. Madhava Krishna][9] and [V. Sankaranarayanan][8].
 
 
 I also maintain an academic blog titled [Machinae Animatae][tech-blog] and a personal blog titled [Musings of an Enlightened Idiot][blog]
 
-Devices animated
-
-
 My CV is available [here](#)
-
-
-
-
 
 ---
 <a name="/publications"></a>
@@ -194,7 +187,7 @@ My CV is available [here](#)
 <div class="row">
     <div class="col-xs-6">
         <p class="pubd">
-            <img src="/img/ICORR_2017/bentoarm.jpg">
+            <img src="/img/BioRob_2018/contextual_lfd_trial.jpg">
         </p>
     </div>
     <div class="col-xs-6">
@@ -226,7 +219,7 @@ My CV is available [here](#)
         </div>
         <div class="row-xs-3">
             <p class="pubd">
-                <img src="/img/BioRob_2018/contextual_lfd_trial.jpg">
+                <img src="/img/ICORR_2017/trial_2.png">
             </p>
         </div>
     </div>
@@ -265,7 +258,7 @@ My CV is available [here](#)
     <div class="col-xs-6">
         <div class="row-xs-3">
             <p class="pubd">
-                <img src="/img/ICORR_2017/trial_2.png">
+                <img src="/img/ICORR_2017/bentoarm.jpg">
             </p>
         </div>
         <div class="row-xs-3">
@@ -295,7 +288,12 @@ My CV is available [here](#)
 <div class="row">
     <div class="col-xs-6">
         <p class="pubd">
-            <img src="/img/hex.jpg">
+            <img src="/img/NeuroHex/hexboard.png">
+        </p>
+    </div>
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/NeuroHex/model_architecture.png">
         </p>
     </div>
 </div>
@@ -309,6 +307,7 @@ My CV is available [here](#)
     <span class="conf">IEEE ICIIP 2015</span><br>
     <span class="links">
         <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7414792">Paper</a>
+        <a target="_blank" href="https://drive.google.com/file/d/0B78EAxFuk2RLWUsyOWdTMTdYak0/view?usp=sharing">Video</a>
     </span>
 </p>
 <div class="row">
@@ -333,7 +332,7 @@ My CV is available [here](#)
     <span class="conf">IEEE Texas Instruments India Educators Conference 2014 </span><br>
     <span class="conf"> Phase-I Winners and finalists (top 19 among 2000+ teams) </span><br>
     <span class="links">
-        <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7899211">Paper</a>
+        <a target="_blank" href="https://arxiv.org/abs/1412.0591">Paper</a>
         <a target="_blank" href="https://youtu.be/qiCRSVuftFQ">Video</a>
         <a target="_blank" href="https://youtu.be/B_-TnMiD76M">Presentation</a>
     </span>
@@ -341,7 +340,19 @@ My CV is available [here](#)
 <div class="row">
     <div class="col-xs-6">
         <p class="pubd">
-            <img src="/img/TI/ti_award.jpg">
+            <img src="/img/TI/robot_1.png">
+        </p>
+    </div>
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/TI/robot_2.png">
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/TI/ti_team.png">
         </p>
     </div>
     <div class="col-xs-6">
@@ -350,7 +361,47 @@ My CV is available [here](#)
         </p>
     </div>
 </div>
-<hr>
+
+
+---
+<a name="/TheEnd"></a>
+# The End
+
+<div class="row">
+    <div class="col-xs-6">
+        <p class="pubd">
+            <img src="/img/waving_bear.gif" align="center">
+        </p>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="page-header">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="nav-bar">
+                    <li><a href="/">Home</a></li>
+                    <li><a target="_blank" href="https://drive.google.com/file/d/1h_K1Rq0Qgqx1TV3nettG-MpC35NXCeUk/view?usp=sharing">CV</a></li>
+                    <li><a href="/#/publications">Publications</a></li>
+                    <li><a target="_blank" href="https://scholar.google.ca/citations?user=ijoLCmEAAAAJ&hl=en&authuser=1">Google Scholar</a></li>
+                    <li class="hide-link-on-small-screens"><a href="https://enlightenedidiot.net/">Machinae Animatae</a></li> <!-- # Devices Animated -->
+                    <li class="hide-link-on-small-screens"><a href="https://enlightenedidiot.net/">Musings of an Enlightened Idiot</a></li>
+                    <!-- <li class="hide-link-on-small-screens"><a href="/bookshelf">Bookshelf</a></li>  -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+© Gautham Vasan 2020 Design: [Abhishek Das][10] makes a nice webpage! 
+ 
+
+
+<!-- The End -->
+ 
 
 
 <script src="/js/jquery.min.js"></script>
@@ -373,6 +424,8 @@ My CV is available [here](#)
 [7]: http://www.incompleteideas.net/
 [8]: https://www.nitt.edu/home/academics/departments/eee/people/faculty/prof/sankar/
 [9]: https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en
+[10]: https://abhishekdas.com/
+[11]: https://scholar.google.co.in/citations?user=6u5SPboAAAAJ&hl=en
 [RL-wiki]: https://en.wikipedia.org/wiki/Reinforcement_learning
 [RL-book]: http://www.incompleteideas.net/book/the-book.html
 [SORT]: https://www.kindred.ai/products
@@ -382,4 +435,4 @@ My CV is available [here](#)
 [AMII]: https://www.amii.ca/
 [BLINC]: https://blinclab.ca/
 [blog]: https://enlightenedidiot.net/
-[tech-blog]: #
+[tech-blog]: /machinae_animatae
