@@ -12,7 +12,11 @@ permalink:  /
         PhD Candidate in Statistical Machine Learning<br>        
         Dept. of Computing Science, <a href="http://rlai.ualberta.ca/">RLAI</a> & <a href="https://www.amii.ca/">AMII</a> <br>
         <a href="https://www.ualberta.ca/computing-science/index.html">University of Alberta</a><br>
-        gauthamv dot 529 at gmail dot com
+        gauthamv dot 529 at gmail dot com <br> <br>
+        <a href="https://github.com/gauthamvasan" class="fa fa-github" style="font-size:24px"></a> &nbsp;
+        <a href="https://www.linkedin.com/in/gauthamvasan/" class="fa fa-linkedin" style="font-size:24px"></a> &nbsp;
+        <a href="https://www.goodreads.com/user/show/29446357-gautham-vasan" class="fa fa-book" style="font-size:24px"></a> &nbsp;
+        <a href="mailto:gauthamv.529@gmail.com" class="fa fa-envelope" style="font-size:24px"></a> &nbsp;
     </div>
 </div>
 <hr>
