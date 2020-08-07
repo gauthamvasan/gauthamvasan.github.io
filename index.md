@@ -28,7 +28,7 @@ permalink:  /
 I read. I write. I build stuff. 
 
 **I'm interested in building machines with human-like intelligence.**
-My research lies in the overlapping areas of _Artificial Intelligence_ and _Robotics_. I actively work on the design and development of _Reinforcement Learning ([RL][RL-wiki])_ algorithms and _continual learning_ systems for real-world robots. I also have a strong side interest in _Neuroscience_, _Evolutionary Biology_ and _Quantum Computing_. All are a part of an overarching goal to understand the emergence of intelligence.  <br>
+My research lies in the overlapping areas of _Artificial Intelligence_ and _Robotics_. I actively work on the design and development of _Reinforcement Learning ([RL][RL-wiki])_ algorithms and _continual learning_ systems for real-world robots. I also have a strong side interest in _Neuroscience_, _Evolutionary Biology_ and _Quantum Computing_. All are part of an overarching goal to understand the emergence of intelligence.  <br>
 
 ---
 
