@@ -78,7 +78,7 @@ My research lies in the overlapping areas of _Artificial Intelligence_ and _Robo
 
 I'm a PhD candidate in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group.  
 
-Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3] working with [James Bergstra][12], [Dmytro Korenkevych][13] and [Rupam Mahmood][5]. As a member of the AI Research Team in Toronto, I developed Deep Reinforcement Learning techniques to improve the product's ([SORT](SORT)) overall throughput at e-commerce fulfillment centres like [Gap Inc](GAP), etc. I was also responsible for the design, implementation and evaluation of learning algorithms and robot infrastructure as a part of the research and publication efforts at Kindred (e.g., [SenseAct](SenseAct)). 
+Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3]. As a member of the AI Research Team in Toronto, I developed Deep Reinforcement Learning techniques to improve the product's ([SORT](SORT)) overall throughput at e-commerce fulfillment centres like [Gap Inc](GAP), etc. I was also responsible for the design, implementation and evaluation of learning algorithms and robot infrastructure as a part of the research and publication efforts at Kindred (e.g., [SenseAct](SenseAct)). I spent three wonderful years at Kindred; intially working with [Geordie Rose][14], [Suzzanne Gildert][15] and [Olivia Norton][16] in Vancouver and subsequently with [James Bergstra][12], [Dmytro Korenkevych][13] and [Rupam Mahmood][5] in Toronto.
 
 
 I graudated with an M.Sc (Thesis) in Computing Science from the University of Alberta in 2017. I worked under the supervision of [Patrick M. Pilarski][4] with the [BLINC](BLINC) and [RLAI](RLAI) labs. During my masters, I mostly worked with rehabilitative and assistive robots. My thesis research was on _‟Teaching a Powered Prosthetic Arm with an Intact Arm Using Reinforcement Learning”_. We used ideas from _Learning from Demonstration, Actor-Critic Reinforcement Learning_ and explored the possibilities for synergistic, context-aware control of a prosthetic arm. This work won the _2017 M.Sc. Outstanding Thesis Award in Computing Science_.
@@ -374,6 +374,16 @@ My CV is available [here][CV].
     </div>
 </div>
 
+---
+<a name="/Misc"></a>
+
+# Miscellaneous Stuff I'm Proud To Have Been A Part Of
+- A short stint as a research volunteer with The Hospital for Sick Children (**[SickKids][SickKids]**). 
+- **Cerebral Palsy and Spasticity Trials**. I had the pleasure of working with medical doctors on a study assessing functional gain in patients affected by stroke or spasticity using assistive robots. I built tools to analyze the recorded sensory information and setup a robot interface for 12 patients. Thanks to [Patrick Pilarski][6], Trevor Lashyn, Matthew Curran and [Ming Chan][18] at the University of Alberta for looping me in! 
+- **Festember**, the annual International cultural festival of NIT Trichy. Festember is especially close to my heart since it was a labor of love. A lot of talented, passionate folks came together and poured tremendous effort, love and resources to create something special :) I spent two great years with the Marketing team and was the _Treasurer_ of _Festember 2014_. As the Treasurer, I handled the finances of the festival (~INR 20 Million) and executed several key decisions with regards to budget, expenditure, resource management for teams, etc. 
+- **Spider**, an R&D club at NIT Trichy. We conducted tech talks and workshops focusing on microcontrollers and embedded programming.
+- **Pragyan**, the annual technical festival of NIT Trichy. I worked with the Guest Lectures and Crossfire Teams. Personal highlights: (i) helped moderate a wonderful panel discussion on "Failing educational institutions?" (ii) [Jamie Hyneman][17], host of Discovery Mythbusters as a guest lecturer for Pragyan 14!  
+
 
 ---
 <a name="/TheEnd"></a>
@@ -420,6 +430,11 @@ My CV is available [here][CV].
 [11]: https://scholar.google.co.in/citations?user=6u5SPboAAAAJ&hl=en
 [12]: https://scholar.google.ca/citations?user=KOBmy0sAAAAJ&hl=en&authuser=1
 [13]: https://scholar.google.ca/citations?user=weps1f4AAAAJ&hl=en&authuser=1
+[14]: https://ca.linkedin.com/in/geordie-rose-a53abb
+[15]: https://www.suzannegildert.com/
+[16]: https://ca.linkedin.com/in/olivia-norton-20791837
+[17]: https://en.wikipedia.org/wiki/Jamie_Hyneman
+[18]: https://sites.ualberta.ca/~kming/index.html
 [RL-wiki]: https://en.wikipedia.org/wiki/Reinforcement_learning
 [RL-book]: http://www.incompleteideas.net/book/the-book.html
 [SORT]: https://www.kindred.ai/products
@@ -431,3 +446,4 @@ My CV is available [here][CV].
 [blog]: https://enlightenedidiot.net/
 [tech-blog]: /machinae_animatae
 [CV]: /Resume.pdf
+[SickKids]: https://www.sickkids.ca/
