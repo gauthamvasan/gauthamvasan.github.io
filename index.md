@@ -76,11 +76,12 @@ My research lies in the overlapping areas of _Artificial Intelligence_ and _Robo
     </div>
 </div>
 
-I'm a PhD candidate in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] as a part of the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group.  
+I'm a PhD candidate in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group.  
 
-Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3]. As a part of the AI Research Team in Toronto, I developed Deep Reinforcement Learning techniques to improve the product's ([SORT](SORT)) overall throughput at e-commerce fulfillment centres like [Gap Inc](GAP), etc. I was also responsible for the design, implementation and evaluation of learning algorithms and robot infrastructure as a part of the research and publication efforts at Kindred (e.g., [SenseAct](SenseAct)). 
+Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3] working with [James Bergstra][12], [Dmytro Korenkevych][13] and [Rupam Mahmood][5]. As a member of the AI Research Team in Toronto, I developed Deep Reinforcement Learning techniques to improve the product's ([SORT](SORT)) overall throughput at e-commerce fulfillment centres like [Gap Inc](GAP), etc. I was also responsible for the design, implementation and evaluation of learning algorithms and robot infrastructure as a part of the research and publication efforts at Kindred (e.g., [SenseAct](SenseAct)). 
 
-I graudated with an M.Sc (Thesis) in Computing Science from the University of Alberta in 2017. I worked under the supervision of [Patrick M. Pilarski][4] as a part of the [BLINC](BLINC) and [RLAI](RLAI) labs. As a part of my masters, I mostly worked with rehabilitative and assistive robots. My thesis research was on _‟Teaching a Powered Prosthetic Arm with an Intact Arm Using Reinforcement Learning”_. We used ideas from _Learning from Demonstration, Actor-Critic Reinforcement Learning_ and explored the possibilities for synergistic, context-aware control of a prosthetic arm. This work won the _2017 M.Sc. Outstanding Thesis Award in Computing Science_.
+
+I graudated with an M.Sc (Thesis) in Computing Science from the University of Alberta in 2017. I worked under the supervision of [Patrick M. Pilarski][4] with the [BLINC](BLINC) and [RLAI](RLAI) labs. During my masters, I mostly worked with rehabilitative and assistive robots. My thesis research was on _‟Teaching a Powered Prosthetic Arm with an Intact Arm Using Reinforcement Learning”_. We used ideas from _Learning from Demonstration, Actor-Critic Reinforcement Learning_ and explored the possibilities for synergistic, context-aware control of a prosthetic arm. This work won the _2017 M.Sc. Outstanding Thesis Award in Computing Science_.
 
 In a past life, I studied _Instrumentation and Control Engineering_ at the National Institute of Technology (NIT), Tiruchirappalli. Under the guidance of [G. Saravana Ilango][11], my team devised control strategies for an autonomous robotic vacuum cleaner for solar panels which garnered accolades at the Texas Instruments Innovation Challenge (2014). In addition, I evaluated methods for model predictive control, real-time trajectory generation and motion planning for quadcopters while working with [K. Madhava Krishna][9] and [V. Sankaranarayanan][8].
 
@@ -417,6 +418,8 @@ My CV is available [here][CV].
 [9]: https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en
 [10]: https://abhishekdas.com/
 [11]: https://scholar.google.co.in/citations?user=6u5SPboAAAAJ&hl=en
+[12]: https://scholar.google.ca/citations?user=KOBmy0sAAAAJ&hl=en&authuser=1
+[13]: https://scholar.google.ca/citations?user=weps1f4AAAAJ&hl=en&authuser=1
 [RL-wiki]: https://en.wikipedia.org/wiki/Reinforcement_learning
 [RL-book]: http://www.incompleteideas.net/book/the-book.html
 [SORT]: https://www.kindred.ai/products
