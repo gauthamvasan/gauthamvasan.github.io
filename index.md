@@ -81,9 +81,9 @@ I graudated with an M.Sc (Thesis) in Computing Science from the University of Al
 In a past life, I studied _Instrumentation and Control Engineering_ at the National Institute of Technology (NIT), Tiruchirappalli. Under the guidance of [G. Saravana Ilango][11], my team devised control strategies for an autonomous robotic vacuum cleaner for solar panels which garnered accolades at the Texas Instruments Innovation Challenge (2014). In addition, I evaluated methods for model predictive control, real-time trajectory generation and motion planning for quadcopters while working with [K. Madhava Krishna][9] and [V. Sankaranarayanan][8].
 
 
-I also maintain an academic blog titled [Machinae Animatae][tech-blog] and a personal blog titled [Musings of an Enlightened Idiot][blog]
+I also maintain an academic blog titled [Machinae Animatae][tech-blog] and a personal blog titled [Musings of an Enlightened Idiot][blog].
 
-My CV is available [here](#)
+My CV is available [here][CV].
 
 ---
 <a name="/publications"></a>
@@ -186,9 +186,16 @@ My CV is available [here](#)
 </p>
 <div class="row">
     <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/BioRob_2018/contextual_lfd_trial.jpg">
-        </p>
+        <div class="row-xs-3">
+            <p class="pubd">
+                <img src="/img/BioRob_2018/contextual_lfd_trial.jpg">
+            </p>
+        </div>
+        <div class="row-xs-3">
+            <p class="pubd">
+                <img src="/img/BioRob_2018/item_set.png">
+            </p>
+        </div>
     </div>
     <div class="col-xs-6">
         <p class="pubd">
@@ -211,7 +218,7 @@ My CV is available [here](#)
     </span>
 </p>
 <div class="row">
-    <div class="col-xs-6">
+    <div class="col-xs-5">
         <div class="row-xs-3">
             <p class="pubd">
                 <img src="/img/ICORR_2017/Lfd_amputee.png">
@@ -267,7 +274,7 @@ My CV is available [here](#)
             </p>
         </div>
     </div>
-    <div class="col-xs-5">
+    <div class="col-xs-6">
         <p class="pubd">
             <img src="/img/ICORR_2017/Trigno_Glove_setup.jpg">
         </p>
@@ -366,43 +373,23 @@ My CV is available [here](#)
 ---
 <a name="/TheEnd"></a>
 # The End
-
 <div class="row">
+    <div class="col-xs-3">
+        <p class="pubd">
+            <img src=''>
+        </p>
+    </div>
     <div class="col-xs-6">
         <p class="pubd">
-            <img src="/img/waving_bear.gif" align="center">
+            <img src="/img/waving_bear.gif">
+        </p>
+    </div>
+    <div class="col-xs-3">
+        <p class="pubd">
+            <img src=''>
         </p>
     </div>
 </div>
-
-
-<div class="container">
-    <div class="page-header">
-        <div class="row">
-            <div class="col-xs-12">
-                <ul class="nav-bar">
-                    <li><a href="/">Home</a></li>
-                    <li><a target="_blank" href="https://drive.google.com/file/d/1h_K1Rq0Qgqx1TV3nettG-MpC35NXCeUk/view?usp=sharing">CV</a></li>
-                    <li><a href="/#/publications">Publications</a></li>
-                    <li><a target="_blank" href="https://scholar.google.ca/citations?user=ijoLCmEAAAAJ&hl=en&authuser=1">Google Scholar</a></li>
-                    <li class="hide-link-on-small-screens"><a href="https://enlightenedidiot.net/">Machinae Animatae</a></li> <!-- # Devices Animated -->
-                    <li class="hide-link-on-small-screens"><a href="https://enlightenedidiot.net/">Musings of an Enlightened Idiot</a></li>
-                    <!-- <li class="hide-link-on-small-screens"><a href="/bookshelf">Bookshelf</a></li>  -->
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-© Gautham Vasan 2020 Design: [Abhishek Das][10] makes a nice webpage! 
- 
-
-
-<!-- The End -->
- 
-
 
 <script src="/js/jquery.min.js"></script>
 <script type="text/javascript">
@@ -436,3 +423,4 @@ My CV is available [here](#)
 [BLINC]: https://blinclab.ca/
 [blog]: https://enlightenedidiot.net/
 [tech-blog]: /machinae_animatae
+[CV]: https://drive.google.com/file/d/1h_K1Rq0Qgqx1TV3nettG-MpC35NXCeUk/view?usp=sharing

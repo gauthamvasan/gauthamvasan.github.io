@@ -215,7 +215,7 @@ ul.nav-bar li {
 .post section p {
   font-size: 16px;
   margin: 1em 0;
-  text-align: left;
+  text-align: justify;
 }
 
 .post section img {
@@ -224,7 +224,6 @@ ul.nav-bar li {
 }
 
 .post .when {
-  text-align: center;
   text-transform: uppercase;
   font-weight: 300;
   color: #555;
