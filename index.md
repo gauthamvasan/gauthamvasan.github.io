@@ -423,4 +423,4 @@ My CV is available [here][CV].
 [BLINC]: https://blinclab.ca/
 [blog]: https://enlightenedidiot.net/
 [tech-blog]: /machinae_animatae
-[CV]: https://drive.google.com/file/d/1h_K1Rq0Qgqx1TV3nettG-MpC35NXCeUk/view?usp=sharing
+[CV]: /Resume.pdf
