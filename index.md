@@ -380,7 +380,7 @@ My CV is available [here][CV].
 # Miscellaneous Stuff I'm Proud To Have Been A Part Of
 - A short stint as a research volunteer with The Hospital for Sick Children (**[SickKids][SickKids]**). 
 - **Cerebral Palsy and Spasticity Trials**. I had the pleasure of working with medical doctors on a study assessing functional gain in patients affected by stroke or spasticity using assistive robots. I built tools to analyze the recorded sensory information and setup a robot interface for 12 patients. Thanks to [Patrick Pilarski][6], Trevor Lashyn, Matthew Curran and [Ming Chan][18] at the University of Alberta for looping me in! 
-- **Festember**, the annual International cultural festival of NIT Trichy. Festember is especially close to my heart since it was a labor of love. A lot of talented, passionate folks came together and poured tremendous effort, love and resources to create something special :) I spent two great years with the Marketing team and was the _Treasurer_ of _Festember 2014_. As the Treasurer, I handled the finances of the festival (~INR 20 Million) and executed several key decisions with regards to budget, expenditure, resource management for teams, etc. 
+- **Festember**, the annual International cultural festival of NIT Trichy. Festember is especially close to my heart since it was a labor of love. A lot of talented, passionate folks came together and poured tremendous effort, time and resources to create something special :) I spent two great years with the Marketing team and was the _Treasurer_ of _Festember 2014_. As the Treasurer, I handled the finances of the festival (~INR 20 Million) and executed several key decisions with regards to budget, expenditure, resource management for teams, etc. 
 - **Spider**, an R&D club at NIT Trichy. We conducted tech talks and workshops focusing on microcontrollers and embedded programming.
 - **Pragyan**, the annual technical festival of NIT Trichy. I worked with the Guest Lectures and Crossfire Teams. Personal highlights: (i) helped moderate a wonderful panel discussion on "Failing educational institutions?" (ii) [Jamie Hyneman][17], host of Discovery Mythbusters as a guest lecturer for Pragyan 14!  
 
@@ -447,3 +447,4 @@ My CV is available [here][CV].
 [tech-blog]: /machinae_animatae
 [CV]: /Resume.pdf
 [SickKids]: https://www.sickkids.ca/
+
