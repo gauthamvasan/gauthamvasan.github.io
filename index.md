@@ -9,7 +9,7 @@ permalink:  /
         <img src="/img/Gautham.jpg">
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
-        PhD Candidate in Statistical Machine Learning<br>        
+        PhD Student in Statistical Machine Learning<br>        
         Dept. of Computing Science, <a href="http://rlai.ualberta.ca/">RLAI</a> & <a href="https://www.amii.ca/">AMII</a> <br>
         <a href="https://www.ualberta.ca/computing-science/index.html">University of Alberta</a><br>
         gauthamv dot 529 at gmail dot com <br> <br>
@@ -76,7 +76,7 @@ My research lies in the overlapping areas of _Artificial Intelligence_ and _Robo
     </div>
 </div>
 
-I'm a PhD candidate in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group.  
+I'm a PhD student in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group.  
 
 Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3]. As a member of the AI Research Team in Toronto, I developed Deep Reinforcement Learning techniques to improve the product's ([SORT](SORT)) overall throughput at e-commerce fulfillment centres like [Gap Inc](GAP), etc. I was also responsible for the design, implementation and evaluation of learning algorithms and robot infrastructure as a part of the research and publication efforts at Kindred (e.g., [SenseAct](SenseAct)). I spent three wonderful years at Kindred; intially working with [Geordie Rose][14], [Suzzanne Gildert][15] and [Olivia Norton][16] in Vancouver and subsequently with [James Bergstra][12], [Dmytro Korenkevych][13] and [Rupam Mahmood][5] in Toronto.
 
@@ -94,6 +94,39 @@ My CV is available [here][CV].
 <a name="/publications"></a>
 
 # Publications
+
+<!-- ReLoD -->
+<a name="/relod"></a>
+<h2 class="pubt">Real-Time Reinforcement Learning for Vision-Based Robotics
+Utilizing Local and Remote Computers</h2>
+<p class="pubd">
+    <span class="authors">Yan Wang*, Gautham Vasan*, A. Rupam Mahmood</span><br>
+    <span class="conf">ICRA 2023</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2210.02317">Paper</a>
+        <a target="_blank" href="https://github.com/rlai-lab/relod">Code</a>
+        <a target="_blank" href="https://youtu.be/7iZKryi1xSY">Video</a>
+    </span>
+</p>
+<div class="row">
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/ReLoD/UR5-VisualReacher.png">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/ReLoD/roomba_reacher.jpg">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/ReLoD/iros_ur5_reacher.png">
+        </p>
+    </div>
+</div>
+<hr>
+
 <!-- Autoregressive policies -->
 <a name="/arp"></a>
 <h2 class="pubt">Autoregressive policies for continuous control deep reinforcement learning</h2>
