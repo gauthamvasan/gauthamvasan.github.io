@@ -81,7 +81,7 @@ I'm a PhD student in Statistical Machine Learning at the University of Alberta. 
 Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3]. As a member of the AI Research Team in Toronto, I developed Deep Reinforcement Learning techniques to improve the product's ([SORT](SORT)) overall throughput at e-commerce fulfillment centres like [Gap Inc](GAP), etc. I was also responsible for the design, implementation and evaluation of learning algorithms and robot infrastructure as a part of the research and publication efforts at Kindred (e.g., [SenseAct](SenseAct)). I spent three wonderful years at Kindred; intially working with [Geordie Rose][14], [Suzzanne Gildert][15] and [Olivia Norton][16] in Vancouver and subsequently with [James Bergstra][12], [Dmytro Korenkevych][13] and [Rupam Mahmood][5] in Toronto.
 
 
-I graudated with an M.Sc (Thesis) in Computing Science from the University of Alberta in 2017. I worked under the supervision of [Patrick M. Pilarski][4] with the [BLINC](BLINC) and [RLAI](RLAI) labs. During my masters, I mostly worked with rehabilitative and assistive robots. My thesis research was on _‟Teaching a Powered Prosthetic Arm with an Intact Arm Using Reinforcement Learning”_. We used ideas from _Learning from Demonstration, Actor-Critic Reinforcement Learning_ and explored the possibilities for synergistic, context-aware control of a prosthetic arm. This work won the _2017 M.Sc. Outstanding Thesis Award in Computing Science_.
+I graudated with an M.Sc (Thesis) in Computing Science from the University of Alberta in 2017. I worked under the supervision of [Patrick M. Pilarski][4] with the [BLINC](BLINC) and [RLAI](RLAI) labs. During my masters, I mostly worked with rehabilitative and assistive robots. My thesis research was on [_‟Teaching a Powered Prosthetic Arm with an Intact Arm Using Reinforcement Learning”_][19]. We used ideas from _Learning from Demonstration, Actor-Critic Reinforcement Learning_ and explored the possibilities for synergistic, context-aware control of a prosthetic arm. This work won the _2017 M.Sc. Outstanding Thesis Award in Computing Science_.
 
 In a past life, I studied _Instrumentation and Control Engineering_ at the National Institute of Technology (NIT), Tiruchirappalli. Under the guidance of [G. Saravana Ilango][11], my team devised control strategies for an autonomous robotic vacuum cleaner for solar panels which garnered accolades at the Texas Instruments Innovation Challenge (2014). In addition, I evaluated methods for model predictive control, real-time trajectory generation and motion planning for quadcopters while working with [K. Madhava Krishna][9] and [V. Sankaranarayanan][8].
 
@@ -468,6 +468,7 @@ Utilizing Local and Remote Computers</h2>
 [16]: https://ca.linkedin.com/in/olivia-norton-20791837
 [17]: https://en.wikipedia.org/wiki/Jamie_Hyneman
 [18]: https://sites.ualberta.ca/~kming/index.html
+[19]: https://sites.ualberta.ca/~pilarski/docs/theses/Vasan_Gautham_201709_MSc.pdf
 [RL-wiki]: https://en.wikipedia.org/wiki/Reinforcement_learning
 [RL-book]: http://www.incompleteideas.net/book/the-book.html
 [SORT]: https://www.kindred.ai/products
