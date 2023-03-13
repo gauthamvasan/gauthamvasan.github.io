@@ -9,10 +9,11 @@ permalink:  /
         <img src="/img/Gautham.jpg">
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
-        PhD Student in Statistical Machine Learning<br>        
+        PhD student in Statistical Machine Learning<br>        
         Dept. of Computing Science, <a href="http://rlai.ualberta.ca/">RLAI</a> & <a href="https://www.amii.ca/">AMII</a> <br>
         <a href="https://www.ualberta.ca/computing-science/index.html">University of Alberta</a><br>
         gauthamv dot 529 at gmail dot com <br> <br>
+        <a target="_blank" href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao">Google Scholar Profile </a> <br> <br>
         <a href="https://github.com/gauthamvasan" class="fa fa-github" style="font-size:24px"></a> &nbsp;
         <a href="https://www.linkedin.com/in/gauthamvasan/" class="fa fa-linkedin" style="font-size:24px"></a> &nbsp;
         <a href="https://www.goodreads.com/user/show/29446357-gautham-vasan" class="fa fa-book" style="font-size:24px"></a> &nbsp;
@@ -33,50 +34,64 @@ My research lies in the overlapping areas of _Artificial Intelligence_ and _Robo
 ---
 
 <div class="row" id="timeline-logos">
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="https://www.nitt.edu/"><img src="/img/logos/NITT_logo.png"></a>
         </div>
         <div class="logo-desc">
-            NIT Trichy<br>
+            NIT Trichy, India<br>
             2011 - 2015
         </div>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a href="https://www.iiit.ac.in/"><img style="width:125px;" src="/img/logos/iiit-h_logo.png"></a>
+            <a href="https://www.iiit.ac.in/"><img src="/img/logos/iiit-h_logo.png"></a>
         </div>
-        <div class="logo-desc">
-            Robotics Research Center, IIIT Hyderabad<br>
+        <div class="logo-desc"> 
+            IIIT Hyderabad, India <br>
             Summer 2014
         </div>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="https://www.kindred.ai/"><img src="/img/logos/Kindred/Kindred_Logomark_RGB_Fire.png"></a>
         </div>
         <div class="logo-desc">
-            Kindred Systems Inc<br>
+            Kindred Systems Inc, Canada<br>
             2017 - 2020
         </div>
     </div>
-    <div class="col-xs-3">
+</div>
+
+<div class="row" id="timeline-logos">
+    <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a target="_blank" href="https://www.ualberta.ca/index.html"><img style="width:120px;" src="/img/logos/UofA_logo.png"></a>
         </div>
         <div class="logo-desc">
-            University of Alberta<br>
-            2015 - 2017<br>
-            2020 - Present
+            University of Alberta, Canada<br>
+            2015 - 2017 <br> 2020 - Present
+        </div>
+    </div>
+        <div class="col-xs-4">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a target="_blank" href="https://uni-freiburg.de/en/"><img src="/img/logos/ufreiburg_full.png"></a>
+        </div>
+        <div class="logo-desc">
+            University of Freiburg, Germany<br>
+            March - June, 2023
         </div>
     </div>
 </div>
 
-I'm a PhD student in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group.  
+I'm a PhD student in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group. My PhD research focuses on autonomous skill acquisition on real-world robots from scratch. To achieve this, I mostly focus on policy gradient methods, real-time learning architectures and temporal abstraction in reinforcement learning. 
+
+Currently, I'm visiting the [Neurobotics Lab][Neurobotics] headed by [Joschka Boedecker][Joschka] at the University of Freiburg, Germany. We're working on a novel framework for skill learning and adaptation on assitive robots using reinforcement learning. This also involves the integration of very noisy electroencephalogram (EEG) signals decoded from a patient’s brain, which includes preference and failure information.
 
 Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3]. As a member of the AI Research Team in Toronto, I developed Deep Reinforcement Learning techniques to improve the product's ([SORT](SORT)) overall throughput at e-commerce fulfillment centres like [Gap Inc](GAP), etc. I was also responsible for the design, implementation and evaluation of learning algorithms and robot infrastructure as a part of the research and publication efforts at Kindred (e.g., [SenseAct](SenseAct)). I spent three wonderful years at Kindred; intially working with [Geordie Rose][14], [Suzzanne Gildert][15] and [Olivia Norton][16] in Vancouver and subsequently with [James Bergstra][12], [Dmytro Korenkevych][13] and [Rupam Mahmood][5] in Toronto.
 
@@ -89,6 +104,17 @@ In a past life, I studied _Instrumentation and Control Engineering_ at the Natio
 I also maintain an academic blog titled [Machinae Animatae][tech-blog] and a personal blog titled [Musings of an Enlightened Idiot][blog].
 
 My CV is available [here][CV].
+
+---
+<a name="/talks"></a>
+# Talks
+
+<b> natChat: Neurotech in Artificial Intelligence (2023) </b>
+<br>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kkJ8-k-_CPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 ---
 <a name="/publications"></a>
@@ -481,4 +507,5 @@ Utilizing Local and Remote Computers</h2>
 [tech-blog]: /machinae_animatae
 [CV]: /Resume.pdf
 [SickKids]: https://www.sickkids.ca/
-
+[Neurobotics]: https://nr.informatik.uni-freiburg.de/welcome
+[Joschka]: https://nr.informatik.uni-freiburg.de/people/joschka-boedecker
