@@ -91,7 +91,7 @@ My research lies in the overlapping areas of _Artificial Intelligence_ and _Robo
 
 I'm a PhD student in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group. My PhD research focuses on autonomous skill acquisition on real-world robots from scratch. To achieve this, I mostly focus on policy gradient methods, real-time learning architectures and temporal abstraction in reinforcement learning. 
 
-Currently, I'm visiting the [Neurobotics Lab][Neurobotics] headed by [Joschka Boedecker][Joschka] at the University of Freiburg, Germany. We're working on a novel framework for skill learning and adaptation on assitive robots using reinforcement learning. This also involves the integration of very noisy electroencephalogram (EEG) signals decoded from a patient’s brain, which includes preference and failure information.
+Recently, I visited the [Neurobotics Lab][Neurobotics] headed by [Joschka Boedecker][Joschka] at the University of Freiburg, Germany. We worked on a novel framework for skill learning and adaptation for assitive robots using reinforcement learning. This also involves the integration of very noisy electroencephalogram (EEG) signals decoded from a patient’s brain, which includes preference and failure information.
 
 Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3]. As a member of the AI Research Team in Toronto, I developed Deep Reinforcement Learning techniques to improve the product's ([SORT](SORT)) overall throughput at e-commerce fulfillment centres like [Gap Inc](GAP), etc. I was also responsible for the design, implementation and evaluation of learning algorithms and robot infrastructure as a part of the research and publication efforts at Kindred (e.g., [SenseAct](SenseAct)). I spent three wonderful years at Kindred; intially working with [Geordie Rose][14], [Suzzanne Gildert][15] and [Olivia Norton][16] in Vancouver and subsequently with [James Bergstra][12], [Dmytro Korenkevych][13] and [Rupam Mahmood][5] in Toronto.
 
@@ -120,6 +120,45 @@ My CV is available [here][CV].
 <a name="/publications"></a>
 
 # Publications
+
+<!-- Min-Time paper -->
+<a name="/min_time"></a>
+<h2 class="pubt">Learning Sparse-Reward Tasks on Real Robots From Scratch</h2>
+<p class="pubd">
+    <span class="authors">Gautham Vasan*, Yan Wang*, Fahim Shahriar, James Bergstra, Martin Jagersand, A. Rupam Mahmood</span><br>
+    <span class="conf">ICRA 2023 (RAP4 Robotics Workshop)</span><br>
+    <span class="links">
+        <a target="_blank" href="https://drive.google.com/file/d/1MiI9QmmlpVHvQ416iObY0xkK6oPKizH-/view?usp=share_link">Paper</a>
+        <a target="_blank" href="https://sites.google.com/view/minimum-time-rl">Website</a>
+    </span>
+</p>
+<div class="row">
+    <div class="col-xs-12">
+        <p class="pubd">
+            <img src="/img/min-time-paper.png">
+        </p>
+    </div>
+</div>
+<hr>
+
+<!-- Fengdi Paper -->
+<a name="/discount_correction"></a>
+<h2 class="pubt">Correcting Discount-Factor Mismatch in On-Policy Policy Gradient Methods</h2>
+<p class="pubd">
+    <span class="authors">Fengdi Che, Gautham Vasan, A. Rupam Mahmood</span><br>
+    <span class="conf">ICML 2023</span><br>
+    <span class="links">
+        <a target="_blank" href="">Paper</a>
+    </span>
+</p>
+<div class="row">
+    <div class="col-xs-12">
+        <p class="pubd">
+            <img src="/img/discount_correction.png">
+        </p>
+    </div>
+</div>
+<hr>
 
 <!-- ReLoD -->
 <a name="/relod"></a>
