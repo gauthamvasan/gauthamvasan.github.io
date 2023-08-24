@@ -108,13 +108,18 @@ My CV is available [here][CV].
 ---
 <a name="/talks"></a>
 # Talks
+<b> Tea Time Talks: Reward (Mis-)Specification in Reinforcement Learning </b>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yqeiXpbDoKg?si=NuWSQoWizPiLL8Ic&amp;start=517" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<center>
+
 
 <b> natChat: Neurotech in Artificial Intelligence (2023) </b>
 <br>
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kkJ8-k-_CPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
+<center>
 
 ---
 <a name="/publications"></a>
