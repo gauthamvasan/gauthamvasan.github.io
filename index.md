@@ -106,8 +106,18 @@ I also maintain an academic blog titled [Machinae Animatae][tech-blog] and a per
 My CV is available [here][CV].
 
 ---
+
+
+
 <a name="/talks"></a>
 # Talks
+<b> Two Issues of Autonomous Robot Learning </b>
+<p align="justify"> I discuss some practical, oft-ignored challenges in continual learning on real-world robots. More specifically I address two research questions: (i) How to specify reinforcement learning tasks?, and (ii) How to set up a real-time learning agent? </p> 
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QO0mmHMJvRQ?si=KGif_tvrkIN06zo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+
 <b> Tea Time Talks: Reward (Mis-)Specification in Reinforcement Learning </b>
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yqeiXpbDoKg?si=NuWSQoWizPiLL8Ic&amp;start=517" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
