@@ -135,6 +135,30 @@ My CV is available [here][CV].
 <a name="/publications"></a>
 
 # Publications
+<!-- MaDi -->
+<a name="/madi"></a>
+<h2 class="pubt">MaDi: Learning to Mask Distractions for Generalization in Visual Deep Reinforcement Learning</h2>
+<p class="pubd">
+    <span class="authors">Bram Grooten, Tristan Tomilin, Gautham Vasan, Matthew E Taylor, A Rupam Mahmood, Meng Fang, Mykola Pechenizkiy, Decebal Constantin Mocanu</span><br>
+    <span class="conf">AAMAS 2024</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2312.15339">Paper</a>
+    </span>
+</p>
+<div class="row">
+    <div class="col-xs-8">
+        <p class="pubd">
+            <img src="/img/madi.png">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/madi_robot.png">
+        </p>
+    </div>
+</div>
+<hr>
+
 
 <!-- Min-Time paper -->
 <a name="/min_time"></a>
@@ -189,19 +213,9 @@ Utilizing Local and Remote Computers</h2>
     </span>
 </p>
 <div class="row">
-    <div class="col-xs-4">
+    <div class="col-xs-12">
         <p class="pubd">
-            <img src="/img/ReLoD/UR5-VisualReacher.png">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/ReLoD/roomba_reacher.jpg">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/ReLoD/iros_ur5_reacher.png">
+            <img src="/img/relod.png">
         </p>
     </div>
 </div>
