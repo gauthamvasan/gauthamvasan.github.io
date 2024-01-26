@@ -15,7 +15,10 @@ excerpt:    ""
 
 
 ## Moravec's paradox
-Early Artificial Intelligence (AI) researchers focused on tasks they found challenging, like games and activities requiring reasoning and planning. Unfortunately, they often overlooked the learning abilities observed in animals and one-year-olds. The effectiveness of our deliberate reasoning process stems from a potent, though typically unconscious, foundation of sensorimotor knowledge. Our adeptness in perceptual and motor learning allows us to effortlessly perform tasks such as walking, running, and recognizing objects. These sensorimotor skills, honed over millions of years of evolution, contrast with the comparatively recent development of abstract thinking. Notably, navigating the complexities of robotics remains a formidable challenge.
+Early Artificial Intelligence (AI) researchers focused on tasks they found challenging, like games and activities requiring reasoning and planning. Unfortunately, they often overlooked the learning abilities observed in animals and one-year-olds. The deliberate process we call reasoning is effective only because its supported by a much more powerful, though usually unconscious, sensorimotor knowledge. 
+We are exceptionally good in perceptual and motor learning, so good that we make the difficult look easy
+For example, compared to robots, we might as well be Olympians in walking, running, recognizing objects, etc. 
+Sensorimotor skills took millions of years to evolve, whereas abstract thinking is a relatively recent development. Keeping this in mind, Moravec wrote in 1988, <i>"it is comparatively easy to make computers exhibit adult level performance on intelligence tests or playing checkers, and difficult or impossible to give them the skills of a one-year-old when it comes to perception and mobility".</i>
 
 There has been impressive headway in robotics research in recent years, largely driven by the strides made in machine learning. 
 While the realm of AI research is currently heavily dominated by Large Language Model (LLM) researchers, there's still a notable upswing in the enthusiasm for robotics research. 
