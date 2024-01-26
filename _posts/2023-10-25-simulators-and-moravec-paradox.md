@@ -26,7 +26,7 @@ The integration of LLMs with robots is an exciting development mainly because it
 However, the current use of LLMs has been more focused on symbolic planning, requiring additional low-level controllers to handle the sensorimotor data. 
 <i>Despite the captivating demonstrations, it's important to note that the foundational challenges outlined in Moravec's paradox still persist... </i>
 
-## A Line of Attack to Address Moravec's Paradox?
+## A Line of Attack for Moravec's Paradox?
 In a recent [TED talk](https://youtu.be/LPGGIdxOmWI?si=Wq-C17pjX_LI2lS5), [Prof. Pulkit Agrawal](https://people.csail.mit.edu/pulkitag/) argues that while evolution required millions of years to endow us with locomotion priors/skills, but the development of logic & reasoning abilities occurred more swiftly, driven by the presence of underlying learning capabilities. 
 His core argument is that simulation can compensate for millions of years of evolution, allowing us to acquire the necessary priors and [inductive biases](https://www.nvidia.com/en-us/on-demand/session/gtcsj20-s21483/). 
 
@@ -39,7 +39,7 @@ The sim-to-real transfer process typically involves training a robotic control p
 This adaptation is necessary due to the differences between simulation and reality, such as sensory noise, dynamics, and other environmental factors. 
 Typically, there is a significant gap between simulated and real-world environments, which can lead to a degradation in the performance of policies when transferred to real robots. 
 
-## Sim-to-real: The Silver Bullet? 
+## Sim-to-Real: The Silver Bullet? 
 The basic idea behind the generative AI revolution is simple: Train a big neural network with a HUGE dataset from the internet, and then use it to do various structured tasks. 
 For example, LLMs can answer questions, write code, create poetry, and generate realistic art. 
 Despite these capabilities, we're still waiting for robots from science fiction that can do everyday tasks like cleaning, folding laundry, and making breakfast. 
