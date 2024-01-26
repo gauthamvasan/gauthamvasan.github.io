@@ -6,7 +6,7 @@ permalink:  /
 
 <div class="row">
     <div class="col-sm-6 col-xs-12">
-        <img src="/img/Gautham.jpg">
+        <img src="/img/Gautham_brown_jacket_2023.jpg">
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
         PhD student in Statistical Machine Learning<br>        
