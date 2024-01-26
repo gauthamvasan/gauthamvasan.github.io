@@ -49,7 +49,7 @@ Unlike text and images, the internet lacks abundant data for robotic interaction
 Current state-of-the-art robot learning methods require data grounded in the robot's sensorimotor experience, which needs to be slowly and painstakingly collected by researchers in labs for particular tasks. 
 The lack of extensive data prevents robots from performing real-world tasks beyond the lab, such as making breakfast. Impressive results usually stay confined to a single lab, a single robot, and often involve only a few hard-coded behaviors. 
 
-> Drawing inspiration from Moravec's paradox, the success of generative AI and [Prof. Rich Sutton](http://incompleteideas.net/)'s [Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html), the robot learning community's biggest takeaway so far is that we do not have enough data.
+> Drawing inspiration from Moravec's paradox, the success of generative AI, and [Prof. Rich Sutton](http://incompleteideas.net/)'s [Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html), the robot learning community's biggest takeaway so far is that we do not have enough data.
 
 While there is some righteous criticism, like [The Bitter Lesson](https://rodneybrooks.com/a-better-lesson/) by Dr. Rodney Brooks, we can all still agree that we're going to need a lot of data for robot learning. 
 
