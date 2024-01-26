@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Resources For Effective Research
-date:       2020-05-06 15:10:00
+date:       2020-08-06 15:10:00
 excerpt:    "An inexhaustive set of links pertinent to how research must be pursued as an individual"
 ---
 
