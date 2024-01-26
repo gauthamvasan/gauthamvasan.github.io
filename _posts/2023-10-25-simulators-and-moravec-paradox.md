@@ -51,7 +51,7 @@ The lack of extensive data prevents robots from performing real-world tasks beyo
 
 > Drawing inspiration from Moravec's paradox, the success of generative AI, and [Prof. Rich Sutton](http://incompleteideas.net/)'s [Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html), the robot learning community's biggest takeaway so far is that we do not have enough data.
 
-While there is some righteous criticism, like [The Bitter Lesson](https://rodneybrooks.com/a-better-lesson/) by Dr. Rodney Brooks, we can all still agree that we're going to need a lot of data for robot learning. 
+While there is some validity to criticisms, like [The Better Lesson](https://rodneybrooks.com/a-better-lesson/) by Dr. Rodney Brooks, we can all still agree that we're going to need a lot of data for robot learning. 
 
 <i> The real question is, where does that data come from? </i>
 Currently, I see three data sources, and it's worth noting that they do not have to be independent of each other:
