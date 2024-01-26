@@ -24,7 +24,7 @@ For folks unfamiliar with the term, Artificial General Intelligence (AGI) refers
 
 The integration of LLMs with robots is an exciting development mainly because it finally enables us to communicate with robots in a way that was once confined to the realm of science fiction. 
 However, the current use of LLMs has been more focused on symbolic planning, requiring additional low-level controllers to handle the sensorimotor data. 
-<i>Despite the captivating demonstrations, it's important to note that the foundational challenges outlined in Moravec's paradox still persist... </i>
+<i>Despite the captivating demonstrations, it's important to note that the foundational issues of Moravec's paradox still persist... </i>
 
 ## A Line of Attack for Moravec's Paradox?
 In a recent [TED talk](https://youtu.be/LPGGIdxOmWI?si=Wq-C17pjX_LI2lS5), [Prof. Pulkit Agrawal](https://people.csail.mit.edu/pulkitag/) argues that while evolution required millions of years to endow us with locomotion priors/skills, but the development of logic & reasoning abilities occurred more swiftly, driven by the presence of underlying learning capabilities. 
