@@ -80,8 +80,8 @@ While sim-to-real has its merits, I believe it may not be sufficient as there ar
 
 ### ❌ Limitations of Sim-to-Real 
 1. <b>Sim-to-Real Gap</b>: We are limited in our ability to replicate the real world. Our simulators, for example, cannot faitfully replicate friction or contact dynamics. Small errors in simulations can compound and significantly degrade the performance of policies learned in simulation when applied to real robots. 
-2. While techniques such as [domain randomization](https://lilianweng.github.io/posts/2019-05-05-domain-randomization/), and domain adaptation can help mitigate these limitations, they may not be sufficient for tasks requiring detailed simulations, especially in domains like agricultural robotics. 
-3. Another concern for me is that no one discusses the computational expenses associated with simulators. High-fidelity simulators can be extremely costly to both develop and maintain. 
+2. <b>Accuracy of simularors</b>: While techniques such as [domain randomization](https://lilianweng.github.io/posts/2019-05-05-domain-randomization/), and domain adaptation can help mitigate these limitations, they may not be sufficient for tasks requiring detailed simulations, especially in domains like agricultural robotics. 
+3. <b>Cost of building simulators</b>: Another concern for me is that no one discusses the computational expenses associated with simulators. High-fidelity simulators can be extremely costly to both develop and maintain. 
 
 To answer the question posed at the start of this section - No. 
 I believe we can benefit immensely by incorporating simulators into our learning methods when appropriate, but the issue is more nuanced than a simple yes or no :)
