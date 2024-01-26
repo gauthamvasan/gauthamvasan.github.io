@@ -84,7 +84,7 @@ While sim-to-real has its merits, I believe it may not be sufficient as there ar
 3. <b>Cost of building simulators</b>: Another concern for me is that no one discusses the computational expenses associated with simulators. High-fidelity simulators can be extremely costly to both develop and maintain. 
 
 To answer the question posed at the start of this section - No, but... 
-I believe we can benefit immensely by incorporating simulators into our learning methods when appropriate, but the issue is more nuanced than a simple yes or no :)
+I believe we can benefit immensely by incorporating simulators into our learning methods when appropriate. The issue is more nuanced than a simple yes or no :)
 
 ## Closing Thoughts
 In the research community, I've noticed the widespread adoption of the term 'Out-of-distribution' (OOD). In robot learning, it denotes the challenge of handling data that deviates from the training data. Personally, I loathe this term. By the very nature of the learning problem, we acknowledge that preparing robots for all conceivable scenarios in advance is impossible. If we could predict every scenario, the need for learning methods would be obsolete! OOD essentially makes a case for integrating the test set into the training set, a notion that was once considered blasphemous in machine learning before the era of LLMs. 
