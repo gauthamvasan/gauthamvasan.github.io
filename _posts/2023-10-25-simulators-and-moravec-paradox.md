@@ -73,14 +73,14 @@ Now let's talk about why most roboticists are currently paying a lot of attentio
 4. <b>Domain randomization</b> is a crucial step in all sim-to-real approaches. This has more to do with robustness to changes rather than online adaptation. With sim-to-real, we want to expose the agent to as many scenarios as possible in the simulator before deployment. OpenAI's [solving a Rubik's cube with a robot hand](https://openai.com/research/solving-rubiks-cube_) demo is a fantastic showcase of this approach. 
     -  *The focus is not really on learning on the fly, but rather being robust to perturbations.*
 5. <b>World models</b>: The simulator is a pseudo-reinforcement-learning-model which can help learn a value function better (assuming its a good simulator)
-    - *This however is not the same as learning a world model, rather trying to replicate the world to solve a very specific real world task*"
+    - *This, however is not the same as learning a world model, rather trying to replicate the world to solve a very specific real-world task*"
 
 
 While sim-to-real has its merits, I believe it may not be sufficient as there are key limitations that still need to be addressed.
 
 ### ❌ Limitations of Sim-to-Real 
-1. <b>Sim-to-Real Gap</b>: We are limited in our ability to replicate the real world. Our simulators, for example, cannot faitfully replicate friction or contact dynamics. Small errors in simulations can compound and significantly degrade the performance of policies learned in simulation when applied to real robots. 
-2. <b>Accuracy of simularors</b>: While techniques such as [domain randomization](https://lilianweng.github.io/posts/2019-05-05-domain-randomization/), and domain adaptation can help mitigate these limitations, they may not be sufficient for tasks requiring detailed simulations, especially in domains like agricultural robotics. 
+1. <b>Sim-to-Real Gap</b>: We are limited in our ability to replicate the real world. Our simulators, for example, cannot faithfully replicate friction or contact dynamics. Small errors in simulations can compound and significantly degrade the performance of policies learned in simulation when applied to real robots. 
+2. <b>Accuracy of simulators</b>: While techniques such as [domain randomization](https://lilianweng.github.io/posts/2019-05-05-domain-randomization/), and domain adaptation can help mitigate these limitations, they may not be sufficient for tasks requiring detailed simulations, especially in domains like agricultural robotics. 
 3. <b>Cost of building simulators</b>: Another concern for me is that no one discusses the computational expenses associated with simulators. High-fidelity simulators can be extremely costly to both develop and maintain. 
 
 To answer the question posed at the start of this section - No, but... 
@@ -89,7 +89,7 @@ I believe we can benefit immensely by incorporating simulators into our learning
 ## Closing Thoughts
 In the research community, I've noticed the widespread adoption of the term 'Out-of-distribution' (OOD). In robot learning, it denotes the challenge of handling data that deviates from the training data. Personally, I loathe this term. By the very nature of the learning problem, we acknowledge that preparing robots for all conceivable scenarios in advance is impossible. If we could predict every scenario, the need for learning methods would be obsolete! OOD essentially makes a case for integrating the test set into the training set, a notion that was once considered blasphemous in machine learning before the era of LLMs. 
 
-Our current robot learning playbook seems to involve throwing a vast amount of data at our limited, not-so-great algorithms in simulation via domain randomization, with the hope that it encompasses all potential deployment scenarios. In addition, there's also a huge aversion learning directly on the robot for an extended period of time. In my opinion, this strategy is doomed to fail because we possibly cannot, and will not be able to, model the entire world with a high degree of precision and accuracy.
+Our current robot learning playbook seems to involve throwing a vast amount of data at our limited, not-so-great algorithms in simulation via domain randomization, with the hope that it encompasses all potential deployment scenarios. In addition, there's also a huge aversion to learning directly on the robot for an extended period of time. In my opinion, this strategy is doomed to fail because we possibly cannot, and will not be able to, model the entire world with a high degree of precision and accuracy.
 
 I do believe that pre-training models using sim-to-real can serve as a good starting point. It can be a fantastic litmus test to rule out ineffective approaches. But clearly, we cannot expose our robots to all possible scenarios via training in simulation. The general-purpose robots we dream of must also have the ability to learn on-the-fly as they interact with the physical world in <i>real-time</i>. When learning in real-time, the real world does not pause while the agent computes actions or makes learning updates. Moreover, the agent obtains sensorimotor information from various onboard devices and executes action commands at a specific frequency. Given these constraints, a real-time learning agent must compute an action within a chosen action cycle time and perform learning updates without disrupting the periodic execution of actions. I believe significant improvements in scaleable learning methods, tailored to meet real-time requirements, are essential to take a significant step towards achieving truly effective learning on real-world robots.
 
@@ -99,7 +99,7 @@ I believe we are making significant strides in refining sim-to-real methods. Nev
 
     
 ### Addendum
-- I came across another great post on a similar vein: [Will Scaling Solve Robotics?: Perspectives From Corl 2023](https://nishanthjkumar.com/Will-Scaling-Solve-Robotics-Perspectives-from-CoRL-2023/). Definitely worth a read! 
+- I came across another great post in a similar vein: [Will Scaling Solve Robotics?: Perspectives From Corl 2023](https://nishanthjkumar.com/Will-Scaling-Solve-Robotics-Perspectives-from-CoRL-2023/). Definitely worth a read! 
 - This article is pretty neat too: Kaelbling, L. P. (2020). [The foundation of efficient robot learning](https://dspace.mit.edu/bitstream/handle/1721.1/130244/psKaelbling_v1c.pdf?sequence=2&isAllowed=y). Science, 369(6506), 915-916.
 
 ### Acknowledgements
