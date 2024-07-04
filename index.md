@@ -26,10 +26,13 @@ permalink:  /
 <a name="/bio"></a>
 # About Me
 
-I read. I write. I build stuff. 
+I read. I write. I build stuff.
 
-**I'm interested in building machines with human-like intelligence.**
-My research lies in the overlapping areas of _Artificial Intelligence_ and _Robotics_. I actively work on the design and development of _Reinforcement Learning ([RL][RL-wiki])_ algorithms and _continual learning_ systems for real-world robots. I also have a strong side interest in _Neuroscience_, _Evolutionary Biology_ and _Quantum Computing_. All are part of an overarching goal to understand the emergence of intelligence.  <br>
+**I'm interested in building machines with animal-like intelligence.**
+Specifically, I aim to understand algorithmic principles that could enable robots to _continually_ learn, adapt, develop, and improve throughout their lifetimes.
+In pursuit of this goal, I design and develop _reinforcement learning ([RL][RL-wiki])_ algorithms and _continual learning_ systems for real-world robots. 
+
+I also have a strong side interest in _Neuroscience_, _Evolutionary Biology_ and _Quantum Computing_. All are part of an overarching goal to understand the emergence of intelligence.  <br>
 
 ---
 
@@ -89,17 +92,15 @@ My research lies in the overlapping areas of _Artificial Intelligence_ and _Robo
     </div>
 </div>
 
-I'm a PhD student in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group. My PhD research focuses on autonomous skill acquisition on real-world robots from scratch. To achieve this, I mostly focus on policy gradient methods, real-time learning architectures and temporal abstraction in reinforcement learning. 
+I'm a PhD student in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group. My PhD research focuses on real-time, online learning and continual adaptation on robots. To achieve this, I mostly focus on policy gradient methods, real-time learning architectures and temporal abstraction in reinforcement learning. 
 
 Recently, I visited the [Neurobotics Lab][Neurobotics] headed by [Joschka Boedecker][Joschka] at the University of Freiburg, Germany. We worked on a novel framework for skill learning and adaptation for assitive robots using reinforcement learning. This also involves the integration of very noisy electroencephalogram (EEG) signals decoded from a patient’s brain, which includes preference and failure information.
 
 Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3]. As a member of the AI Research Team in Toronto, I developed Deep Reinforcement Learning techniques to improve the product's ([SORT](SORT)) overall throughput at e-commerce fulfillment centres like [Gap Inc](GAP), etc. I was also responsible for the design, implementation and evaluation of learning algorithms and robot infrastructure as a part of the research and publication efforts at Kindred (e.g., [SenseAct](SenseAct)). I spent three wonderful years at Kindred; intially working with [Geordie Rose][14], [Suzzanne Gildert][15] and [Olivia Norton][16] in Vancouver and subsequently with [James Bergstra][12], [Dmytro Korenkevych][13] and [Rupam Mahmood][5] in Toronto.
 
-
 I graudated with an M.Sc (Thesis) in Computing Science from the University of Alberta in 2017. I worked under the supervision of [Patrick M. Pilarski][4] with the [BLINC](BLINC) and [RLAI](RLAI) labs. During my masters, I mostly worked with rehabilitative and assistive robots. My thesis research was on [_‟Teaching a Powered Prosthetic Arm with an Intact Arm Using Reinforcement Learning”_][19]. We used ideas from _Learning from Demonstration, Actor-Critic Reinforcement Learning_ and explored the possibilities for synergistic, context-aware control of a prosthetic arm. This work won the _2017 M.Sc. Outstanding Thesis Award in Computing Science_.
 
 In a past life, I studied _Instrumentation and Control Engineering_ at the National Institute of Technology (NIT), Tiruchirappalli. Under the guidance of [G. Saravana Ilango][11], my team devised control strategies for an autonomous robotic vacuum cleaner for solar panels which garnered accolades at the Texas Instruments Innovation Challenge (2014). In addition, I evaluated methods for model predictive control, real-time trajectory generation and motion planning for quadcopters while working with [K. Madhava Krishna][9] and [V. Sankaranarayanan][8].
-
 
 I also maintain an academic blog titled [Machinae Animatae][tech-blog] and a personal blog titled [Musings of an Enlightened Idiot][blog].
 
@@ -140,7 +141,7 @@ My CV is available [here][CV].
 <a name="/min_time"></a>
 <h2 class="pubt">Revisiting Constant Negative Rewards for Goal-Reaching Tasks in Robot Learning</h2>
 <p class="pubd">
-    <span class="authors">Gautham Vasan*, Yan Wang*, Fahim Shahriar, James Bergstra, Martin Jagersand, A. Rupam Mahmood</span><br>
+    <span class="authors">Gautham Vasan, Yan Wang, Fahim Shahriar, James Bergstra, Martin Jagersand, A. Rupam Mahmood</span><br>
     <span class="conf">RLC 2024</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2407.00324">Paper</a>
