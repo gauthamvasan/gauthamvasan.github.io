@@ -135,6 +135,43 @@ My CV is available [here][CV].
 <a name="/publications"></a>
 
 # Publications
+
+<!-- Min-Time paper -->
+<a name="/min_time"></a>
+<h2 class="pubt">Revisiting Constant Negative Rewards for Goal-Reaching Tasks in Robot Learning</h2>
+<p class="pubd">
+    <span class="authors">Gautham Vasan*, Yan Wang*, Fahim Shahriar, James Bergstra, Martin Jagersand, A. Rupam Mahmood</span><br>
+    <span class="conf">RLC 2024</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2407.00324">Paper</a>
+        <a target="_blank" href="https://drive.google.com/file/d/1O8D3oCWq5xf2hi1JOlMBbs6W1ClrvUFb/view?usp=sharing">Demo</a>
+    </span>
+</p>
+<div class="row">
+    <div class="col-xs-12">
+        <p class="pubd">
+            <img src="/img/min-time-overlay.png">
+        </p>
+    </div>
+</div>
+<hr>
+
+
+<!-- AAMAS DC -->
+<a name="/aamas_dc"></a>
+<h2 class="pubt">Autonomous Skill Acquisition for Robots Using Graduated Learning</h2>
+<p class="pubd">
+    <span class="authors">Gautham Vasan</span><br>
+    <span class="conf">AAMAS Doctoral Consortium 2024</span><br>
+    <span class="links">
+        <a target="_blank" href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2785.pdf">Paper</a>
+    </span>
+</p>
+<hr>
+
+
+
+
 <!-- MaDi -->
 <a name="/madi"></a>
 <h2 class="pubt">MaDi: Learning to Mask Distractions for Generalization in Visual Deep Reinforcement Learning</h2>
@@ -159,26 +196,6 @@ My CV is available [here][CV].
 </div>
 <hr>
 
-
-<!-- Min-Time paper -->
-<a name="/min_time"></a>
-<h2 class="pubt">Learning Sparse-Reward Tasks on Real Robots From Scratch</h2>
-<p class="pubd">
-    <span class="authors">Gautham Vasan*, Yan Wang*, Fahim Shahriar, James Bergstra, Martin Jagersand, A. Rupam Mahmood</span><br>
-    <span class="conf">ICRA 2023 (RAP4 Robotics Workshop)</span><br>
-    <span class="links">
-        <a target="_blank" href="https://drive.google.com/file/d/1MiI9QmmlpVHvQ416iObY0xkK6oPKizH-/view?usp=share_link">Paper</a>
-        <a target="_blank" href="https://sites.google.com/view/minimum-time-rl">Website</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-12">
-        <p class="pubd">
-            <img src="/img/min-time-paper.png">
-        </p>
-    </div>
-</div>
-<hr>
 
 <!-- Fengdi Paper -->
 <a name="/discount_correction"></a>
