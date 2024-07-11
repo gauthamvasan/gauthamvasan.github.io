@@ -139,7 +139,7 @@ My CV is available [here][CV].
 
 <!-- Min-Time paper -->
 <a name="/min_time"></a>
-<h2 class="pubt">Revisiting Constant Negative Rewards for Goal-Reaching Tasks in Robot Learning</h2>
+<h2 class="pubt">Revisiting Sparse Rewards for Goal-Reaching Reinforcement Learning</h2>
 <p class="pubd">
     <span class="authors">Gautham Vasan, Yan Wang, Fahim Shahriar, James Bergstra, Martin Jagersand, A. Rupam Mahmood</span><br>
     <span class="conf">RLC 2024</span><br>
