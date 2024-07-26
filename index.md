@@ -29,7 +29,7 @@ permalink:  /
 I read. I write. I build stuff.
 
 **I'm interested in building machines with animal-like intelligence.**
-Specifically, I aim to understand algorithmic principles that could enable robots to _continually_ learn, adapt, develop, and improve throughout their lifetimes.
+Specifically, I aim to understand algorithmic principles that could enable robots to _continually_ learn, adapt, develop, and improve throughout their lives.
 In pursuit of this goal, I design and develop _reinforcement learning ([RL][RL-wiki])_ algorithms and _continual learning_ systems for real-world robots. 
 
 I also have a strong side interest in _Neuroscience_, _Evolutionary Biology_ and _Quantum Computing_. All are part of an overarching goal to understand the emergence of intelligence.  <br>
@@ -92,7 +92,7 @@ I also have a strong side interest in _Neuroscience_, _Evolutionary Biology_ and
     </div>
 </div>
 
-I'm a PhD student in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group. My PhD research focuses on real-time, online learning and continual adaptation on robots. To achieve this, I mostly focus on policy gradient methods, real-time learning architectures and temporal abstraction in reinforcement learning. 
+I'm a PhD student in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group. My PhD research focuses on real-time, online learning and continual adaptation on robots. *I mostly focus on policy gradient methods, real-time learning architectures and model-based reinforcement learning*.
 
 Recently, I visited the [Neurobotics Lab][Neurobotics] headed by [Joschka Boedecker][Joschka] at the University of Freiburg, Germany. We worked on a novel framework for skill learning and adaptation for assitive robots using reinforcement learning. This also involves the integration of very noisy electroencephalogram (EEG) signals decoded from a patient’s brain, which includes preference and failure information.
 
