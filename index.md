@@ -145,7 +145,7 @@ My CV is available [here][CV].
     <span class="conf">RLC 2024</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2407.00324">Paper</a>
-        <a target="_blank" href="https://drive.google.com/file/d/1O8D3oCWq5xf2hi1JOlMBbs6W1ClrvUFb/view?usp=sharing">Demo</a>
+        <a target="_blank" href="https://youtu.be/a6zlVUuKzBc">Demo</a>
     </span>
 </p>
 <div class="row">
@@ -181,6 +181,8 @@ My CV is available [here][CV].
     <span class="conf">AAMAS 2024</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2312.15339">Paper</a>
+        <a target="_blank" href="https://github.com/bramgrooten/mask-distractions">Code</a>
+        <a target="_blank" href="https://youtu.be/2oImF0h1k48">Video</a>
     </span>
 </p>
 <div class="row">
