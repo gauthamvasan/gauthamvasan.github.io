@@ -137,6 +137,45 @@ My CV is available [here][CV].
 
 # Publications
 
+<!-- AVG -->
+<a name="/avg"></a>
+<h2 class="pubt">Deep Policy Gradient Methods Without Batch Updates, Target Networks, or Replay Buffers</h2>
+<p class="pubd">
+    <span class="authors">Gautham Vasan, Mohamed Elsayed, Alireza Azimi*, Jiamin He*, Fahim Shahriar, Colin Bellinger, Martha White, A. Rupam Mahmood</span><br>
+    <span class="conf">NeurIPS 2024</span><br>
+    <span class="links">
+        <a target="_blank" href="https://drive.google.com/file/d/1ewBSnPaf6ocUSIujWVU5t-3m8GdT2JBz/view?usp=sharing">Paper</a>
+        <a target="_blank" href="https://github.com/gauthamvasan/avg">Code</a>        
+    </span>
+</p>
+<div class="row">
+    <div class="col-xs-12">
+        <p class="pubd">
+            <img src="/img/avg-replay-buffer.png">
+        </p>
+    </div>
+</div>
+<hr>
+
+<!-- Stream-X paper -->
+<a name="/streaming_deep_rl"></a>
+<h2 class="pubt">Streaming Deep Reinforcement Learning Finally Works</h2>
+<p class="pubd">
+    <span class="authors">Mohamed Elsayed, Gautham Vasan, A. Rupam Mahmood</span><br>
+    <span class="conf">Pre-Print, NeurIPS FitML Workshop 2024</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2410.14606">Paper</a>
+    </span>
+</p>
+<div class="row">
+    <div class="col-xs-12">
+        <p class="pubd">
+            <img src="/img/streaming-deep-rl.png">
+        </p>
+    </div>
+</div>
+<hr>
+
 <!-- Min-Time paper -->
 <a name="/min_time"></a>
 <h2 class="pubt">Revisiting Sparse Rewards for Goal-Reaching Reinforcement Learning</h2>
@@ -157,6 +196,30 @@ My CV is available [here][CV].
 </div>
 <hr>
 
+<!-- CoRL Workshop paper -->
+<a name="/corl_gcrl"></a>
+<h2 class="pubt">Versatile and Generalizable Manipulation via Goal-Conditioned Reinforcement Learning with Grounded Object Detection</h2>
+<p class="pubd">
+    <span class="authors"> Huiyi Wang, Fahim Shahriar, Alireza Azimi, Gautham Vasan, A. Rupam Mahmood, Colin Bellinger
+</span><br>
+    <span class="conf">CoRL MRM-D Workshop 2024</span><br>
+    <span class="links">
+        <a target="_blank" href="https://openreview.net/pdf?id=TgXIkK8WPQ">Paper</a>
+    </span>
+</p>
+<div class="row">
+    <div class="col-xs-4">
+        <p class="pubd">
+            <img src="/img/RL_Chemist_Setup.png">
+        </p>
+    </div>
+    <div class="col-xs-8">
+        <p class="pubd">
+            <img src="/img/RL_Chemist_mask.png">
+        </p>
+    </div>
+</div>
+<hr>
 
 <!-- AAMAS DC -->
 <a name="/aamas_dc"></a>
