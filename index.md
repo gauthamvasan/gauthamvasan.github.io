@@ -144,7 +144,7 @@ My CV is available [here][CV].
     <span class="authors">Gautham Vasan, Mohamed Elsayed, Alireza Azimi*, Jiamin He*, Fahim Shahriar, Colin Bellinger, Martha White, A. Rupam Mahmood</span><br>
     <span class="conf">NeurIPS 2024</span><br>
     <span class="links">
-        <a target="_blank" href="https://drive.google.com/file/d/1ewBSnPaf6ocUSIujWVU5t-3m8GdT2JBz/view?usp=sharing">Paper</a>
+        <a target="_blank" href="https://openreview.net/forum?id=DX5GUwMFFb">Paper</a>
         <a target="_blank" href="https://github.com/gauthamvasan/avg">Code</a>        
     </span>
 </p>
