@@ -112,6 +112,12 @@ My CV is available [here][CV].
 
 <a name="/talks"></a>
 # Talks
+
+<b> Deep Policy Gradient Methods Without Batch Updates, Target Networks, or Replay Buffers </b>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mQc4ETehniI?si=xG6ZJeOiRRymrDiv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
 <b> Two Issues of Autonomous Robot Learning </b>
 <p align="justify"> I discuss some practical, oft-ignored challenges in continual learning on real-world robots. More specifically I address two research questions: (i) How to specify reinforcement learning tasks?, and (ii) How to set up a real-time learning agent? </p> 
 <center>
