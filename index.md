@@ -9,15 +9,16 @@ permalink:  /
         <img src="/img/Gautham_brown_jacket_2023.jpg">
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
-        PhD student in Statistical Machine Learning<br>        
+        PhD student in Computing Science<br>        
         Dept. of Computing Science, <a href="http://rlai.ualberta.ca/">RLAI</a> & <a href="https://www.amii.ca/">AMII</a> <br>
         <a href="https://www.ualberta.ca/computing-science/index.html">University of Alberta</a><br>
         gauthamv dot 529 at gmail dot com <br> <br>
-        <a target="_blank" href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao">Google Scholar Profile </a> <br> <br>
-        <a href="https://github.com/gauthamvasan" class="fa fa-github" style="font-size:24px"></a> &nbsp;
-        <a href="https://www.linkedin.com/in/gauthamvasan/" class="fa fa-linkedin" style="font-size:24px"></a> &nbsp;
-        <a href="https://www.goodreads.com/user/show/29446357-gautham-vasan" class="fa fa-book" style="font-size:24px"></a> &nbsp;
+        <!-- <a target="_blank" href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao">Google Scholar Profile </a> <br> <br> -->
+        <a href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao" class="fa-brands fa-google-scholar" style="font-size:24px"></a> &nbsp;
+        <a href="https://www.linkedin.com/in/gauthamvasan/" class="fa-brands fa-linkedin" style="font-size:24px"></a> &nbsp;
+        <a href="https://www.goodreads.com/user/show/29446357-gautham-vasan" class="fa-solid fa-book" style="font-size:24px"></a> &nbsp;
         <a href="mailto:gauthamv.529@gmail.com" class="fa fa-envelope" style="font-size:24px"></a> &nbsp;
+        <a href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao" class="fa-brands fa-google-scholar" style="font-size:24px"></a> &nbsp;
     </div>
 </div>
 <hr>
@@ -80,7 +81,7 @@ I also have a strong side interest in _Neuroscience_, _Evolutionary Biology_ and
             2015 - 2017 <br> 2020 - Present
         </div>
     </div>
-        <div class="col-xs-4">
+    <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a target="_blank" href="https://uni-freiburg.de/en/"><img src="/img/logos/ufreiburg_full.png"></a>
@@ -88,6 +89,16 @@ I also have a strong side interest in _Neuroscience_, _Evolutionary Biology_ and
         <div class="logo-desc">
             University of Freiburg, Germany<br>
             March - June, 2023
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a target="_blank" href="https://www.sanctuary.ai/"><img src="/img/logos/sanctuary_logo.png"></a>
+        </div>
+        <div class="logo-desc">
+            Sanctuary AI, Vancouver, Canada<br>
+            Summer 2025
         </div>
     </div>
 </div>
@@ -622,7 +633,8 @@ Utilizing Local and Remote Computers</h2>
     </div>
 </div>
 
-<script src="/js/jquery.min.js"></script>
+<!-- <script src="/js/jquery.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
     $('ul:gt(0) li:gt(12)').hide();
     $('#read-more-button > a').click(function() {
