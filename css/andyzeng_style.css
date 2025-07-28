@@ -58,6 +58,8 @@ table {
   margin: 0px auto;
   position: relative;
   min-height: 100vh;
+  box-sizing: border-box;
+  padding-bottom: 2.5em; /* Height of the footer */
 }
 
 a {
@@ -94,21 +96,23 @@ h1 {
 }
 
 #intro-text {
-  width: 40em;
+  width: 42em;
   float: left;
 }
 
 #intro-image {
   margin: 2.7em 0 0 2em;
-  width: 12em;
-  height: 12em;
-  float: left;
+  width: 18em;
+  height: 24em;
+  float: right;
   overflow: hidden;
   border-radius: 1em;
 }
 
 #intro-image img {
-  width: 12em;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /**************************************************/
@@ -303,7 +307,9 @@ h3 a:hover {
 #footer {
   color: #a0a8b0;
   position: absolute;
+  left: 0;
   bottom: 0;
+  width: 100%;
   line-height: 2.5em;
 }
 
@@ -340,4 +346,33 @@ h3 a:hover {
 
 .research-project a:hover {
     border-bottom: none;
+}
+
+.research-thumbnail {
+  width: 40%;
+  float: left;
+  margin-right: 2%;
+}
+
+.research-thumbnail:hover {
+  border-bottom: none;
+}
+
+.research-thumbnail img {
+  margin-top: 0.4em;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.research-thumbnail video {
+  margin-top: 0.4em;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.research-description {
+  width: 58%;
+  float: left;
 }

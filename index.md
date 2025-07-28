@@ -7,11 +7,21 @@ permalink:  /
 <div id="intro">
     <div id="intro-text">
         <h1>Gautham Vasan</h1>
-        <p>
-            I'm a final-year PhD candidate in Computing Science at the University of Alberta, advised by <a href="https://armahmood.github.io/">Dr. Rupam Mahmood</a>. My research  interested in building intelligent agents that can continually learn, adapt, develop, and improve throughout their lives. To this end, I've designed and developed deep reinforcement learning algorithms and real-time learning systems for real-world robots. 
+        <p align="justify">
+            I'm a final-year PhD candidate in Computing Science at the <a href="https://www.ualberta.ca/en/index.html" target="_blank">University of Alberta</a>, advised by <a href="https://armahmood.github.io/" target="_blank">Dr. Rupam Mahmood</a>. 
+            I'm interested in building embodied agents that continually learn, adapt, develop, and improve throughout their lives. 
+
             <br><br>
-            📢 <b>I am on the job market for Winter 2026.</b> Feel free to reach out if you think I’d be a good fit for your research position. 
+            My Ph.D research focuses on reinforcement learning systems that operate in real-time, learning directly from experience. I’ve worked on asynchronous and distributed learning systems, reward design, and streaming reinforcement learning methods suited for online environments.
+            
+            <br><br>
+            Previously, I deployed deep reinforcement learning to a fleet of warehouse robots used by Gap and American Eagle at at <a href="https://ocadointelligentautomation.com/systems/robotic-sort-putwall" target="_blank">Kindred AI</a>. During my M.Sc. at the University of Alberta, I developed learning-from-demonstration techniques that allow amputees to teach their own prosthetic arms. Long before that, I studied Instrumentation and Control Engineering at <a href="https://nitt.edu/" target="_blank">NIT Trichy</a>, India.
+            
+
+            <br><br>
+            📢 <b>I will be on the job market starting January 2026.</b> Feel free to reach out if you think I’d be a good fit for your research position! 
             <br><br> 
+            <a href="Resume.pdf" target="_blank">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao">Google Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://github.com/gauthamvasan">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://www.linkedin.com/in/gauthamvasan/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -20,12 +30,13 @@ permalink:  /
         </p>
     </div>
     <div id="intro-image">
-        <img src="/img/Gautham_brown_jacket_2023.jpg">
+        <img src="/img/Profile/icml25_headshot.jpg">
     </div>
 </div>
 
 <div id="filters" class="button-group">
-    <button class="button is-checked" data-filter=".research">Research</button>
+    <button class="button is-checked" data-filter=".research">Highlights</button>
+    <!-- <button class="button" data-filter=".research">Research</button> -->
     <button class="button" data-filter=".publication">Publications</button>
     <button class="button" data-filter=".talk">Talks</button>
     <button class="button" data-filter=".misc">Misc</button>
@@ -33,25 +44,53 @@ permalink:  /
 
 <div class="grid">
     <!-- Research -->
-    <div class="list-item research-project" data-category="research">
-        <h3>Continual Reinforcement Learning</h3>
-        <a href="https://www.youtube.com/watch?v=QO0mmHMJvRQ"><img src="/img/madi_robot.png" alt="Continual Reinforcement Learning" /></a>
-        <p>How can we build agents that continually learn and adapt in the real world? My work explores using reinforcement learning to allow robots to acquire skills autonomously and in real-time. See my talk <a href="https://www.youtube.com/watch?v=QO0mmHMJvRQ">here</a>.</p>
+    <div class="list-item research-project research" data-category="research">
+        <a href="https://www.youtube.com/watch?v=yr3JZ4ujiqA" class="research-thumbnail">
+            <video controls poster="/img/AVG_poster.jpg">
+                <source src="/img/AVG.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <div class="research-description">
+            <h3>Streaming Deep Reinforcement Learning</h3>
+            <p>Streaming learning is about learning from a stream of experience: <br> 
+            •  as soon as they arrive <br>
+            •  using the most recent sample <br>
+            •  without storing past experience in raw form.<br><br>
+            In the era of large models and massive compute, our research offers a path toward more compute efficient learning -- reducing training costs while enabling scalable performance.
+            </p>
+        </div>
     </div>
-    <div class="list-item research-project" data-category="research">
-        <h3>Efficient Deep RL Algorithms</h3>
-        <a href="https://openreview.net/forum?id=DX5GUwMFFb"><img src="/img/avg-replay-buffer.png" alt="Efficient Deep RL" /></a>
-        <p>Modern deep RL often relies on large replay buffers and batch updates, making them inefficient. I'm developing new algorithms that learn from a single stream of data, without replay buffers or target networks. <a href="https://openreview.net/forum?id=DX5GUwMFFb">Read the paper</a>.</p>
+    <div class="list-item research-project research" data-category="research">
+        <a href="https://www.stateof.ai/2021" class="research-thumbnail">
+            <video controls poster="/img/Sort_poster.jpg">
+                <source src="/img/Sort.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <div class="research-description">
+            <h3> RLScan: Learning to Scan Apparel Barcodes</h3>
+            <p>RLScan uses deep reinforcement learning to train a closed-loop control scanning policy, conditioned on a real-time video feed. An RL agent is trained from end-to-end directly in production, learning from a fleet of robots across multiple production sites. RLScan achieves optimal barcode scanning behavior for handling complex product assortments. RL raised overall system speed by >2% .</p>
+        </div>
     </div>
-    <div class="list-item research-project" data-category="research">
-        <h3>Robotics and Real-Time Learning</h3>
-        <a href="https://arxiv.org/abs/2210.02317"><img src="/img/ardrone.jpg" alt="Robotics and Real-Time Learning" /></a>
-        <p>Applying RL to real robots is challenging. I've developed systems that enable vision-based robots to learn in real-time by distributing computation between local and remote resources. <a href="https://arxiv.org/abs/2210.02317">Find out more</a>.</p>
+    <div class="list-item research-project research" data-category="research">
+        <a href="https://arxiv.org/abs/2210.02317" class="research-thumbnail"><img src="/img/ardrone.jpg" alt="Robotics and Real-Time Learning" /></a>
+        <div class="research-description">
+            <h3>Computational Frameworks for Real-Time Robot Learning</h3>
+            <p></p>
+        </div>
     </div>
-    <div class="list-item research-project" data-category="research">
-        <h3>Sample-Efficient Generalization</h3>
-        <a href="https://arxiv.org/abs/2312.15339"><img src="/img/madi.png" alt="Sample-Efficient Generalization" /></a>
-        <p>How can agents generalize from limited experience? My work on Masked Distractions (MaDi) shows how agents can learn to ignore irrelevant parts of their visual input to generalize better. <a href="https://arxiv.org/abs/2312.15339">Check out the paper</a>.</p>
+    <div class="list-item research-project research" data-category="research">
+        <a href="https://arxiv.org/abs/2312.15339" class="research-thumbnail">
+            <video controls poster="/img/LfD_trials_poster.jpg">
+                <source src="/img/LfD_trials.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <div class="research-description">
+            <h3>Learning From Demonstration for Prosthetic Arms</h3>
+            <p>How can agents generalize from limited experience? My work on Masked Distractions (MaDi) shows how agents can learn to ignore irrelevant parts of their visual input to generalize better. <a href="https://arxiv.org/abs/2312.15339">Check out the paper</a>.</p>
+        </div>
     </div>
 
     <!-- Publications -->
