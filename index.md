@@ -15,7 +15,7 @@ permalink:  /
             My Ph.D research focuses on reinforcement learning systems that operate in real-time, learning directly from experience. I’ve worked on asynchronous and distributed learning systems, reward design, and streaming reinforcement learning methods suited for online environments.
             
             <br><br>
-            Previously, I deployed deep reinforcement learning to a fleet of warehouse robots used by Gap and American Eagle at at <a href="https://ocadointelligentautomation.com/systems/robotic-sort-putwall" target="_blank">Kindred AI</a>. During my M.Sc. at the University of Alberta, I developed learning-from-demonstration techniques that allow amputees to teach their own prosthetic arms. Long before that, I studied Instrumentation and Control Engineering at <a href="https://nitt.edu/" target="_blank">NIT Trichy</a>, India.
+            Previously, I deployed deep reinforcement learning to a fleet of warehouse robots used by Gap and American Eagle at <a href="https://ocadointelligentautomation.com/systems/robotic-sort-putwall" target="_blank">Kindred AI</a>. During my M.Sc at the University of Alberta, I developed learning-from-demonstration techniques that allow amputees to teach their own prosthetic arms. Long before that, I studied Instrumentation and Control Engineering at <a href="https://nitt.edu/" target="_blank">NIT Trichy</a>, India.
             
 
             <br><br>
@@ -39,7 +39,7 @@ permalink:  /
     <!-- <button class="button" data-filter=".research">Research</button> -->
     <button class="button" data-filter=".publication">Publications</button>
     <button class="button" data-filter=".talk">Talks</button>
-    <button class="button" data-filter=".misc">Misc</button>
+    <button class="button" data-filter=".service">Service</button>
 </div>
 
 <div class="grid">
@@ -70,14 +70,39 @@ permalink:  /
         </a>
         <div class="research-description">
             <h3> RLScan: Learning to Scan Apparel Barcodes</h3>
-            <p>RLScan uses deep reinforcement learning to train a closed-loop control scanning policy, conditioned on a real-time video feed. An RL agent is trained from end-to-end directly in production, learning from a fleet of robots across multiple production sites. RLScan achieves optimal barcode scanning behavior for handling complex product assortments. RL raised overall system speed by >2% .</p>
+            <p>
+            •  RLScan uses deep reinforcement learning to train a closed-loop control scanning policy, conditioned on a real-time video feed.<br> 
+            •  An RL agent is trained from end-to-end directly in production, learning from a fleet of robots across multiple production sites.<br>
+            •  RLScan achieves optimal barcode scanning behavior for handling complex product assortments.<br>
+            •   RL raised overall system speed by >2%.</p>
         </div>
     </div>
     <div class="list-item research-project research" data-category="research">
-        <a href="https://arxiv.org/abs/2210.02317" class="research-thumbnail"><img src="/img/ardrone.jpg" alt="Robotics and Real-Time Learning" /></a>
+        <a href="https://arxiv.org/abs/2210.02317" class="research-thumbnail">
+            <video controls poster="/img/UR5_poster.jpg">
+                <source src="/img/UR5-VisualReacher.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <div class="research-description">
+            <h3>Sparse Rewards in Reinforcement Learning</h3>
+            <p></p>
+        </div>
+    </div>
+    <div class="list-item research-project research" data-category="research">
+        <a href="https://arxiv.org/abs/2210.02317" class="research-thumbnail">
+            <video controls poster="/img/Create-Reacher_poster.jpg">
+                <source src="/img/Create-Reacher.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
         <div class="research-description">
             <h3>Computational Frameworks for Real-Time Robot Learning</h3>
-            <p></p>
+            <p>I have spent a lot of time thinking carefully about the order and distribution of agent and environment-related computations among multiple concurrent processes for high performant learning. Our open-source contributions <a href="https://github.com/kindredresearch/SenseAct" target="_blank">SenseAct</a> and <a href="https://github.com/rlai-lab/relod" target="_blank">ReLoD</a> enables: <br>
+            •  Timely communication between the learning agent and multiple robotic devices with reduced latency,<br>
+            •  Easy and systematic design of robotic tasks for reinforcement learning agents,<br>
+            •  Facilitate reproducible real-world reinforcement learning.
+            </p>
         </div>
     </div>
     <div class="list-item research-project research" data-category="research">
@@ -222,8 +247,8 @@ permalink:  /
         <iframe width="560" height="315" src="https://www.youtube.com/embed/kkJ8-k-_CPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
-    <!-- Misc -->
-    <div class="list-item misc" data-category="misc">
+    <!-- Community Service -->
+    <div class="list-item service" data-category="service">
         <h3>Miscellaneous Stuff I'm Proud To Have Been A Part Of</h3>
         <ul>
             <li>A short stint as a research volunteer with The Hospital for Sick Children (<b><a href="https://www.sickkids.ca/">SickKids</a></b>).</li>
