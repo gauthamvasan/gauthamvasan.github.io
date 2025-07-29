@@ -4,6 +4,18 @@ title:
 permalink:  /
 ---
 
+<!-- SEO Meta Tags -->
+<meta name="title" content="Gautham Vasan | Robotics & Artificial Intelligence & Reinforcement Learning" />
+<meta name="description" content="Gautham Vasan's research in robot learning, reinforcement learning, and real-time AI. Publications, talks, and professional activities." />
+<meta name="keywords" content="Gautham Vasan, robot learning, reinforcement learning, AI, publications, talks, research, University of Alberta, NIT Trichy, deep learning, deep RL" />
+<meta name="author" content="Gautham Vasan" />
+<meta property="og:title" content="Gautham Vasan | Robot Learning & Reinforcement Learning" />
+<meta property="og:description" content="Research, publications, and talks by Gautham Vasan in robot learning and reinforcement learning." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://gauthamvasan.github.io/" />
+<meta property="og:image" content="https://gauthamvasan.github.io/img/Profile/icml25_headshot.jpg" />
+---
+
 <div id="intro">
     <div id="intro-text">
         <h1>Gautham Vasan</h1>
