@@ -53,7 +53,8 @@
         {% endif %}
 
         <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/main_1548935627.css">
+        <!-- <link rel="stylesheet" href="/css/main_1548935627.css"> -->
+        <link rel="stylesheet" href="/css/andyzeng_style.css">
         
         <!-- Font Awesome -->
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
@@ -95,55 +96,49 @@
             <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
         <![endif]-->
 
+        <!-- Isotope JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
     </head>
-    <body>
+    <body id="body">
         <!-- Header
             ================================================== -->
-        <div class="top-strip"></div>
-        <div class="container">
-            <div class="page-header">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h1 id="name-block"><a href="/">Gautham Vasan</a></h1>
-                    </div>
-                    <div class="col-xs-12">
-                        <ul class="nav-bar">
-                            <li><a href="/#/bio">About Me</a></li>
-                            <li><a target="_blank" href="/Resume.pdf">CV</a></li>
-                            <li class="hide-link-on-small-screens"><a href="/#/publications">Publications</a></li>
-                            <li class="hide-link-on-small-screens"><a href="/machinae_animatae">Blog</a></li>
-			    <li><a href="https://enlightenedidiot.net/" target="_blank">Enlightened Idiot</a></li>
-                            <!-- <li class="hide-link-on-small-screens"><a href="/bookshelf">Bookshelf</a></li>  -->
-                            <li class="hide-link-on-small-screens"><a href="/#/talks">Talks</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
+        <!-- <div class="top-strip"></div> -->
+        <div id="main">
             <!-- Page content goes here -->
-            <div class="page-content">
-                {{ content }}
-            </div>            
-
-            <!-- The End -->
-            <hr>
-            <center>                            
-                Take me <a href="/">Home</a>, country roads  :)   <br>
-                ©Gautham Vasan  | Design: <a href="https://abhishekdas.com/">Abhishek Das</a>. 
-            </center>
+            {{ content }}
         </div>
         
-
-
-
-
-        
-
         <!-- Footer
             ================================================== -->
 
         <!-- Javascripts
             ================================================= -->
+        <script>
+          // Isotope grid
+          var $grid = $('.grid').isotope({
+            itemSelector: '.list-item',
+            layoutMode: 'vertical',
+            filter: '.research'
+          });
+
+          // Filter buttons
+          $('.button-group').on( 'click', 'button', function() {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
+          });
+
+          // Button highlighting
+          $('.button-group').each( function( i, buttonGroup ) {
+            var $buttonGroup = $( buttonGroup );
+            $buttonGroup.on( 'click', 'button', function() {
+              $buttonGroup.find('.is-checked').removeClass('is-checked');
+              $( this ).addClass('is-checked');
+            });
+          });
+        </script>
 
     </body>
 </html>

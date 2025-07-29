@@ -4,678 +4,427 @@ title:
 permalink:  /
 ---
 
-<div class="row">
-    <div class="col-sm-6 col-xs-12">
-        <img src="/img/Gautham_brown_jacket_2023.jpg">
+<div id="intro">
+    <div id="intro-text">
+        <h1>Gautham Vasan</h1>
+        <p align="justify">
+            I'm a PhD candidate in Computing Science at the <a href="https://www.ualberta.ca/en/index.html" target="_blank">University of Alberta</a>, advised by <a href="https://armahmood.github.io/" target="_blank">Dr. Rupam Mahmood</a>.
+            My research focuses on enabling robots to learn from experience in real time using reinforcement learning.
+            <!-- I’ve worked on asynchronous and distributed learning systems, reward design, and streaming reinforcement learning methods suited for real-world applications. -->
+            
+            <br><br>
+            Previously, I deployed deep reinforcement learning to a fleet of warehouse robots used by Gap at <a href="https://ocadointelligentautomation.com/systems/robotic-sort-putwall" target="_blank">Kindred AI</a>. During my M.Sc, I worked with <a href="https://pilarski.github.io/" target="_blank">Dr. Patrick Pilarski</a> to develop learning from demonstration techniques that amputees can use to teach their own prosthetic arms. Long before that, I studied Instrumentation and Control Engineering at <a href="https://nitt.edu/" target="_blank">NIT Trichy</a>, India.
+            
+
+            <br><br>
+            📢 <b>I will be on the job market starting January 2026.</b> Feel free to <a href="mailto:gauthamv.529@gmail.com">reach out</a> if you think I’d be a good fit for your research position! 
+            <br><br> 
+            <a href="Resume.pdf" target="_blank">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao">Google Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/gauthamvasan">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/gauthamvasan/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.goodreads.com/user/show/29446357-gautham-vasan">Goodreads</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mailto:gauthamv.529@gmail.com">Email</a>
+        </p>
     </div>
-    <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
-        PhD student in Computing Science<br>        
-        Dept. of Computing Science, <a href="http://rlai.ualberta.ca/">RLAI</a> & <a href="https://www.amii.ca/">AMII</a> <br>
-        <a href="https://www.ualberta.ca/computing-science/index.html">University of Alberta</a><br>
-        gauthamv dot 529 at gmail dot com <br> <br>
-         <a target="_blank" href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao">Google Scholar Profile </a> <br> <br> 
-<!--        <a href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao" class="fa-brands fa-google-scholar" style="font-size:24px"></a> &nbsp;-->
-        <a href="https://github.com/gauthamvasan" class="fa-brands fa-github" style="font-size:24px"></a> &nbsp;
-        <a href="https://www.linkedin.com/in/gauthamvasan/" class="fa-brands fa-linkedin" style="font-size:24px"></a> &nbsp;
-        <a href="https://www.goodreads.com/user/show/29446357-gautham-vasan" class="fa-solid fa-book" style="font-size:24px"></a> &nbsp;
-        <a href="mailto:gauthamv.529@gmail.com" class="fa fa-envelope" style="font-size:24px"></a> &nbsp;
-<!--        <a href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao" class="fa-brands fa-google-scholar" style="font-size:24px"></a> &nbsp;-->
-    </div>
-</div>
-<hr>
-
-
-<a name="/bio"></a>
-# About Me
-
-I read. I write. I build stuff.
-
-**I'm interested in building machines with animal-like intelligence.**
-Specifically, I aim to understand algorithmic principles that could enable robots to _continually_ learn, adapt, develop, and improve throughout their lives.
-In pursuit of this goal, I design and develop _reinforcement learning ([RL][RL-wiki])_ algorithms and _continual learning_ systems for real-world robots. 
-
-I also have a strong side interest in _Neuroscience_, _Evolutionary Biology_ and _Quantum Computing_. All are part of an overarching goal to understand the emergence of intelligence.  <br>
-
----
-
-<div class="row" id="timeline-logos">
-    <div class="col-xs-4">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a href="https://www.nitt.edu/"><img src="/img/logos/NITT_logo.png"></a>
-        </div>
-        <div class="logo-desc">
-            NIT Trichy, India<br>
-            2011 - 2015
-        </div>
-    </div>
-    <div class="col-xs-4">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a href="https://www.iiit.ac.in/"><img src="/img/logos/iiit-h_logo.png"></a>
-        </div>
-        <div class="logo-desc"> 
-            IIIT Hyderabad, India <br>
-            Summer 2014
-        </div>
-    </div>
-    <div class="col-xs-4">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a href="https://www.kindred.ai/"><img src="/img/logos/Kindred/Kindred_Logomark_RGB_Fire.png"></a>
-        </div>
-        <div class="logo-desc">
-            Kindred Systems Inc, Canada<br>
-            2017 - 2020
-        </div>
+    <div id="intro-image">
+        <img src="/img/Profile/icml25_headshot.jpg">
     </div>
 </div>
 
-<div class="row" id="timeline-logos">
-    <div class="col-xs-4">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="https://www.ualberta.ca/index.html"><img style="width:120px;" src="/img/logos/UofA_logo.png"></a>
-        </div>
-        <div class="logo-desc">
-            University of Alberta, Canada<br>
-            2015 - 2017 <br> 2020 - Present
-        </div>
-    </div>
-    <div class="col-xs-4">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="https://uni-freiburg.de/en/"><img src="/img/logos/ufreiburg_full.png"></a>
-        </div>
-        <div class="logo-desc">
-            University of Freiburg, Germany<br>
-            March - June, 2023
-        </div>
-    </div>
-    <div class="col-xs-4">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="https://www.sanctuary.ai/"><img src="/img/logos/sanctuary_logo.png"></a>
-        </div>
-        <div class="logo-desc">
-            Sanctuary AI, Vancouver, Canada<br>
-            Summer 2025
-        </div>
-    </div>
+<div id="filters" class="button-group">
+    <!-- <button class="button is-checked" data-filter=".research">Highlights</button> -->
+    <button class="button" data-filter=".research">Research</button>
+    <button class="button" data-filter=".publication">Publications</button>
+    <button class="button" data-filter=".talk">Talks</button>
+    <button class="button" data-filter=".service">Service</button>
 </div>
 
-I'm a PhD student in Statistical Machine Learning at the University of Alberta. I work under the supervision of [Rupam Mahmood][5] with the Reinforcement Learning and Artificial Intelligence ([RLAI](RLAI)) Group. My PhD research focuses on real-time, online learning and continual adaptation on robots. *I mostly focus on policy gradient methods, real-time learning architectures and model-based reinforcement learning*.
-
-Recently, I visited the [Neurobotics Lab][Neurobotics] headed by [Joschka Boedecker][Joschka] at the University of Freiburg, Germany. We worked on a novel framework for skill learning and adaptation for assitive robots using reinforcement learning. This also involves the integration of very noisy electroencephalogram (EEG) signals decoded from a patient’s brain, which includes preference and failure information.
-
-Previously, I was a Machine Learning Researcher at [Kindred Systems Inc][3]. As a member of the AI Research Team in Toronto, I developed Deep Reinforcement Learning techniques to improve the product's ([SORT](SORT)) overall throughput at e-commerce fulfillment centres like [Gap Inc](GAP), etc. I was also responsible for the design, implementation and evaluation of learning algorithms and robot infrastructure as a part of the research and publication efforts at Kindred (e.g., [SenseAct](SenseAct)). I spent three wonderful years at Kindred; intially working with [Geordie Rose][14], [Suzzanne Gildert][15] and [Olivia Norton][16] in Vancouver and subsequently with [James Bergstra][12], [Dmytro Korenkevych][13] and [Rupam Mahmood][5] in Toronto.
-
-I graudated with an M.Sc (Thesis) in Computing Science from the University of Alberta in 2017. I worked under the supervision of [Patrick M. Pilarski][4] with the [BLINC](BLINC) and [RLAI](RLAI) labs. During my masters, I mostly worked with rehabilitative and assistive robots. My thesis research was on [_‟Teaching a Powered Prosthetic Arm with an Intact Arm Using Reinforcement Learning”_][19]. We used ideas from _Learning from Demonstration, Actor-Critic Reinforcement Learning_ and explored the possibilities for synergistic, context-aware control of a prosthetic arm. This work won the _2017 M.Sc. Outstanding Thesis Award in Computing Science_.
-
-In a past life, I studied _Instrumentation and Control Engineering_ at the National Institute of Technology (NIT), Tiruchirappalli. Under the guidance of [G. Saravana Ilango][11], my team devised control strategies for an autonomous robotic vacuum cleaner for solar panels which garnered accolades at the Texas Instruments Innovation Challenge (2014). In addition, I evaluated methods for model predictive control, real-time trajectory generation and motion planning for quadcopters while working with [K. Madhava Krishna][9] and [V. Sankaranarayanan][8].
-
-I also maintain an academic blog titled [Machinae Animatae][tech-blog] and a personal blog titled [Musings of an Enlightened Idiot][blog].
-
-My CV is available [here][CV].
-
----
-
-
-
-<a name="/talks"></a>
-# Talks
-
-<b> Deep Policy Gradient Methods Without Batch Updates, Target Networks, or Replay Buffers </b>
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mQc4ETehniI?si=xG6ZJeOiRRymrDiv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-
-<b> Two Issues of Autonomous Robot Learning </b>
-<p align="justify"> I discuss some practical, oft-ignored challenges in continual learning on real-world robots. More specifically I address two research questions: (i) How to specify reinforcement learning tasks?, and (ii) How to set up a real-time learning agent? </p> 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QO0mmHMJvRQ?si=KGif_tvrkIN06zo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
-
-
-<b> Tea Time Talks: Reward (Mis-)Specification in Reinforcement Learning </b>
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yqeiXpbDoKg?si=NuWSQoWizPiLL8Ic&amp;start=517" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
-
-
-<b> natChat: Neurotech in Artificial Intelligence (2023) </b>
-<br>
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kkJ8-k-_CPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
-
----
-<a name="/publications"></a>
-
-# Publications
-
-<!-- AVG -->
-<a name="/avg"></a>
-<h2 class="pubt">Deep Policy Gradient Methods Without Batch Updates, Target Networks, or Replay Buffers</h2>
-<p class="pubd">
-    <span class="authors">Gautham Vasan, Mohamed Elsayed, Alireza Azimi*, Jiamin He*, Fahim Shahriar, Colin Bellinger, Martha White, A. Rupam Mahmood</span><br>
-    <span class="conf">NeurIPS 2024</span><br>
-    <span class="links">
-        <a target="_blank" href="https://openreview.net/forum?id=DX5GUwMFFb">Paper</a>
-        <a target="_blank" href="https://github.com/gauthamvasan/avg">Code</a>        
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-12">
-        <p class="pubd">
-            <img src="/img/avg-replay-buffer.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- Stream-X paper -->
-<a name="/streaming_deep_rl"></a>
-<h2 class="pubt">Streaming Deep Reinforcement Learning Finally Works</h2>
-<p class="pubd">
-    <span class="authors">Mohamed Elsayed, Gautham Vasan, A. Rupam Mahmood</span><br>
-    <span class="conf">Pre-Print, NeurIPS FitML Workshop 2024</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2410.14606">Paper</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-12">
-        <p class="pubd">
-            <img src="/img/streaming-deep-rl.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- Min-Time paper -->
-<a name="/min_time"></a>
-<h2 class="pubt">Revisiting Sparse Rewards for Goal-Reaching Reinforcement Learning</h2>
-<p class="pubd">
-    <span class="authors">Gautham Vasan, Yan Wang, Fahim Shahriar, James Bergstra, Martin Jagersand, A. Rupam Mahmood</span><br>
-    <span class="conf">RLC 2024</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2407.00324">Paper</a>
-        <a target="_blank" href="https://youtu.be/a6zlVUuKzBc">Demo</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-12">
-        <p class="pubd">
-            <img src="/img/min-time-overlay.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- CoRL Workshop paper -->
-<a name="/corl_gcrl"></a>
-<h2 class="pubt">Versatile and Generalizable Manipulation via Goal-Conditioned Reinforcement Learning with Grounded Object Detection</h2>
-<p class="pubd">
-    <span class="authors"> Huiyi Wang, Fahim Shahriar, Alireza Azimi, Gautham Vasan, A. Rupam Mahmood, Colin Bellinger
-</span><br>
-    <span class="conf">CoRL MRM-D Workshop 2024</span><br>
-    <span class="links">
-        <a target="_blank" href="https://openreview.net/pdf?id=TgXIkK8WPQ">Paper</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/RL_Chemist_Setup.png">
-        </p>
-    </div>
-    <div class="col-xs-8">
-        <p class="pubd">
-            <img src="/img/RL_Chemist_mask.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- AAMAS DC -->
-<a name="/aamas_dc"></a>
-<h2 class="pubt">Autonomous Skill Acquisition for Robots Using Graduated Learning</h2>
-<p class="pubd">
-    <span class="authors">Gautham Vasan</span><br>
-    <span class="conf">AAMAS Doctoral Consortium 2024</span><br>
-    <span class="links">
-        <a target="_blank" href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2785.pdf">Paper</a>
-    </span>
-</p>
-<hr>
-
-
-
-
-<!-- MaDi -->
-<a name="/madi"></a>
-<h2 class="pubt">MaDi: Learning to Mask Distractions for Generalization in Visual Deep Reinforcement Learning</h2>
-<p class="pubd">
-    <span class="authors">Bram Grooten, Tristan Tomilin, Gautham Vasan, Matthew E Taylor, A Rupam Mahmood, Meng Fang, Mykola Pechenizkiy, Decebal Constantin Mocanu</span><br>
-    <span class="conf">AAMAS 2024</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2312.15339">Paper</a>
-        <a target="_blank" href="https://github.com/bramgrooten/mask-distractions">Code</a>
-        <a target="_blank" href="https://youtu.be/2oImF0h1k48">Video</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-8">
-        <p class="pubd">
-            <img src="/img/madi.png">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/madi_robot.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-
-<!-- Fengdi Paper -->
-<a name="/discount_correction"></a>
-<h2 class="pubt">Correcting Discount-Factor Mismatch in On-Policy Policy Gradient Methods</h2>
-<p class="pubd">
-    <span class="authors">Fengdi Che, Gautham Vasan, A. Rupam Mahmood</span><br>
-    <span class="conf">ICML 2023</span><br>
-    <span class="links">
-        <a target="_blank" href="">Paper</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-12">
-        <p class="pubd">
-            <img src="/img/discount_correction.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- ReLoD -->
-<a name="/relod"></a>
-<h2 class="pubt">Real-Time Reinforcement Learning for Vision-Based Robotics
-Utilizing Local and Remote Computers</h2>
-<p class="pubd">
-    <span class="authors">Yan Wang*, Gautham Vasan*, A. Rupam Mahmood</span><br>
-    <span class="conf">ICRA 2023</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2210.02317">Paper</a>
-        <a target="_blank" href="https://github.com/rlai-lab/relod">Code</a>
-        <a target="_blank" href="https://youtu.be/7iZKryi1xSY">Video</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-12">
-        <p class="pubd">
-            <img src="/img/relod.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- Autoregressive policies -->
-<a name="/arp"></a>
-<h2 class="pubt">Autoregressive policies for continuous control deep reinforcement learning</h2>
-<p class="pubd">
-    <span class="authors">Dmytro Korenkevych, A Rupam Mahmood, Gautham Vasan, James Bergstra</span><br>
-    <span class="conf">IJCAI 2019</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1903.11524">Paper</a>
-        <a target="_blank" href="https://www.kindred.ai/blog/introducing-autoregressive-policies-for-temporally-coherent-exploration-in-continuous-control-reinforcement-learning">Post</a>
-        <a target="_blank" href="https://youtu.be/NCpyXBNqNmw">Video</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/ARP/ARP_Blog3.png">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/ARP/ARP_Blog4.gif">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/ARP/ARP_Blog5.gif">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- SenseAct -->
-<a name="/SenseAct"></a>
-<h2 class="pubt">Benchmarking reinforcement learning algorithms on real-world robots</h2>
-<p class="pubd">
-    <span class="authors">A Rupam Mahmood, Dmytro Korenkevych, Gautham Vasan, William Ma, James Bergstra</span><br>
-    <span class="conf">CoRL 2018</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1809.07731">Paper</a>
-        <a target="_blank" href="https://www.kindred.ai/blog/benchmarking-reinforcement-learning-algorithms-on-real-world-robots">Post</a>
-        <a target="_blank" href="https://youtu.be/ovDfhvjpQd8">Video</a>
-        <a target="_blank" href="https://www.kindred.ai/blog/introducing-a-framework-and-benchmark-tasks-for-reproducible-reinforcement-learning-research-on-real-robots">SenseAct</a>
-    </span>
-</p>
-<!-- 
-<img src="/img/SenseAct/robots-1.png"> 
--->
-<div class="row">
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/SenseAct/ur-reacher-2-trpo.gif" alt="UR-Reacher-2">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/SenseAct/dxl-tracker-trpo.gif">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/SenseAct/create-mover-ppo.gif">
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/SenseAct/ur-reacher-6-trpo.gif">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/SenseAct/dxl-reacher-trpo.gif">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p class="pubd">
-            <img src="/img/SenseAct/create-docker-trpo.gif">
-        </p>
-    </div>
-</div>
-<hr>
-
-
-<!-- Contextual LfD -->
-<a name="/gvf_lfd"></a>
-<h2 class="pubt">Context-Aware Learning from Demonstration: Using Camera Data to Support the Synergistic Control of a Multi-Joint Prosthetic Arm</h2>
-<p class="pubd">
-    <span class="authors">Gautham Vasan, Patrick M Pilarski</span><br>
-    <span class="conf">BioRob 2018</span><br>
-    <span class="links">
-        <a target="_blank" href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2018_BioRob_preprint.pdf">Paper</a>
-        <a target="_blank" href="https://docs.google.com/presentation/d/1gKY5LgBuBRYCs3NW5iyfrGNq6xCAxeg3zoM00j9C_Sw/edit?usp=sharing">Poster</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-6">
-        <div class="row-xs-3">
-            <p class="pubd">
-                <img src="/img/BioRob_2018/contextual_lfd_trial.jpg">
-            </p>
-        </div>
-        <div class="row-xs-3">
-            <p class="pubd">
-                <img src="/img/BioRob_2018/item_set.png">
+<div class="grid">
+<style>
+  .talks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    margin-bottom: 2em;
+  }
+  .talks-grid .talk {
+    box-sizing: border-box;
+    padding: 1em;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fafbfc;
+    margin-bottom: 0;
+  }
+  @media (max-width: 1200px) {
+    .talks-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 900px) {
+    .talks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+    <!-- Research -->
+    <div class="list-item research-project research" data-category="research">
+        <a href="https://www.youtube.com/watch?v=yr3JZ4ujiqA" class="research-thumbnail">
+            <video controls poster="/img/AVG_poster.jpg">
+                <source src="/img/AVG.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <div class="research-description">
+            <h3>Streaming Deep Reinforcement Learning</h3>
+            <p>Streaming learning is about learning from a stream of experience: <br> 
+            •  as soon as they arrive <br>
+            •  using the most recent sample <br>
+            •  without storing past experience in raw form.<br><br>
+            Our algorithms: <a href="https://arxiv.org/abs/2411.15370" target="_blank">Action Value Gradient (AVG)</a> & <a href="https://arxiv.org/abs/2410.14606" target="_blank">Stream-X</a>
             </p>
         </div>
     </div>
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/BioRob_2018/schematic_contextual_lfd.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- LfD -->
-<a name="/lfd"></a>
-<h2 class="pubt">Learning from demonstration: Teaching a myoelectric prosthesis with an intact limb via reinforcement learning</h2>
-<p class="pubd">
-    <span class="authors">Gautham Vasan, Patrick M Pilarski</span><br>
-    <span class="conf">ICORR 2017</span><br>
-    <span class="conf">Spotlight presentation at Rehabweek 2017. </span><br>
-    <span class="links">
-        <a target="_blank" href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2017_ICORR_preprint.pdf">Paper</a>
-        <a target="_blank" href="https://drive.google.com/drive/folders/0B8-iXsaYqsxmUWJnTkpvMkplMXM?usp=sharing">Video & Metadata</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-5">
-        <div class="row-xs-3">
-            <p class="pubd">
-                <img src="/img/ICORR_2017/Lfd_amputee.png">
-            </p>
-        </div>
-        <div class="row-xs-3">
-            <p class="pubd">
-                <img src="/img/ICORR_2017/trial_2.png">
+    <div class="list-item research-project research" data-category="research">
+        <a href="https://www.stateof.ai/2021" class="research-thumbnail">
+            <video controls poster="/img/Sort_poster.jpg">
+                <source src="/img/Sort.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <div class="research-description">
+            <h3> RLScan: Learning to Scan Apparel Barcodes</h3>
+            <p>
+            <!-- •  Deep reinforcement learning in production to scan barcodes on apparel. <br> -->
+            An RL policy is trained end-to-end directly in production, learning from a fleet of robots across multiple production sites.<br><br>
+            <a href="https://www.youtube.com/watch?v=MYU5aVxg-AU" target="_blank">Kindred SORT at Gap Inc</a>, <a href="https://www.stateof.ai/2021" target="_blank">State of AI Report (2021)</a>
             </p>
         </div>
     </div>
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/ICORR_2017/ICORR_Setup_animation.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- craig_rldm -->
-<a name="/craig_rldm"></a>
-<h2 class="pubt">Confident Decision Making with General Value Functions</h2>
-<p class="pubd">
-    <span class="authors">Craig Sherstan, Marlos C. Machado, Jaden Travnik, Adam White, Gautham Vasan, Patrick M. Pilarski</span><br>
-    <span class="conf">RLDM 2017</span><br>
-</p>
-<hr>
-
-
-<!-- lfd_rldm -->
-<a name="/lfd_rldm"></a>
-<h2 class="pubt"> Mirrored Bilateral Training of a Myoelectric Prosthesis with a non-amputated arm via Actor-Critic Reinforcement Learning </h2>
-<p class="pubd">
-    <span class="authors">Gautham Vasan, Patrick M Pilarski</span><br>
-    <span class="conf">RLDM 2017</span><br>
-    <span class="conf">Spotlight presentation (20min)</span><br>
-    <span class="links">
-        <a target="_blank" href="https://docs.google.com/presentation/d/1xd4nhI-4XbSqV0v_7MCv3qOl5pUkkaOPfkQobLNZlL0/edit?usp=sharing">Poster</a>
-        <a target="_blank" href="https://docs.google.com/presentation/d/1H19Mm8-aJNWyDSRAB-bmE11M29-23pB_zIlH72iSkQA/edit?usp=sharing">Slides</a>
-    </span>
-</p>
-
-<div class="row">
-    <div class="col-xs-6">
-        <div class="row-xs-3">
-            <p class="pubd">
-                <img src="/img/ICORR_2017/bentoarm.jpg">
-            </p>
-        </div>
-        <div class="row-xs-3">
-            <p class="pubd">
-                <img src="/img/ICORR_2017/ICORR_Chart.jpg">
+    <div class="list-item research-project research" data-category="research">
+        <a href="https://arxiv.org/abs/2210.02317" class="research-thumbnail">
+            <video controls poster="/img/Create-Reacher_poster.jpg">
+                <source src="/img/Create-Reacher.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <div class="research-description">
+            <h3>Reward Design in Reinforcement Learning</h3>
+            <p>
+            Using -1 every timestep until termination as the reward can lead to superior learned behaviors. Here's the <a href="https://arxiv.org/abs/2407.00324" target="_blank">paper</a> that explains why. 
             </p>
         </div>
     </div>
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/ICORR_2017/Trigno_Glove_setup.jpg">
-        </p>
+    <div class="list-item research-project research" data-category="research">
+        <a href="https://arxiv.org/abs/2210.02317" class="research-thumbnail">
+            <video controls poster="/img/UR5-VisualReacher_poster.jpg">
+                <source src="/img/UR5-VisualReacher.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <div class="research-description">
+            <h3>Computational Frameworks for Real-Time Robot Learning</h3>
+            <p> Concurrent processing for low latency sensorimotor interaction and asynchronous learning implementations for reliable real-time reinforcement learning on physical systems:
+            <a href="https://github.com/kindredresearch/SenseAct" target="_blank">SenseAct</a> &
+            <a href="https://github.com/rlai-lab/relod" target="_blank">ReLoD</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item research-project research" data-category="research">
+        <a href="https://arxiv.org/abs/2312.15339" class="research-thumbnail">
+            <video controls poster="/img/LfD_trials_poster.jpg">
+                <source src="/img/LfD_trials.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <div class="research-description">
+            <h3>Learning From Demonstration for Prosthetic Arms</h3>
+            <p>
+                Teaching a Powered Prosthetic Arm with an Intact Arm Using Reinforcement Learning. <br>
+                <i> M.Sc Outstanding <a href="https://era.library.ualberta.ca/items/4f922d51-0679-41f5-b362-12dd224b3a79" target="_blank">Thesis</a> Award in Computing Science </i> <br>
+            </p>
+        </div>
+    </div>
+    <!-- -->
+    <!-- Publications -->
+    <!-- -->
+    <div class="list-item publication" data-category="publication">
+        <a href="https://openreview.net/forum?id=DX5GUwMFFb" class="thumbnail">
+            <img src="/img/AVG_thumbnail.png" alt="AVG paper thumbnail" />
+        </a>
+        <div class="project-description">
+            <h3><a href="https://arxiv.org/pdf/2411.15370">Deep Policy Gradient Methods Without Batch Updates, Target Networks, or Replay Buffers</a></h3>
+            <p>
+                <b>Gautham Vasan</b>, Mohamed Elsayed, Alireza Azimi, Jiamin He, Fahim Shahriar, Colin Bellinger, Martha White, A. Rupam Mahmood<br>
+                <i>NeurIPS 2024</i><br>
+                <a href="https://arxiv.org/pdf/2411.15370">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/gauthamvasan/avg">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://colab.research.google.com/drive/1j4ONR062WQ_Fqs0yt07uBdm9zz7HGbte?usp=sharing">Colab</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://youtu.be/cwwuN6Hyew0">Video Demo</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=mQc4ETehniI">Cohere4AI Talk</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://arxiv.org/abs/2410.14606" class="thumbnail">
+             <img src="/img/streaming-deep-rl.png">
+        </a>
+        <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2410.14606">Streaming Deep Reinforcement Learning Finally Works</a></h3>
+            <p>
+                Mohamed Elsayed, <b>Gautham Vasan</b>, A. Rupam Mahmood<br>
+                <i>Pre-Print, NeurIPS FitML Workshop 2024</i><br>
+                <a href="https://arxiv.org/abs/2410.14606">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/mohmdelsayed/streaming-drl">Code</a>
+            </p>
+        </div>
+    </div>
+     <div class="list-item publication" data-category="publication">
+        <a href="https://arxiv.org/abs/2407.00324" class="thumbnail">
+             <img src="/img/franka_reacher.jpg">
+        </a>
+        <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2407.00324">Revisiting Sparse Rewards for Goal-Reaching Reinforcement Learning</a></h3>
+            <p>
+                <b>Gautham Vasan</b>, Yan Wang, Fahim Shahriar, James Bergstra, Martin Jagersand, A. Rupam Mahmood<br>
+                <i>RLC 2024</i><br>
+                <a href="https://arxiv.org/abs/2407.00324">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://youtu.be/a6zlVUuKzBc">Demo</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/gauthamvasan/rl_suite">Code</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://openreview.net/pdf?id=TgXIkK8WPQ" class="thumbnail">
+             <img src="/img/RL_Chemist_Setup.jpg">
+        </a>
+        <div class="project-description">
+            <h3><a href="https://openreview.net/pdf?id=TgXIkK8WPQ">Versatile and Generalizable Manipulation via Goal-Conditioned Reinforcement Learning with Grounded Object Detection</a></h3>
+            <p>
+                Huiyi Wang, Fahim Shahriar, Alireza Azimi, <b>Gautham Vasan</b>, A. Rupam Mahmood, Colin Bellinger<br>
+                <i>CoRL MRM-D Workshop 2024</i><br>
+                <a href="https://openreview.net/pdf?id=TgXIkK8WPQ">Paper</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2785.pdf" class="thumbnail">
+             <img src="/img/vector_charger_detector.jpg">
+        </a>
+        <div class="project-description">
+            <h3><a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2785.pdf">Autonomous Skill Acquisition for Robots Using Graduated Learning</a></h3>
+            <p>
+                <b>Gautham Vasan</b><br>
+                <i>AAMAS Doctoral Consortium 2024</i><br>
+                <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2785.pdf">Paper</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://arxiv.org/abs/2312.15339" class="thumbnail">
+             <img src="/img/madi_setup.jpg">
+        </a>
+        <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2312.15339">MaDi: Learning to Mask Distractions for Generalization in Visual Deep Reinforcement Learning</a></h3>
+            <p>
+                Bram Grooten, Tristan Tomilin, <b>Gautham Vasan</b>, Matthew E Taylor, A Rupam Mahmood, Meng Fang, Mykola Pechenizkiy, Decebal Constantin Mocanu<br>
+                <i>AAMAS 2024</i><br>
+                <a href="https://arxiv.org/abs/2312.15339">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://youtu.be/2oImF0h1k48">Video</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://proceedings.mlr.press/v202/che23c.html" class="thumbnail">
+             <img src="/img/discount_correction.jpg">
+        </a>
+        <div class="project-description">
+            <h3><a href="https://proceedings.mlr.press/v202/che23c.html">Correcting Discount-Factor Mismatch in On-Policy Policy Gradient Methods</a></h3>
+            <p>
+                Fengdi Che, <b>Gautham Vasan</b>, A. Rupam Mahmood<br>
+                <i>ICML 2023</i><br>
+                <a href="https://proceedings.mlr.press/v202/che23c.html">Paper</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://arxiv.org/abs/2210.02317" class="thumbnail">
+             <img src="/img/relod.jpg">
+        </a>
+        <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2210.02317">Real-Time Reinforcement Learning for Vision-Based Robotics Utilizing Local and Remote Computers</a></h3>
+            <p>
+                Yan Wang*, <b>Gautham Vasan*</b>, A. Rupam Mahmood<br>
+                <i>ICRA 2023</i><br>
+                <a href="https://arxiv.org/abs/2210.02317">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://youtu.be/7iZKryi1xSY">Video</a>
+            </p>
+        </div>
+    </div>  
+    <div class="list-item publication" data-category="publication">
+        <a href="https://arxiv.org/abs/1903.11524" class="thumbnail">
+            <img src="/img/ARP/ARP_Blog3.png" alt="ARP Blog3" />
+        </a>
+        <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/1903.11524">Autoregressive policies for continuous control deep reinforcement learning</a></h3>
+            <p>
+                Dmytro Korenkevych, A Rupam Mahmood, <b>Gautham Vasan</b>, James Bergstra<br>
+                <i>IJCAI 2019</i><br>
+                <a href="https://arxiv.org/abs/1903.11524">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.kindred.ai/blog/introducing-autoregressive-policies-for-temporally-coherent-exploration-in-continuous-control-reinforcement-learning">Post</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://youtu.be/NCpyXBNqNmw">Video</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://arxiv.org/abs/1809.07731" class="thumbnail">
+            <img src="/img/SenseAct/ur-reacher-2-trpo.gif" alt="UR-Reacher-2" />
+        </a>
+        <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/1809.07731">Benchmarking reinforcement learning algorithms on real-world robots</a></h3>
+            <p>
+                A Rupam Mahmood, Dmytro Korenkevych, <b>Gautham Vasan</b>, William Ma, James Bergstra<br>
+                <i>CoRL 2018</i><br>
+                <a href="https://arxiv.org/abs/1809.07731">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.kindred.ai/blog/benchmarking-reinforcement-learning-algorithms-on-real-world-robots">Post</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://youtu.be/ovDfhvjpQd8">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.kindred.ai/blog/introducing-a-framework-and-benchmark-tasks-for-reproducible-reinforcement-learning-research-on-real-robots">SenseAct</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2018_BioRob_preprint.pdf" class="thumbnail">
+            <img src="/img/BioRob_2018/contextual_lfd_trial.jpg" alt="Contextual LfD Trial" />
+        </a>
+        <div class="project-description">
+            <h3><a href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2018_BioRob_preprint.pdf">Context-Aware Learning from Demonstration: Using Camera Data to Support the Synergistic Control of a Multi-Joint Prosthetic Arm</a></h3>
+            <p>
+                <b>Gautham Vasan</b>, Patrick M Pilarski<br>
+                <i>BioRob 2018</i><br>
+                <a href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2018_BioRob_preprint.pdf">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://docs.google.com/presentation/d/1gKY5LgBuBRYCs3NW5iyfrGNq6xCAxeg3zoM00j9C_Sw/edit?usp=sharing">Poster</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2017_ICORR_preprint.pdf" class="thumbnail">
+            <img src="/img/ICORR_2017/Lfd_amputee.png" alt="LfD Amputee" />
+        </a>
+        <div class="project-description">
+            <h3><a href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2017_ICORR_preprint.pdf">Learning from demonstration: Teaching a myoelectric prosthesis with an intact limb via reinforcement learning</a></h3>
+            <p>
+                <b>Gautham Vasan</b>, Patrick M Pilarski<br>
+                <i>ICORR 2017</i><br>
+                Spotlight presentation at Rehabweek 2017.<br>
+                <a href="https://sites.ualberta.ca/~pilarski/docs/papers/Vasan_2017_ICORR_preprint.pdf">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://drive.google.com/drive/folders/0B8-iXsaYqsxmUWJnTkpvMkplMXM?usp=sharing">Video & Metadata</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="#" class="thumbnail">
+            <img src="/img/ICORR_2017/bentoarm.jpg" alt="Bento Arm" />
+        </a>
+        <div class="project-description">
+            <h3><a href="#">Mirrored Bilateral Training of a Myoelectric Prosthesis with a non-amputated arm via Actor-Critic Reinforcement Learning</a></h3>
+            <p>
+                <b>Gautham Vasan</b>, Patrick M Pilarski<br>
+                <i>RLDM 2017</i><br>
+                Spotlight presentation (20min)<br>
+                <a href="https://docs.google.com/presentation/d/1xd4nhI-4XbSqV0v_7MCv3qOl5pUkkaOPfkQobLNZlL0/edit?usp=sharing">Poster</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://docs.google.com/presentation/d/1H19Mm8-aJNWyDSRAB-bmE11M29-23pB_zIlH72iSkQA/edit?usp=sharing">Slides</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://arxiv.org/pdf/1604.07097.pdf" class="thumbnail">
+            <img src="/img/NeuroHex/hexboard.png" alt="NeuroHex Board" />
+        </a>
+        <div class="project-description">
+            <h3><a href="https://arxiv.org/pdf/1604.07097.pdf">Neurohex: A Deep Q-Learning Hex Agent</a></h3>
+            <p>
+                Kenny Young, <b>Gautham Vasan</b>, Ryan Hayward<br>
+                <i>Computer Games Workshop at IJCAI 2016</i><br>
+                <a href="https://arxiv.org/pdf/1604.07097.pdf">Paper</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://ieeexplore.ieee.org/abstract/document/7414792" class="thumbnail">
+            <img src="/img/ardrone.jpg" alt="Quadrotor" />
+        </a>
+        <div class="project-description">
+            <h3><a href="https://ieeexplore.ieee.org/abstract/document/7414792">Autonomous Visual Tracking and Landing of a Quadrotor on a Moving Platform</a></h3>
+            <p>
+                Juhi Ajmera, PR Siddharthan, KM Ramaravind, <b>Gautham Vasan</b>, Naresh Balaji, V Sankaranarayanan<br>
+                <i>IEEE ICIIP 2015</i><br>
+                <a href="https://ieeexplore.ieee.org/abstract/document/7414792">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://drive.google.com/file/d/0B78EAxFuk2RLWUsyOWdTMTdYak0/view?usp=sharing">Video</a>
+            </p>
+        </div>
+    </div>
+    <div class="list-item publication" data-category="publication">
+        <a href="https://arxiv.org/abs/1412.0591" class="thumbnail">
+            <img src="/img/TI/robot_1.png" alt="TI Robot 1" />
+        </a>
+        <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/1412.0591">A Control Strategy for an Autonomous Robotic Vacuum Cleaner for Solar Panels</a></h3>
+            <p>
+                <b>Gautham Vasan</b>, G Aravind, TSB Gowtham Kumar, R Naresh Balaji, G Saravana Ilango<br>
+                <i>IEEE Texas Instruments India Educators Conference 2014</i><br>
+                Phase-I Winners and finalists (top 19 among 2000+ teams)<br>
+                <a href="https://arxiv.org/abs/1412.0591">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://youtu.be/qiCRSVuftFQ">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://youtu.be/B_-TnMiD76M">Presentation</a>
+            </p>
+        </div>
+    </div>
+    <!-- Talks -->
+    <!-- -->
+<div class="talks-grid">
+      <div class="list-item talk" data-category="talk">
+        <h3 style="margin-top:0;"><b>Deep Policy Gradient Methods Without Batch Updates, Target Networks, or Replay Buffers</b></h3>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/mQc4ETehniI?si=xG6ZJeOiRRymrDiv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-top:1em;"></iframe>
+      </div>
+      <div class="list-item talk" data-category="talk">
+        <h3 style="margin-top:0;"><b>Two Issues of Autonomous Robot Learning</b></h3>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/QO0mmHMJvRQ?si=KGif_tvrkIN06zo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-top:1em;"></iframe>
+      </div>
+      <div class="list-item talk" data-category="talk">
+        <h3 style="margin-top:0;"><b>Reward (Mis-)Specification in Reinforcement Learning</b></h3>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/yqeiXpbDoKg?si=NuWSQoWizPiLL8Ic&amp;start=517" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-top:1em;"></iframe>
+      </div>
+      <div class="list-item talk" data-category="talk">
+        <h3 style="margin-top:0;"><b>natChat: Neurotech in Artificial Intelligence (2023)</b></h3>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/kkJ8-k-_CPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-top:1em;"></iframe>
+      </div>
+    </div>
+    <!-- -->
+    <!-- Community Service -->
+    <!-- -->
+    <div class="list-item service" data-category="service">
+        <h3>Community Service & Professional Activities</h3><br>
+        <ul style="list-style-type: disc; margin-left: 1.5em;">
+            <li style="margin-bottom: 0.75em;">Workflow Chair for AAAI 2026</li>
+            <li style="margin-bottom: 0.75em;">Reviewing at IROS, NeurIPS, ICML, ICLR and RLC</li>
+            <li style="margin-bottom: 0.75em;">Research volunteer with The Hospital for Sick Children (<a href="https://www.sickkids.ca/">SickKids</a>, 2019)</li>
+            <li style="margin-bottom: 0.75em;">Cerebral Palsy and Spasticity Trials: Worked with doctors on a study assessing functional gain in patients affected by stroke or spasticity using assistive robots.</li>
+        </ul>
     </div>
 </div>
-<hr>
 
-<!-- NeuroHex -->
-<a name="/NeuroHex"></a>
-<h2 class="pubt">Neurohex: A Deep Q-Learning Hex Agent </h2>
-<p class="pubd">
-    <span class="authors">Kenny Young, Gautham Vasan, Ryan Hayward</span><br>
-    <span class="conf">Computer Games Workshop at IJCAI 2016</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/pdf/1604.07097.pdf">Paper</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/NeuroHex/hexboard.png">
-        </p>
-    </div>
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/NeuroHex/model_architecture.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- Quadrotor -->
-<a name="/quadrotor"></a>
-<h2 class="pubt"> Autonomous Visual Tracking and Landing of a Quadrotor on a Moving Platform </h2>
-<p class="pubd">
-    <span class="authors">Juhi Ajmera, PR Siddharthan, KM Ramaravind, Gautham Vasan, Naresh Balaji, V Sankaranarayanan</span><br>
-    <span class="conf">IEEE ICIIP 2015</span><br>
-    <span class="links">
-        <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7414792">Paper</a>
-        <a target="_blank" href="https://drive.google.com/file/d/0B78EAxFuk2RLWUsyOWdTMTdYak0/view?usp=sharing">Video</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/ardrone.jpg">
-        </p>
-    </div>
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/ardrone_team.png">
-        </p>
-    </div>
-</div>
-<hr>
-
-<!-- TI -->
-<a name="/ti"></a>
-<h2 class="pubt"> A Control Strategy for an Autonomous Robotic Vacuum Cleaner for Solar Panels </h2>
-<p class="pubd">
-    <span class="authors">G Aravind, Gautham Vasan, TSB Gowtham Kumar, R Naresh Balaji, G Saravana Ilango</span><br>
-    <span class="conf">IEEE Texas Instruments India Educators Conference 2014 </span><br>
-    <span class="conf"> Phase-I Winners and finalists (top 19 among 2000+ teams) </span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1412.0591">Paper</a>
-        <a target="_blank" href="https://youtu.be/qiCRSVuftFQ">Video</a>
-        <a target="_blank" href="https://youtu.be/B_-TnMiD76M">Presentation</a>
-    </span>
-</p>
-<div class="row">
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/TI/robot_1.png">
-        </p>
-    </div>
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/TI/robot_2.png">
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/TI/ti_team.png">
-        </p>
-    </div>
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/TI/ti_award.jpg">
-        </p>
-    </div>
+<div id="footer">
+    ©Gautham Vasan  | Design inspired by <a href="https://abhishekdas.com/">Abhishek Das</a> & <a href="https://andyzeng.github.io/">Andy Zeng</a>.
 </div>
 
----
-<a name="/Misc"></a>
-
-# Miscellaneous Stuff I'm Proud To Have Been A Part Of
-- A short stint as a research volunteer with The Hospital for Sick Children (**[SickKids][SickKids]**). 
-- **Cerebral Palsy and Spasticity Trials**. I had the pleasure of working with medical doctors on a study assessing functional gain in patients affected by stroke or spasticity using assistive robots. I built tools to analyze the recorded sensory information and setup a robot interface for 12 patients. Thanks to [Patrick Pilarski][6], Trevor Lashyn, Matthew Curran and [Ming Chan][18] at the University of Alberta for looping me in! 
-- **Festember**, the annual International cultural festival of NIT Trichy. Festember is especially close to my heart since it was a labor of love. A lot of talented, passionate folks came together and poured tremendous effort, time and resources to create something special :) I spent two great years with the Marketing team and was the _Treasurer_ of _Festember 2014_. As the Treasurer, I handled the finances of the festival (~INR 20 Million) and executed several key decisions with regards to budget, expenditure, resource management for teams, etc. 
-- **Spider**, an R&D club at NIT Trichy. We conducted tech talks and workshops focusing on microcontrollers and embedded programming.
-- **Pragyan**, the annual technical festival of NIT Trichy. I worked with the Guest Lectures and Crossfire Teams. Personal highlights: (i) helped moderate a wonderful panel discussion on "Failing educational institutions?" (ii) [Jamie Hyneman][17], host of Discovery Mythbusters as a guest lecturer for Pragyan 14!  
-
-
----
-<a name="/TheEnd"></a>
-# The End
-<div class="row">
-    <div class="col-xs-3">
-        <p class="pubd">
-            <img src=''>
-        </p>
-    </div>
-    <div class="col-xs-6">
-        <p class="pubd">
-            <img src="/img/waving_bear.gif">
-        </p>
-    </div>
-    <div class="col-xs-3">
-        <p class="pubd">
-            <img src=''>
-        </p>
-    </div>
-</div>
-
-<!-- <script src="/js/jquery.min.js"></script> -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script type="text/javascript">
-    $('ul:gt(0) li:gt(12)').hide();
-    $('#read-more-button > a').click(function() {
-        $('ul:gt(0) li:gt(12)').show();
-        $('#read-more-button').hide();
-    });
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var researchBtn = document.querySelector('button[data-filter=".research"]');
+  if (researchBtn) {
+    researchBtn.click();
+  }
+});
 </script>
 
 
-
-[1]: https://www.nitt.edu/
-[2]: https://www.ualberta.ca/index.html
-[3]: https://www.kindred.ai/
-[4]: https://sites.ualberta.ca/~pilarski/
-[5]: https://armahmood.github.io/
-[6]: https://sites.ualberta.ca/~pilarski/docs/theses/Vasan_Gautham_201709_MSc.pdf
-[7]: http://www.incompleteideas.net/
-[8]: https://www.nitt.edu/home/academics/departments/eee/people/faculty/prof/sankar/
-[9]: https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en
-[10]: https://abhishekdas.com/
-[11]: https://scholar.google.co.in/citations?user=6u5SPboAAAAJ&hl=en
-[12]: https://scholar.google.ca/citations?user=KOBmy0sAAAAJ&hl=en&authuser=1
-[13]: https://scholar.google.ca/citations?user=weps1f4AAAAJ&hl=en&authuser=1
-[14]: https://ca.linkedin.com/in/geordie-rose-a53abb
-[15]: https://www.suzannegildert.com/
-[16]: https://ca.linkedin.com/in/olivia-norton-20791837
-[17]: https://en.wikipedia.org/wiki/Jamie_Hyneman
-[18]: https://sites.ualberta.ca/~kming/index.html
-[19]: https://sites.ualberta.ca/~pilarski/docs/theses/Vasan_Gautham_201709_MSc.pdf
 [RL-wiki]: https://en.wikipedia.org/wiki/Reinforcement_learning
-[RL-book]: http://www.incompleteideas.net/book/the-book.html
-[SORT]: https://www.kindred.ai/products
-[GAP]: https://www.gapinc.com/en-us/
-[SenseAct]: https://www.kindred.ai/senseact/
-[RLAI]: http://rlai.ualberta.ca/
-[AMII]: https://www.amii.ca/
-[BLINC]: https://blinclab.ca/
-[blog]: https://enlightenedidiot.net/
-[tech-blog]: /machinae_animatae
-[CV]: /Resume.pdf
-[SickKids]: https://www.sickkids.ca/
-[Neurobotics]: https://nr.informatik.uni-freiburg.de/welcome
-[Joschka]: https://nr.informatik.uni-freiburg.de/people/joschka-boedecker
