@@ -412,18 +412,30 @@ permalink:  /
     <!-- Community Service -->
     <!-- -->
     <div class="list-item service" data-category="service">
-        <h3>Community Service & Professional Activities</h3><br>
+        <h2>Professional Activities</h2><br>
         <ul style="list-style-type: disc; margin-left: 1.5em;">
-            <li style="margin-bottom: 0.75em;">Workflow Chair for AAAI 2026</li>
-            <li style="margin-bottom: 0.75em;">Reviewing at IROS, NeurIPS, ICML, ICLR and RLC</li>
+            <li style="margin-bottom: 0.75em;">Workflow Chair for AAAI 2026 </li>
+            <li style="margin-bottom: 0.75em;">Reviewer: ICML, RLC, Collas, ICLR, NeurIPS,  BioRob, ICORR, ICDL, IROS </li>
+            <li style="margin-bottom: 0.75em;"> Candidate selection for the CIFAR Deep Learning and Reinforcement Learning Summer School 2023 & 2024 </li>
+            <li style="margin-bottom: 0.75em;"> Mentoring: Six students at the University of Alberta (undergraduate and masters level) on robot learning research </li>
+        </ul>
+        <h2>Community Service</h2><br>
+        <ul style="list-style-type: disc; margin-left: 1.5em;">
             <li style="margin-bottom: 0.75em;">Research volunteer with The Hospital for Sick Children (<a href="https://www.sickkids.ca/">SickKids</a>, 2019)</li>
             <li style="margin-bottom: 0.75em;">Cerebral Palsy and Spasticity Trials: Worked with doctors on a study assessing functional gain in patients affected by stroke or spasticity using assistive robots.</li>
+        </ul>
+        <h2>Teaching Experience</h2><br>
+        <ul style="list-style-type: disc; margin-left: 1.5em;">
+            <li style="margin-bottom: 0.75em;"> CMPUT 340: Introduction to Numerical Methods (Winter 2024) </li>
+            <li style="margin-bottom: 0.75em;"> CMPUT 653: Real-Time Policy Learning (Fall 2023) </li>
+            <li style="margin-bottom: 0.75em;"> CMPUT 365: An Introduction to Reinforcement Learning (Winter 2021, Winter 2022, Fall 2022) </li>
+            <li style="margin-bottom: 0.75em;"> CMPUT 174: Introduction to the Foundations of Computation I (Fall 2015, Winter 2016, Fall 2020) </li>
         </ul>
     </div>
 </div>
 
 <div id="footer">
-    ©Gautham Vasan  | Design inspired by <a href="https://abhishekdas.com/">Abhishek Das</a> & <a href="https://andyzeng.github.io/">Andy Zeng</a>.
+    ©Gautham Vasan  | Design influenced by <a href="https://abhishekdas.com/">Abhishek Das</a> & <a href="https://andyzeng.github.io/">Andy Zeng</a>.
 </div>
 
 <script>
