@@ -78,7 +78,7 @@ permalink:  /
 </style>
     <!-- Research -->
     <div class="list-item research-project research" data-category="research">
-        <a href="https://www.youtube.com/watch?v=yr3JZ4ujiqA" class="research-thumbnail" target="_blank">
+        <a href="#" onclick="event.preventDefault()" class="research-thumbnail">
             <video controls poster="/img/AVG_poster.jpg">
                 <source src="/img/AVG.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -95,7 +95,7 @@ permalink:  /
         </div>
     </div>
     <div class="list-item research-project research" data-category="research">
-        <a href="https://www.stateof.ai/2021" class="research-thumbnail" target="_blank">
+        <a href="#" onclick="event.preventDefault()" class="research-thumbnail">
             <video controls poster="/img/Sort_poster.jpg">
                 <source src="/img/Sort.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -111,7 +111,7 @@ permalink:  /
         </div>
     </div>
     <div class="list-item research-project research" data-category="research">
-        <a href="https://arxiv.org/abs/2210.02317" class="research-thumbnail" target="_blank">
+        <a href="#" onclick="event.preventDefault()" class="research-thumbnail">
             <video controls poster="/img/Create-Reacher_poster.jpg">
                 <source src="/img/Create-Reacher.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -125,7 +125,7 @@ permalink:  /
         </div>
     </div>
     <div class="list-item research-project research" data-category="research">
-        <a href="https://arxiv.org/abs/2210.02317" class="research-thumbnail" target="_blank">
+        <a href="#" onclick="event.preventDefault()" class="research-thumbnail">
             <video controls poster="/img/UR5-VisualReacher_poster.jpg">
                 <source src="/img/UR5-VisualReacher.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -140,7 +140,7 @@ permalink:  /
         </div>
     </div>
     <div class="list-item research-project research" data-category="research">
-        <a href="https://arxiv.org/abs/2312.15339" class="research-thumbnail" target="_blank">
+        <a href="#" onclick="event.preventDefault()" class="research-thumbnail">
             <video controls poster="/img/LfD_trials_poster.jpg">
                 <source src="/img/LfD_trials.mp4" type="video/mp4">
                 Your browser does not support the video tag.
