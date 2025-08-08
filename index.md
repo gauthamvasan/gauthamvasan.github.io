@@ -41,11 +41,13 @@ permalink:  /
     </div>
 </div>
 
+<br><br><br>
 <div id="filters" class="button-group">
     <!-- <button class="button is-checked" data-filter=".research">Highlights</button> -->
     <button class="button" data-filter=".research">Research</button>
     <button class="button" data-filter=".publication">Publications</button>
     <button class="button" data-filter=".talk">Talks</button>
+    <button class="button" data-filter=".blog">Blog</button>
     <button class="button" data-filter=".service">Service</button>
 </div>
 
@@ -78,6 +80,7 @@ permalink:  /
 </style>
     <!-- Research -->
     <div class="list-item research-project research" data-category="research">
+        <br>
         <a href="#" onclick="event.preventDefault()" class="research-thumbnail">
             <video controls poster="/img/AVG_poster.jpg">
                 <source src="/img/AVG.mp4" type="video/mp4">
@@ -155,9 +158,49 @@ permalink:  /
         </div>
     </div>
     <!-- -->
+    <!-- Blog -->
+    <!-- -->
+    <div class="list-item blog" data-category="blog">
+        <br>
+        <h3> I write for fun/clarifying ideas for myself. My technical posts can be found below. 
+        My personal blog is hosted at <a href="https://enlightenedidiot.net/" target="_blank" style="color: rgb(20, 110, 190);">enlightenedidiot.net</a> </h3>
+        <br><br>
+        <a href="/posts/2024-01-22-fun-with-vector-derivatives" class="thumbnail" target="_blank">
+            <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/43b8c31f61f8b2bbe6f0df4d62012d8ba86ba420" alt="Blog Post Thumbnail">
+        </a>
+        <div class="project-description">
+            <h2><a href="/posts/2024-01-22-fun-with-vector-derivatives" target="_blank">Gradients, Jacobian and Fun With Vector Derivatives</a></h2>
+        </div>
+    </div>
+    <div class="list-item blog" data-category="blog">
+        <a href="https://gauthamvasan.github.io/img/moravec_paradox.png" class="thumbnail" target="_blank">
+            <img src="/img/moravec_paradox.png" alt="Blog Post Thumbnail">
+        </a>
+        <div class="project-description">
+            <h2><a href="/posts/2023-10-25-simulators-and-moravec-paradox" target="_blank">Moravec's paradox, Sim-to-Real Transfer & Robot Learning</a></h2>
+        </div>
+    </div>
+    <div class="list-item blog" data-category="blog">
+        <a href="/posts/2020-08-06-resources-for-effective-research" class="thumbnail" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Hamming.jpg" alt="Blog Post Thumbnail">
+        </a>
+        <div class="project-description">
+            <h2><a href="/posts/2020-08-06-resources-for-effective-research" target="_blank">Resources For Effective Research</a></h2>
+        </div>
+    </div>
+    <div class="list-item blog" data-category="blog">
+        <a href="/posts/2020-08-06-machinae-animatae" class="thumbnail" target="_blank">
+            <img src="https://gauthamvasan.github.io/img/WallE_starry_night.jpg" alt="Blog Post Thumbnail">
+        </a>
+        <div class="project-description">
+            <h2><a href="/posts/2020-08-06-machinae-animatae" target="_blank">Machinae Animatae</a></h2>
+        </div>
+    </div>
+    <!-- -->
     <!-- Publications -->
     <!-- -->
     <div class="list-item publication" data-category="publication">
+        <br>
         <a href="https://openreview.net/forum?id=DX5GUwMFFb" class="thumbnail" target="_blank">
             <img src="/img/AVG_thumbnail.png" alt="AVG paper thumbnail" />
         </a>
@@ -412,6 +455,7 @@ permalink:  /
     <!-- Community Service -->
     <!-- -->
     <div class="list-item service" data-category="service">
+        <br>
         <h2>Professional Activities</h2><br>
         <ul style="list-style-type: disc; margin-left: 1.5em;">
             <li style="margin-bottom: 0.75em;">Workflow Chair for AAAI 2026 </li>
