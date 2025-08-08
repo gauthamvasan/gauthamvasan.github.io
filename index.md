@@ -169,7 +169,7 @@ permalink:  /
             <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/43b8c31f61f8b2bbe6f0df4d62012d8ba86ba420" alt="Blog Post Thumbnail">
         </a>
         <div class="project-description">
-            <h2><a href="/posts/2024-01-22-fun-with-vector-derivatives" target="_blank">Gradients, Jacobian and Fun With Vector Derivatives</a></h2>
+            <h2><a href="https://gauthamvasan.github.io/animated_clay/posts/fun-with-vector-derivatives/" target="_blank">Gradients, Jacobian and Fun With Vector Derivatives</a></h2>
         </div>
     </div>
     <div class="list-item blog" data-category="blog">
@@ -177,7 +177,7 @@ permalink:  /
             <img src="/img/moravec_paradox.png" alt="Blog Post Thumbnail">
         </a>
         <div class="project-description">
-            <h2><a href="/posts/2023-10-25-simulators-and-moravec-paradox" target="_blank">Moravec's paradox, Sim-to-Real Transfer & Robot Learning</a></h2>
+            <h2><a href="https://gauthamvasan.github.io/animated_clay/posts/simulators-and-moravec-paradox/" target="_blank">Moravec's paradox, Sim-to-Real Transfer & Robot Learning</a></h2>
         </div>
     </div>
     <div class="list-item blog" data-category="blog">
@@ -185,7 +185,7 @@ permalink:  /
             <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Hamming.jpg" alt="Blog Post Thumbnail">
         </a>
         <div class="project-description">
-            <h2><a href="/posts/2020-08-06-resources-for-effective-research" target="_blank">Resources For Effective Research</a></h2>
+            <h2><a href="https://gauthamvasan.github.io/animated_clay/posts/resources-for-effective-research/" target="_blank">Resources For Effective Research</a></h2>
         </div>
     </div>
     <div class="list-item blog" data-category="blog">
@@ -193,7 +193,7 @@ permalink:  /
             <img src="https://gauthamvasan.github.io/img/WallE_starry_night.jpg" alt="Blog Post Thumbnail">
         </a>
         <div class="project-description">
-            <h2><a href="/posts/2020-08-06-machinae-animatae" target="_blank">Machinae Animatae</a></h2>
+            <h2><a href="https://gauthamvasan.github.io/animated_clay/posts/machinae-animatae/" target="_blank">Machinae Animatae</a></h2>
         </div>
     </div>
     <!-- -->
