@@ -109,7 +109,7 @@ permalink:  /
             <p>
             <!-- •  Deep reinforcement learning in production to scan barcodes on apparel. <br> -->
             An RL policy is trained end-to-end directly in production, learning from a fleet of robots across multiple production sites.<br><br>
-            <a href="https://www.youtube.com/watch?v=MYU5aVxg-AU" target="_blank">Kindred SORT at Gap Inc</a>, <a href="https://www.stateof.ai/2021" target="_blank">State of AI Report (2021)</a>
+            <a href="https://www.youtube.com/watch?v=MYU5aVxg-AU" target="_blank">Kindred SORT at Gap Inc</a> | <a href="https://www.stateof.ai/2021" target="_blank"> State of AI Report (2021)</a> |<br> <a href="https://www.businesswire.com/news/home/20201012005122/en/Kindred-SORT-AI-Robots-Pick-100-Million-Lifetime-Units" target="_blank">Kindred SORT AI Robots Pick 100 Million Lifetime Units</a>
             </p>
         </div>
     </div>
