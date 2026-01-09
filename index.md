@@ -21,12 +21,11 @@ permalink:  /
         <h1>Gautham Vasan</h1>
         <p align="justify">
             I'm a PhD candidate in Computing Science at the <a href="https://www.ualberta.ca/en/index.html" target="_blank">University of Alberta</a>, advised by <a href="https://armahmood.github.io/" target="_blank">Dr. Rupam Mahmood</a>.
-            My research focuses on enabling robots to learn from experience in real time using reinforcement learning.
-            <!-- I’ve worked on asynchronous and distributed learning systems, reward design, and streaming reinforcement learning methods suited for real-world applications. -->
+            I aim to understand the computational principles underlying intelligence. I am interested in building agents that can continually learn, adapt, and improve throughout their lifetimes.
+  
             <br><br>
             Previously, I deployed deep reinforcement learning to a fleet of warehouse robots used by Gap at <a href="https://ocadointelligentautomation.com/systems/robotic-sort-putwall" target="_blank">Kindred AI</a>. I’ve also worked on imitation-bootstrapped RL during internships at <a href="https://www.sanctuary.ai/" target="_blank">Sanctuary AI</a> and the <a href="https://nr.informatik.uni-freiburg.de/" target="_blank">University of Freiburg</a>. During my M.Sc, I worked with <a href="https://pilarski.github.io/" target="_blank">Dr. Patrick Pilarski</a> to develop learning from demonstration techniques that amputees can use to teach their own prosthetic arms. Long before that, I studied Instrumentation and Control Engineering at <a href="https://nitt.edu/" target="_blank">NIT Trichy</a>, India.    
-            <br><br>
-            📢 <b>I will be on the job market starting January 2026.</b> Feel free to <a href="mailto:gauthamv.529@gmail.com" target="_blank">reach out</a> if you think I’d be a good fit for your research position! 
+            <br><br> 
             <br><br> 
             <a href="Resume.pdf" target="_blank">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://scholar.google.ca/citations?user=4qMs0zMAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
