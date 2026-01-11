@@ -21,7 +21,7 @@ permalink:  /
         <h1>Gautham Vasan</h1>
         <p align="justify">
             I'm a PhD candidate in Computing Science at the <a href="https://www.ualberta.ca/en/index.html" target="_blank">University of Alberta</a>, advised by <a href="https://armahmood.github.io/" target="_blank">Dr. Rupam Mahmood</a>.
-            I aim to understand the computational principles underlying intelligence. I am interested in building agents that can continually learn, adapt, and improve throughout their lifetimes.
+            I aim to understand the computational principles underlying intelligence. To this end, I build agents that can continually learn, adapt, and improve throughout their lifetimes.
   
             <br><br>
             Previously, I deployed deep reinforcement learning to a fleet of warehouse robots used by Gap at <a href="https://ocadointelligentautomation.com/systems/robotic-sort-putwall" target="_blank">Kindred AI</a>. I’ve also worked on imitation-bootstrapped RL during internships at <a href="https://www.sanctuary.ai/" target="_blank">Sanctuary AI</a> and the <a href="https://nr.informatik.uni-freiburg.de/" target="_blank">University of Freiburg</a>. During my M.Sc, I worked with <a href="https://pilarski.github.io/" target="_blank">Dr. Patrick Pilarski</a> to develop learning from demonstration techniques that amputees can use to teach their own prosthetic arms. Long before that, I studied Instrumentation and Control Engineering at <a href="https://nitt.edu/" target="_blank">NIT Trichy</a>, India.    
