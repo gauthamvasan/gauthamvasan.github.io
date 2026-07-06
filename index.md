@@ -13,7 +13,7 @@ permalink:  /
 <meta property="og:description" content="Research, publications, and talks by Gautham Vasan in robot learning and reinforcement learning." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://gauthamvasan.github.io/" />
-<meta property="og:image" content="https://gauthamvasan.github.io/img/Profile/icml25_headshot.jpg" />
+<meta property="og:image" content="https://gauthamvasan.github.io/img/Profile/zyphra_headshot_2026.jpg" />
 ---
 
 <div id="intro">
@@ -26,8 +26,10 @@ permalink:  /
             I'm a Member of Technical Staff at <a href="https://www.zyphra.com/" target="_blank">Zyphra Technologies</a>, as a part of their Continual Learning research team. 
             My PhD research focuses on enabling robots to learn on the fly, in real time, through direct interaction with the world. This work has led to the development of streaming reinforcement learning algorithms and real-time learning systems for physical robots.
             
+            <!-- 
             <br><br>
             Previously, I deployed deep reinforcement learning to a fleet of warehouse robots used by Gap at <a href="https://ocadointelligentautomation.com/systems/robotic-sort-putwall" target="_blank">Kindred AI</a>. I’ve also worked on imitation-bootstrapped RL during internships at <a href="https://www.sanctuary.ai/" target="_blank">Sanctuary AI</a> and the <a href="https://nr.informatik.uni-freiburg.de/" target="_blank">University of Freiburg</a>. During my M.Sc, I worked with <a href="https://pilarski.github.io/" target="_blank">Dr. Patrick Pilarski</a> to develop learning from demonstration techniques that amputees can use to teach their own prosthetic arms. Long before that, I studied Instrumentation and Control Engineering at <a href="https://nitt.edu/" target="_blank">NIT Trichy</a>, India.    
+            -->
             <br><br> 
             <br><br> 
             <a href="Resume.pdf" target="_blank">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -39,7 +41,7 @@ permalink:  /
         </p>
     </div>
     <div id="intro-image">
-        <img src="/img/Profile/icml25_headshot.jpg">
+        <img src="/img/Profile/zyphra_headshot_2026.jpg">
     </div>
 </div>
 
