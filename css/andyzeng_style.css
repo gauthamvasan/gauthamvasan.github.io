@@ -72,6 +72,17 @@ a:hover {
 	border-bottom: 1px solid rgb(20, 110, 190);
 }
 
+/* Quiet links in the bio (thesis, institutions, advisor): a muted version of the
+   site blue, no underline; brightens to the full accent on hover. */
+#intro-text a.org {
+	color: rgb(55, 80, 108);
+}
+
+#intro-text a.org:hover {
+	color: rgb(20, 110, 190);
+	border-bottom: none;
+}
+
 i {
 	font-style: italic;
 }
