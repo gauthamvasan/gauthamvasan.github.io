@@ -486,9 +486,12 @@ permalink:  /
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var researchBtn = document.querySelector('button[data-filter=".research"]');
-  if (researchBtn) {
-    researchBtn.click();
+  // Open the tab named in the URL hash (e.g. /#publications), otherwise Research.
+  var name = window.location.hash.slice(1).toLowerCase().replace(/s$/, '');
+  var btn = (name && document.querySelector('button[data-filter=".' + name + '"]'))
+         || document.querySelector('button[data-filter=".research"]');
+  if (btn) {
+    btn.click();
   }
 });
 </script>
