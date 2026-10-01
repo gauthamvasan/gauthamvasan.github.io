@@ -424,4 +424,32 @@ h3 a:hover {
     width: 100%;
     float: none;
   }
+
+  /* Intro: photo first, left-aligned text, breathing room under the name. */
+  #intro-image {
+    order: -1;
+    margin: 0 auto 1.5em;
+  }
+
+  #intro-text p {
+    text-align: left;
+  }
+
+  #intro-text h1 {
+    margin-bottom: 0.5em;
+  }
+
+  /* Section filter buttons: smaller, and flex-wrapped so rows stay left-aligned. */
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    float: none;
+    font-size: 1.25em;
+    line-height: 2em;
+    margin-top: 0;
+    margin-right: 0.9em;
+  }
 }
