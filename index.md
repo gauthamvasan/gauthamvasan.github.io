@@ -20,16 +20,14 @@ permalink:  /
     <div id="intro-text">
         <h1>Gautham Vasan</h1>
         <p align="justify">
-            I aim to understand the computational principles underlying intelligence. To this end, I build agents that can continually learn, adapt, and improve throughout their lifetimes.
+            <!-- I'm broadly interested in the computational principles underlying animal intelligence. -->
+            I build machines that learn from their own runtime experience. My PhD dissertation, <a href="https://gauthamvasan.com/papers/Vasan_Gautham_202609_PhD.pdf" target="_blank">Robots That Learn on the Fly Through Real-World Interaction</a>, develops streaming reinforcement learning algorithms and real-time learning systems for physical robots. I see this as a step toward robots that keep improving over their operational lifetimes, with less human effort spent on data collection, retraining, and redeployment.
   
             <br><br>
-            I'm a Member of Technical Staff at <a href="https://www.zyphra.com/" target="_blank">Zyphra Technologies</a>, as a part of their Continual Learning research team. 
-            My PhD research focuses on enabling robots to learn on the fly, in real time, through direct interaction with the world. This work has led to the development of streaming reinforcement learning algorithms and real-time learning systems for physical robots.
+            I'm a Member of Technical Staff at <a href="https://www.zyphra.com/" target="_blank">Zyphra Technologies</a>, focusing on neural architectures for long-term memory and continual learning.
             
-            <!-- 
             <br><br>
-            Previously, I deployed deep reinforcement learning to a fleet of warehouse robots used by Gap at <a href="https://ocadointelligentautomation.com/systems/robotic-sort-putwall" target="_blank">Kindred AI</a>. I’ve also worked on imitation-bootstrapped RL during internships at <a href="https://www.sanctuary.ai/" target="_blank">Sanctuary AI</a> and the <a href="https://nr.informatik.uni-freiburg.de/" target="_blank">University of Freiburg</a>. During my M.Sc, I worked with <a href="https://pilarski.github.io/" target="_blank">Dr. Patrick Pilarski</a> to develop learning from demonstration techniques that amputees can use to teach their own prosthetic arms. Long before that, I studied Instrumentation and Control Engineering at <a href="https://nitt.edu/" target="_blank">NIT Trichy</a>, India.    
-            -->
+            I did my PhD at the University of Alberta, advised by <a href="https://armahmood.github.io/" target="_blank">Rupam Mahmood</a>. Before that, I deployed deep reinforcement learning to a fleet of warehouse robots used by Gap at <a href="https://ocadointelligentautomation.com/systems/robotic-sort-putwall" target="_blank">Kindred AI</a>. I’ve also worked on imitation-bootstrapped RL during internships at <a href="https://www.sanctuary.ai/" target="_blank">Sanctuary AI</a> and the <a href="https://nr.informatik.uni-freiburg.de/" target="_blank">University of Freiburg</a>. During my M.Sc, I developed learning from demonstration techniques that amputees can use to teach their own prosthetic arms. Long before that, I studied Instrumentation and Control Engineering at <a href="https://nitt.edu/" target="_blank">NIT Trichy</a>, India.
             <br><br> 
             <br><br> 
             <a href="Resume.pdf" target="_blank">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;
